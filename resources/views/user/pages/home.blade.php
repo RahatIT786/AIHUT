@@ -210,119 +210,6 @@ Your form has been submitted successfully!
                     </div>
                 </div>
 
-                <div id="search-designation" class="elementor-element elementor-element-4cce8ef e-flex e-con-boxed e-con e-parent " data-id="4cce8ef" data-element_type="container">
-                    <div class="e-con-inner">
-                        <div class="elementor-element elementor-element-4314f20 elementor-widget elementor-widget-tts" data-id="4314f20" data-element_type="widget" data-widget_type="tts.default">
-                            <div class="elementor-widget-container">
-                                <!-- title center -->
-                                <div class="tts text-center">
-                                    <div class="ttin">
-
-                                        <!-- icon position -->
-
-                                        <!-- end icon position -->
-
-                                        <!-- title top -->
-
-
-                                        <!-- icon position -->
-
-                                        <!-- end icon position -->
-
-                                        <!-- title middle -->
-                                        <h2 class="txbdstitle sttwo hlight">search your<span> destination</span> from here</h2>
-                                        <!-- title bottom -->
-
-
-                                        <!-- image -->
-                                        <!-- icon -->
-
-                                        <!-- bar -->
-                                        <!-- circle bar -->
-
-
-
-                                        <!-- content -->
-
-                                    </div>
-                                    <!-- inner title -->
-
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="elementor-element elementor-element-bd2eba0 tramo-star-rating--align-center tramo-star-rating--align-center elementor-widget elementor-widget-witr_section_apartment" data-id="bd2eba0" data-element_type="widget" data-widget_type="witr_section_apartment.default">
-                            <div class="elementor-widget-container">
-
-                                <div class="apartment_area">
-                                    <div class="apartment_text">
-                                        <!-- title -->
-
-                                        <!-- content -->
-
-                                    </div>
-                                    <div class="witr_apartment_form">
-
-                                        <div class="wpcf7 no-js" id="wpcf7-f27201-p17066-o1" lang="en-US" dir="ltr">
-                                            <div class="screen-reader-response">
-                                                <p role="status" aria-live="polite" aria-atomic="true"></p>
-                                                <ul></ul>
-                                            </div>
-                                            <form action="/sk/tramo/#wpcf7-f27201-p17066-o1" method="post" class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
-                                                <div style="display: none;">
-                                                    <input type="hidden" name="_wpcf7" value="27201" />
-                                                    <input type="hidden" name="_wpcf7_version" value="5.9.8" />
-                                                    <input type="hidden" name="_wpcf7_locale" value="en_US" />
-                                                    <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f27201-p17066-o1" />
-                                                    <input type="hidden" name="_wpcf7_container_post" value="17066" />
-                                                    <input type="hidden" name="_wpcf7_posted_data_hash" value="" />
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-lg-3 col-md-12">
-                                                        <div class="twr_form_box">
-                                                            <p><span class="wpcf7-form-control-wrap" data-name="text-30"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false" placeholder="Where to go?" value="" type="text" name="text-30" /></span>
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-3 col-md-12">
-                                                        <div class="twr_form_box">
-                                                            <p><span class="wpcf7-form-control-wrap" data-name="date-117"><input class="wpcf7-form-control wpcf7-date wpcf7-validates-as-required wpcf7-validates-as-date form-control" aria-required="true" aria-invalid="false" placeholder="Month" value="" type="date" name="date-117" /></span>
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-3 col-md-12">
-                                                        <div class="twr_form_box">
-                                                            <p><span class="wpcf7-form-control-wrap" data-name="ooselect"><select class="wpcf7-form-control wpcf7-select form-control" aria-invalid="false" name="ooselect"><option value="Travel Type">Travel Type</option><option value="Medicl">Medicl</option><option value="turist">turist</option><option value="student">student</option></select></span>
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-3 col-md-12">
-                                                        <div class=" text-center">
-                                                            <p><button type="submit" class="btn btn-primary">FIND NOW</button>
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="wpcf7-response-output" aria-hidden="true"></div>
-                                            </form>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="elementor-element elementor-element-7ad142e elementor-widget elementor-widget-witr_section_Shape" data-id="7ad142e" data-element_type="widget" data-widget_type="witr_section_Shape.default">
-                            <div class="elementor-widget-container">
-
-                                <div class="witr_shape_item">
-                                    <div class="witr_shape_item_inner">
-                                        <div class="witr_shape_image " style="animation: witr_movelr_box45  5s  linear  1s  infinite  alternate  running;">
-                                            <!-- image -->
-                                            <img decoding="async" width="136" height="155" src="https://demo.themexbd.com/sk/tramo/wp-content/uploads/2024/09/sun.png" class="attachment-large size-large wp-image-27308" alt="sun" />
-                                        </div>
-                                    </div>
-                                </div>
 
 
 
@@ -841,7 +728,7 @@ Your form has been submitted successfully!
                                             <!-- end icon position -->
 
                                             <!-- title middle -->
-                                            <h2 class="txbdstitle sttwo hlight">People love  <span> AIHUT </span> See some of the stories</h2>
+                                            <h2 class="txbdstitle sttwo hlight">People Love <span> RAHAT ..</span> Watch some of Our Agents Speak...</h2>
                                             <!-- title bottom -->
 
 
@@ -883,7 +770,7 @@ Your form has been submitted successfully!
                                                     <!-- title -->
 
                                                     <!-- <h2 class="txbdsvtitle txstcolor hlight">France</h2> -->
-                                                    <p>"As an agent with years of experience, I can confidently say that our Hajj services are unmatched. We offer seamless arrangements, including flights, accommodation, and transportation, all tailored to ensure the comfort and ease of our clients.  </p>
+                                                    <h2 class="txbdsvtitle txstcolor hlight">Chennai</h2>
 
                                                     <!-- button -->
                                                     <div class="txbdsvbtn txbdbtnicon">
@@ -928,8 +815,8 @@ Your form has been submitted successfully!
                                                 <div class="txbdcon">
                                                     <!-- title -->
 
-                                                    <!-- <h2 class="txbdsvtitle txstcolor hlight">Austraila</h2> -->
-                                                    <p>"Working with clients who are looking for travel beyond religious tours, I am proud to offer a variety of world-class tour packages. From luxury vacations to cultural explorations, we ensure that each journey is meticulously planned and executed.</p>
+                                                    <h2 class="txbdsvtitle txstcolor hlight">Laddak</h2>
+                                                    
 
                                                     <!-- button -->
                                                     <div class="txbdsvbtn txbdbtnicon">
@@ -1373,7 +1260,7 @@ Your form has been submitted successfully!
 
 
 
-</div>
+  </div>
 
 
 
