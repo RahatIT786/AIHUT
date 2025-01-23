@@ -39,7 +39,7 @@
                                                     <div class="txbdsbtn allcostyle">
                                                         <!--- button 1 --->
 
-                                                        <a class="btnallt btnall " href="#291783d">JOIN US</a>
+                                                        <a class="btnallt btnall " href="#291783d">OUR AWARDS</a>
 
                                                         <a class="btnallt btnall btnallactive " href="/contact.php">JOIN NOW</a>
 
