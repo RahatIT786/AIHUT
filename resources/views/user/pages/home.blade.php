@@ -41,7 +41,7 @@
 
                                                         <a class="btnallt btnall " href="#291783d">OUR AWARDS</a>
 
-                                                        <a class="btnallt btnall btnallactive " href="/contact.php">JOIN NOW</a>
+                                                        <a class="btnallt btnall btnallactive " href="{{route('contact')}}">JOIN NOW</a>
 
 
 
@@ -61,7 +61,7 @@
 Your form has been submitted successfully!
 </div>
 <h2>Join Us as a Travel Partner</h2>
-<form action="/admin/aihut/manage-quries.php" method="POST">
+<form >
     <!-- <label for="company_name">Company Name:</label> -->
     <input type="text" id="company_name" name="company_name" placeholder="Enter company name" required>
 
@@ -94,7 +94,7 @@ Your form has been submitted successfully!
     <!-- <label for="comments">Comments:</label> -->
     <textarea id="comments" name="comments" rows="4" placeholder="Enter any additional comments"></textarea>
 
-    <button type="submit">Submit</button>
+    <button >Submit</button>
 </form>
 </div>
 
@@ -424,7 +424,7 @@ Your form has been submitted successfully!
                                         <div class="witr_btn_style mr">
                                             <div class="witr_btn_sinner">
 
-                                                <a href="https://demo.themexbd.com/sk/tramo/contact/" class="witr_btn">JOIN NOW                 <!-- icon --></a>
+                                                <a href="{{route('contact')}}" class="witr_btn">JOIN NOW                 <!-- icon --></a>
 
                                             </div>
                                         </div>
@@ -1091,11 +1091,11 @@ Your form has been submitted successfully!
                                         <div class="footer-menu">
                                             <!-- FOOTER COPYRIGHT MENU -->
                                             <ul id="menu-footer-menu" class="">
-                                                <li id="menu-item-19298" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19298"><a href="#">Get Start</a></li>
-                                                <li id="menu-item-19298" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19298"><a href="#">agents</a></li>
-                                                <li id="menu-item-14450" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14450"><a href="#">distributors</a></li>
-                                                <li id="menu-item-14449" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14449"><a href="#">suppliers</a></li>
-                                                <li id="menu-item-14448" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14448"><a href="#">Contact</a></li>
+                                                <li id="menu-item-19298" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19298"><a href="">Get Started </a></li>
+                                                <li id="menu-item-14450" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14450"><a href="">Freelancer Id </a></li>
+                                                <li id="menu-item-14449" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14449"><a href="">Umrah Agency </a></li>
+                                                <li id="menu-item-14448" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14448"><a href=""> Rahat Franchise </a></li>
+                                                <li id="menu-item-14448" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14448"><a href="">Contact Us </a></li>
                                             </ul>
 
                                         </div>
