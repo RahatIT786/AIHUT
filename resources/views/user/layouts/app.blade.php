@@ -1,12 +1,6 @@
 <!-- resources/views/layouts/app.blade.php -->
 <!DOCTYPE html>
 <html lang="en">
-{{-- <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@yield('title', 'Default Title')</title>
-    <!-- Add your CSS/JS links here -->
-</head> --}}
 
 <head>
     <meta charset="UTF-8">
@@ -70,7 +64,6 @@
 
 
 @include('user.styles.home-script')
-{{-- @include('user.styles.franchise-script')
-@include('user.styles.contactus-script') --}}
+@include('user.styles.franchise-script')
 </body>
 </html>
