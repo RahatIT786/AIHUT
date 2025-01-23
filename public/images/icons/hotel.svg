@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+    <g fill="none" stroke="black" stroke-width="1">
+        <!-- Hotel Building -->
+        <rect x="4" y="8" width="24" height="20" fill="#FF7B39"/>
+        <rect x="6" y="10" width="20" height="16" fill="white" stroke="black" stroke-width="1"/>
+        
+        <!-- Windows -->
+        <rect x="8" y="12" width="4" height="4" fill="#FF7B39" stroke="black"/>
+        <rect x="20" y="12" width="4" height="4" fill="#FF7B39" stroke="black"/>
+        <rect x="8" y="18" width="4" height="4" fill="#FF7B39" stroke="black"/>
+        <rect x="20" y="18" width="4" height="4" fill="#FF7B39" stroke="black"/>
+        
+        <!-- Door -->
+        <rect x="14" y="22" width="4" height="6" fill="#FF7B39" stroke="black"/>
+        
+        <!-- Roof -->
+        <polygon points="4,8 16,4 28,8" fill="#FF7B39"/>
+        
+        <!-- Hotel Sign -->
+        <text x="16" y="6" font-family="Arial" font-size="4" text-anchor="middle" fill="white">HOTEL</text>
+    </g>
+</svg>

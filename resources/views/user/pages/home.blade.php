@@ -312,7 +312,7 @@ Your form has been submitted successfully!
                                             <!-- end icon position -->
 
                                             <!-- title middle -->
-                                            <h2 class="txbdstitle sttwo hlight">Start your profitable <span>business</span>  today with Best B2B Travel Portal in India</h2>
+                                            <h2 class="txbdstitle sttwo hlight">Start your profitable <span>Hajj Umrah business</span>  today 	With Most Trustable Umrah Company in India</h2>
                                             <!-- title bottom -->
 
 
@@ -325,7 +325,7 @@ Your form has been submitted successfully!
 
 
                                             <!-- content -->
-                                            <p>AIHUT is one of India's foremost B2B travel portals, constantly evolving and adding value in business by giving it's distributors and agents the best technology,deals and a user-friendly platform to transact and achieve their own financial freedom </p>
+                                            <p>Rahat is one of India's foremost B2B travel portals, constantly evolving and adding value in business by giving it's distributors and agents the best technology, deals and a user-friendly platform to transact and achieve their own financial freedom..</p>
 
                                         </div>
                                         <!-- inner title -->
@@ -341,15 +341,15 @@ Your form has been submitted successfully!
                                             <div class="tts text-left">
                                                 <div class="ttin">
                                                     <!-- icon position -->
-                                                    <img src="./icons/experience.svg" alt="gdfg">
+                                                    <img src="{{asset('images/icons/experience.svg')}}" alt="gdfg">
                                                     <!-- title top -->
-                                                    <h2 class="txbdstitle tsmall stone hlight txbdbcolor">27+</h2>
+                                                    <h2 class="txbdstitle tsmall stone hlight txbdbcolor">17+</h2>
                                                     <!-- content -->
                                                     <p>Years of business experience</p>
                                                 </div>
                                                 <div class="ttin">
                                                     <!-- icon position -->
-                                                    <img src="./icons/multiple_income.svg" alt="gdfg">
+                                                    <img src="images/icons/multiple_income.svg" alt="gdfg">
                                                     <!-- title top -->
                                                     <h2 class="txbdstitle tsmall stone hlight txbdbcolor">Multiple Income</h2>
                                                     <!-- content -->
@@ -357,7 +357,7 @@ Your form has been submitted successfully!
                                                 </div>
                                                 <div class="ttin">
                                                     <!-- icon position -->
-                                                    <img src="./icons/agent_portal.svg" alt="gdfg">
+                                                    <img src="images/icons/agent_portal.svg" alt="gdfg">
                                                     <!-- title top -->
                                                     <h4 class="txbdstitle tsmall stone hlight txbdbcolor">Agent portal</h4>
                                                     <!-- content -->
@@ -374,7 +374,7 @@ Your form has been submitted successfully!
                                             <div class="tts text-left">
                                                 <div class="ttin">
                                                     <!-- icon position -->
-                                                    <img src="./icons/agent_support.svg" alt="gdfg">
+                                                    <img src="images/icons/agent_support.svg" alt="gdfg">
                                                     <!-- title top -->
                                                     <h2 class="txbdstitle tsmall stone hlight txbdbcolor">24/7</h2>
                                                     <!-- content -->
@@ -382,7 +382,7 @@ Your form has been submitted successfully!
                                                 </div>
                                                 <div class="ttin">
                                                     <!-- icon position -->
-                                                    <img src="./icons/good_commission.svg" alt="gdfg">
+                                                    <img src="images/icons/good_commission.svg" alt="gdfg">
                                                     <!-- title top -->
                                                     <h2 class="txbdstitle tsmall stone hlight txbdbcolor">Good Commissions</h2>
                                                     <!-- content -->
@@ -390,11 +390,11 @@ Your form has been submitted successfully!
                                                 </div>
                                                 <div class="ttin" >
                                                     <!-- icon position -->
-                                                    <img src="./icons/latest_deals.svg" alt="gdfg">
+                                                    <img src="images/icons/hotel.svg" alt="gdfg">
                                                     <!-- title top -->
-                                                    <h4 class="txbdstitle tsmall stone hlight txbdbcolor">Latest Deals</h4>
+                                                    <h4 class="txbdstitle tsmall stone hlight txbdbcolor">200+ Hotels</h4>
                                                     <!-- content -->
-                                                    <p>Access to the great deals</p>
+                                                    <p>Hotels provide comfort, convenience, and luxury for travelers.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -523,7 +523,7 @@ Your form has been submitted successfully!
                                             <!-- end icon position -->
 
                                             <!-- title middle -->
-                                            <h2 class="txbdstitle sttwo hlight"><span>AIHUT</span> Advantages</h2>
+                                            <h2 class="txbdstitle sttwo hlight"><span>Rahat</span> Advantages</h2>
                                             <!-- title bottom -->
 
 
@@ -560,7 +560,7 @@ Your form has been submitted successfully!
                                                         </div>
                                                         <!-- image icon -->
                                                         <!-- title -->
-                                                        <h2 class="subservicet txstcolor sp-txbdsvfdrl txbdsvtitle"><a href="#">50+ Hotel Suppliers</a></h2>
+                                                        <h2 class="subservicet txstcolor sp-txbdsvfdrl txbdsvtitle"><a href="#">200+ Hotel Suppliers</a></h2>
 
 
                                                     </div>
@@ -618,7 +618,7 @@ Your form has been submitted successfully!
                                                         </div>
                                                         <!-- image icon -->
                                                         <!-- title -->
-                                                        <h2 class="subservicet txstcolor sp-txbdsvfdrl txbdsvtitle"><a href="#">Mobile Friendly</a></h2>
+                                                        <h2 class="subservicet txstcolor sp-txbdsvfdrl txbdsvtitle"><a href="#">Highest Commission in this Sector</a></h2>
 
 
                                                     </div>
@@ -1040,7 +1040,7 @@ Your form has been submitted successfully!
                                                 <div class="col-lg-6  eportfolio_item col-md-6 col-xs-12 col-sm-12 lifestyle    allprt30">
                                                     <div class="tx_portfolio allposihv">
                                                         <div class="tx_pfthumb boxtextposire txbdbfall txbdbfltrb100 txbdbfallz txbdbfallbgov">
-                                                            <img loading="lazy" decoding="async" width="975" height="550" src="{{asset('images/user/awart4.jpg')}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
+                                                            <img loading="lazy" decoding="async" width="975" height="550" src="{{asset('images/user/awart5.jpg')}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
                                                         </div>
                                                     </div>
                                                 </div>
