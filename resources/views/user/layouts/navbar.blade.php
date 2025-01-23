@@ -75,7 +75,7 @@
                                     <nav class="tramo_menu">
                                         <ul id="menu-main-menu-1" class="sub-menu">
                                             <li class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-11595"><a href="../index.php">Get started</a></li>
-                                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11572"><a href="#">Rahat Franchise</a></li>
+                                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11572"><a href="{{route('franchise')}}">Rahat Franchise</a></li>
                                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11585"><a href="#"> Umrah Agency </a></li>
                                             <li class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-11600"><a href="#">Freelancer ID</a></li>
                                             <li class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-11599"><a href="#">testimonials</a></li>
