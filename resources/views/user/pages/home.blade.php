@@ -5,37 +5,7 @@
 @section('content')
 
 
-<div class="wrapper">
 
-    <!-- MAIN HEADER START -->
-    <div class="tramo_theme_harea     ">
-
-        <!-- HEADER TOP AREA -->
-
-
-
-        <!-- HEADER TOP 2 creative AREA -->
-
-        <div class="tx_top2_relative">
-            <div class="">
-
-
-
-                <!-- Mobile Logo -->
-
-              @include('user.layouts.navbar')
-
-                <!-- relative div -->
-
-            </div>
-            <!-- top 2 absulate div -->
-        </div>
-        <!--  top 2 relative div  extra -->
-
-
-
-    </div>
-    <!-- END MAIN HEADER -->
 
 
 
@@ -51,7 +21,7 @@
                                 <div class="swiper witr_active ">
                                     <div class="swiper-wrapper">
 
-                                        <div class="swiper-slide txbdslider" style="background-image:url('{{ asset('images/hero_bg_img.jpg') }}');">
+                                        <div class="swiper-slide txbdslider" style="background-image:url('{{ asset('images/hero_banner.jpg') }}');">
                                             <div id="form-container" class="txbdsinner sliderheightdiv allleft">
                                                 <div class="txbdscontent">
                                                     <!-- title 2 -->
@@ -252,7 +222,7 @@ Your form has been submitted successfully!
                                     <div class="single_image_area">
                                         <div class="single_image single_line_option  ">
                                             <!-- image -->
-                                            <img loading="lazy" decoding="async" width="706" height="735" src="{{asset('images/aboutus.jpg')}}" class="attachment-large size-large wp-image-27218" alt="" />
+                                            <img loading="lazy" decoding="async" width="706" height="735" src="{{asset('images/aboutus.png')}}" class="attachment-large size-large wp-image-27218" alt="" />
                                         </div>
                                     </div>
 
