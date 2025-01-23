@@ -7,7 +7,7 @@
                     <div class="mobilemenu_con">
                         <div class="mobile_menu_logo text-left">
                             <a href="#" title="Tramo">
-<img src="/public/img/AIHUT_LOGO.png" style="height:6rem;" alt="aihut" />
+<img src="{{asset('images/rahat_logo.jpg')}}" style="height:6rem;" alt="aihut" />
 </a>
                         </div>
                         <div class="mobile_menu_option">
@@ -19,24 +19,24 @@
                                 <div class="mobile_menu_content">
                                     <div class="mobile_menu_logo text-left">
                                         <a href="#" title="Tramo">
-<img src="/public/img/AIHUT_LOGO.png" alt="aihut" style="height:6rem;"/>
+<img src="{{asset('images/rahat_logo.jpg')}}" alt="aihut" style="height:6rem;"/>
 </a>
                                     </div>
                                     <div class="menu_area mobile-menu ">
                                         <nav>
                                             <ul id="menu-main-menu" class="main-menu mobile_menu_item clearfix">
                                                 <li id="menu-item-11595" class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-11595"><a href="../index.php">Get Started</a></li>
-                                                <li id="menu-item-11572" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11572"><a href="#">agents</a></li>
-                                                <li id="menu-item-11585" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11585"><a href="#">distributors</a></li>
-                                                <li id="menu-item-11600" class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-11600"><a href="#">suppliers</a></li>
+                                                <li id="menu-item-11572" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11572"><a href="#">Rahat Franchise</a></li>
+                                                <li id="menu-item-11585" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11585"><a href="#">Umrah Agency</a></li>
+                                                <li id="menu-item-11600" class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-11600"><a href="#">Freelance ID</a></li>
                                                 <li id="menu-item-11599" class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-11599"><a href="#">testimonials</a></li>
                                                 <li id="menu-item-11604" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-11552 current_page_item menu-item-11604"><a href="../contact.php" aria-current="page">contact us</a></li>
                                             </ul>
                                         </nav>
                                         <div class="mobile_menu_items ">
-                                            <div class="p_menu_social"><a class="social-icon" href="#"><i class="ti-facebook"></i></a><a class="social-icon" href="#"><i class="ti-x fa-brands fa-x-twitters"></i></a><a class="social-icon" href="#"><i class="ti-instagram"></i></a>
+                                            <div class="p_menu_social"><a class="social-icon" href="https://www.facebook.com/rahattravelsofindia/"><i class="ti-facebook"></i></a><a class="social-icon" href="https://x.com/RahatTravelsInd"><i class="ti-x fa-brands fa-x-twitters"></i></a><a class="social-icon" href="https://www.instagram.com/rahattravelsofindia/"><i class="ti-instagram"></i></a>
                                                 <a
-                                                    class="social-icon" href="#"><i class="ti-pinterest"></i></a>
+                                                    class="social-icon" href="https://www.youtube.com/@RahatGroup"><i class="ti-youtube"></i></a>
                                             </div>
                                         </div>
 
@@ -66,7 +66,7 @@
 
                                     <div class="logo">
                                         <a href="#" title="Tramo">
-<img src="/public/img/AIHUT_LOGO.png" alt="aihut" style="height:6rem;" />
+<img src="{{asset('images/rahat_logo.jpg')}}" alt="aihut" style="height:6rem;" />
 </a>
                                     </div>
                                 </div>
@@ -75,16 +75,16 @@
                                     <nav class="tramo_menu">
                                         <ul id="menu-main-menu-1" class="sub-menu">
                                             <li class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-11595"><a href="../index.php">Get started</a></li>
-                                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11572"><a href="#">agents</a></li>
-                                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11585"><a href="#"> distributors </a></li>
-                                            <li class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-11600"><a href="#">suppliers</a></li>
+                                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11572"><a href="#">Rahat Franchise</a></li>
+                                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11585"><a href="#"> Umrah Agency </a></li>
+                                            <li class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-11600"><a href="#">Freelancer ID</a></li>
                                             <li class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-11599"><a href="#">testimonials</a></li>
                                             <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-11552 current_page_item menu-item-11604"><a href="../contact.php" aria-current="page">contact us</a></li>
                                         </ul>
                                         <div class="tx_right_otherx d-flex align-items-center">
-                                            <div class="p_menu_social"><a class="social-icon" href="#"><i class="ti-facebook"></i></a><a class="social-icon" href="#"><i class="ti-x fa-brands fa-x-twitters"></i></a><a class="social-icon" href="#"><i class="ti-instagram"></i></a>
+                                            <div class="p_menu_social"><a class="social-icon" href="https://www.facebook.com/rahattravelsofindia/"><i class="ti-facebook"></i></a><a class="social-icon" href="https://x.com/RahatTravelsInd"><i class="ti-x fa-brands fa-x-twitters"></i></a><a class="social-icon" href="https://www.instagram.com/rahattravelsofindia/"><i class="ti-instagram"></i></a>
                                                 <a
-                                                    class="social-icon" href="#"><i class="ti-pinterest"></i></a>
+                                                    class="social-icon" href="https://www.youtube.com/@RahatGroup"><i class="ti-youtube"></i></a>
                                             </div>
                                         </div>
                                     </nav>
