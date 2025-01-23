@@ -210,108 +210,9 @@ Your form has been submitted successfully!
                     </div>
                 </div>
 
-                <div id="search-designation" class="elementor-element elementor-element-4cce8ef e-flex e-con-boxed e-con e-parent " data-id="4cce8ef" data-element_type="container">
+                <div  class="elementor-element e-flex e-con-boxed e-con e-parent " data-id="4cce8ef" data-element_type="container">
                     <div class="e-con-inner">
-                        <div class="elementor-element elementor-element-4314f20 elementor-widget elementor-widget-tts" data-id="4314f20" data-element_type="widget" data-widget_type="tts.default">
-                            <div class="elementor-widget-container">
-                                <!-- title center -->
-                                <div class="tts text-center">
-                                    <div class="ttin">
-
-                                        <!-- icon position -->
-
-                                        <!-- end icon position -->
-
-                                        <!-- title top -->
-
-
-                                        <!-- icon position -->
-
-                                        <!-- end icon position -->
-
-                                        <!-- title middle -->
-                                        <h2 class="txbdstitle sttwo hlight">search your<span> destination</span> from here</h2>
-                                        <!-- title bottom -->
-
-
-                                        <!-- image -->
-                                        <!-- icon -->
-
-                                        <!-- bar -->
-                                        <!-- circle bar -->
-
-
-
-                                        <!-- content -->
-
-                                    </div>
-                                    <!-- inner title -->
-
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="elementor-element elementor-element-bd2eba0 tramo-star-rating--align-center tramo-star-rating--align-center elementor-widget elementor-widget-witr_section_apartment" data-id="bd2eba0" data-element_type="widget" data-widget_type="witr_section_apartment.default">
-                            <div class="elementor-widget-container">
-
-                                <div class="apartment_area">
-                                    <div class="apartment_text">
-                                        <!-- title -->
-
-                                        <!-- content -->
-
-                                    </div>
-                                    <div class="witr_apartment_form">
-
-                                        <div class="wpcf7 no-js" id="wpcf7-f27201-p17066-o1" lang="en-US" dir="ltr">
-                                            <div class="screen-reader-response">
-                                                <p role="status" aria-live="polite" aria-atomic="true"></p>
-                                                <ul></ul>
-                                            </div>
-                                            <form action="/sk/tramo/#wpcf7-f27201-p17066-o1" method="post" class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
-                                                <div style="display: none;">
-                                                    <input type="hidden" name="_wpcf7" value="27201" />
-                                                    <input type="hidden" name="_wpcf7_version" value="5.9.8" />
-                                                    <input type="hidden" name="_wpcf7_locale" value="en_US" />
-                                                    <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f27201-p17066-o1" />
-                                                    <input type="hidden" name="_wpcf7_container_post" value="17066" />
-                                                    <input type="hidden" name="_wpcf7_posted_data_hash" value="" />
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-lg-3 col-md-12">
-                                                        <div class="twr_form_box">
-                                                            <p><span class="wpcf7-form-control-wrap" data-name="text-30"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false" placeholder="Where to go?" value="" type="text" name="text-30" /></span>
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-3 col-md-12">
-                                                        <div class="twr_form_box">
-                                                            <p><span class="wpcf7-form-control-wrap" data-name="date-117"><input class="wpcf7-form-control wpcf7-date wpcf7-validates-as-required wpcf7-validates-as-date form-control" aria-required="true" aria-invalid="false" placeholder="Month" value="" type="date" name="date-117" /></span>
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-3 col-md-12">
-                                                        <div class="twr_form_box">
-                                                            <p><span class="wpcf7-form-control-wrap" data-name="ooselect"><select class="wpcf7-form-control wpcf7-select form-control" aria-invalid="false" name="ooselect"><option value="Travel Type">Travel Type</option><option value="Medicl">Medicl</option><option value="turist">turist</option><option value="student">student</option></select></span>
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-3 col-md-12">
-                                                        <div class=" text-center">
-                                                            <p><button type="submit" class="btn btn-primary">FIND NOW</button>
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="wpcf7-response-output" aria-hidden="true"></div>
-                                            </form>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
+                       
                         <div class="elementor-element elementor-element-7ad142e elementor-widget elementor-widget-witr_section_Shape" data-id="7ad142e" data-element_type="widget" data-widget_type="witr_section_Shape.default">
                             <div class="elementor-widget-container">
 
@@ -323,10 +224,6 @@ Your form has been submitted successfully!
                                         </div>
                                     </div>
                                 </div>
-
-
-
-
 
                 <div class="elementor-element elementor-element-e5eec4c e-flex e-con-boxed e-con e-parent" data-id="e5eec4c" data-element_type="container">
                     <div class="e-con-inner">
@@ -841,7 +738,7 @@ Your form has been submitted successfully!
                                             <!-- end icon position -->
 
                                             <!-- title middle -->
-                                            <h2 class="txbdstitle sttwo hlight">People love  <span> AIHUT </span> See some of the stories</h2>
+                                            <h2 class="txbdstitle sttwo hlight">People Love <span> RAHAT .. </span> Watch some of Our Agents Speak... </h2>
                                             <!-- title bottom -->
 
 
@@ -882,8 +779,8 @@ Your form has been submitted successfully!
                                                 <div class="txbdcon">
                                                     <!-- title -->
 
-                                                    <!-- <h2 class="txbdsvtitle txstcolor hlight">France</h2> -->
-                                                    <p>"As an agent with years of experience, I can confidently say that our Hajj services are unmatched. We offer seamless arrangements, including flights, accommodation, and transportation, all tailored to ensure the comfort and ease of our clients.  </p>
+                                                    <h2 class="txbdsvtitle txstcolor hlight"> RATNAGRI</h2>
+                                                    
 
                                                     <!-- button -->
                                                     <div class="txbdsvbtn txbdbtnicon">
@@ -905,9 +802,8 @@ Your form has been submitted successfully!
                                                 <div class="txbdcon">
                                                     <!-- title -->
 
-                                                    <!-- <h2 class="txbdsvtitle txstcolor hlight">Maldives</h2> -->
-                                                    <p>"Our Umrah packages are specifically designed to cater to the needs of every individual. As an agent, I’ve witnessed firsthand how our clients are consistently amazed by the personalized attention and superior quality of service we provide.</p>
-
+                                                    <h2 class="txbdsvtitle txstcolor hlight">DELHI</h2>
+                                                    
                                                     <!-- button -->
                                                     <div class="txbdsvbtn txbdbtnicon">
                                                         <!-- <a class="btnallt btnalldefault " href="#">more details</a> -->
@@ -928,8 +824,7 @@ Your form has been submitted successfully!
                                                 <div class="txbdcon">
                                                     <!-- title -->
 
-                                                    <!-- <h2 class="txbdsvtitle txstcolor hlight">Austraila</h2> -->
-                                                    <p>"Working with clients who are looking for travel beyond religious tours, I am proud to offer a variety of world-class tour packages. From luxury vacations to cultural explorations, we ensure that each journey is meticulously planned and executed.</p>
+                                                    <h2 class="txbdsvtitle txstcolor hlight">Laddak</h2>
 
                                                     <!-- button -->
                                                     <div class="txbdsvbtn txbdbtnicon">
@@ -951,8 +846,7 @@ Your form has been submitted successfully!
                                                 <div class="txbdcon">
                                                     <!-- title -->
 
-                                                    <!-- <h2 class="txbdsvtitle txstcolor hlight">uae</h2> -->
-                                                    <p>"One of the things that sets us apart is the comprehensive service we provide. Whether it's a Hajj group or a family vacation, I ensure every detail is perfect.</p>
+                                                    <h2 class="txbdsvtitle txstcolor hlight">VARANASI</h2>
 
                                                     <!-- button -->
                                                     <div class="txbdsvbtn txbdbtnicon">
@@ -974,8 +868,8 @@ Your form has been submitted successfully!
                                                 <div class="txbdcon">
                                                     <!-- title -->
 
-                                                    <!-- <h2 class="txbdsvtitle txstcolor hlight">Maldives</h2> -->
-                                                    <p>"In my experience as an agent, I've noticed that our Hajj and Umrah pilgrims always return with a sense of peace and gratitude. It’s amazing to see how much attention we give to every part of the trip, from pre-departure assistance to support throughout their journey.</p>
+                                                    <h2 class="txbdsvtitle txstcolor hlight">PUNE</h2>
+                                                    
 
                                                     <!-- button -->
                                                     <div class="txbdsvbtn txbdbtnicon">
@@ -1020,7 +914,7 @@ Your form has been submitted successfully!
                                                 <!-- end icon position -->
 
                                                 <!-- title middle -->
-                                                <h2 class="txbdstitle sttwo hlight">We work towards your success</h2>
+                                                <h2 class="txbdstitle sttwo hlight" style="margin-bottom:40px !important">We work towards your success</h2>
                                                 <!-- title bottom -->
 
 
@@ -1059,253 +953,127 @@ Your form has been submitted successfully!
 
                                         <div class="em_port_container" id="epoitem">
                                             <div class="row em_portitem">
-                                                <!-- single portfolio 2 -->
+                                                <!--Section 1 -->
                                                 <div class="col-lg-6  eportfolio_item col-md-6 col-xs-12 col-sm-12 entertaintment     allprt30">
                                                     <div class="tx_portfolio allposihv">
                                                         <div class="tx_pfthumb boxtextposire txbdbfall txbdbfltrb100 txbdbfallz txbdbfallbgov">
-                                                            <img fetchpriority="high" decoding="async" width="975" height="550" src="./imgs/event1.jpeg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
-                                                            <!-- icon -->
-
+                                                            <img fetchpriority="high" decoding="async" width="975" height="550" src="{{asset('images/user/event1.jpeg')}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
                                                         </div>
-                                                        <!-- text -->
-                                                        <!-- <div class="tx_pf_content tx_pft_s2">
-                                                         <div class="tx_pf_text ">
-                                                                <h2 class="ptfcolor mg00"><a class="" href="https://demo.themexbd.com/sk/tramo/portfolios/should-i-invest-in/">Should I Invest in</a></h2>
-                                                                <p><span class='txcwhite portcontentcolor'><a href='https://demo.themexbd.com/sk/tramo/portfolio-category/entertaintment/'>Entertaintment</a></span><span class='txcwhite portcontentcolor'><a href='https://demo.themexbd.com/sk/tramo/portfolio-category/lifestyle/'>Lifestyle</a></span></p>
-                                                            </div> 
-                                                        </div> -->
                                                     </div>
                                                 </div>
-                                                <!-- single portfolio 2 -->
-                                                <div class="col-lg-6  eportfolio_item col-md-6 col-xs-12 col-sm-12 entertaintment    allprt30">
+                                                <div class="col-lg-6  eportfolio_item col-md-6 col-xs-12 col-sm-12 inspirational    allprt30">
                                                     <div class="tx_portfolio allposihv">
                                                         <div class="tx_pfthumb boxtextposire txbdbfall txbdbfltrb100 txbdbfallz txbdbfallbgov">
-                                                            <img decoding="async" width="975" height="550" src="./imgs/event2.jpeg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
-                                                            <!-- icon -->
+                                                            <img decoding="async" width="975" height="550" src="{{asset('images/user/agm1.jpg')}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
                                                         </div>
-                                                        <!-- text -->
-                                                        <!-- <div class="tx_pf_content tx_pft_s2">
-                                                            <div class="tx_pf_text ">
-                                                                <h2 class="ptfcolor mg00"><a class="" href="https://demo.themexbd.com/sk/tramo/portfolios/business-contents/">Business contents</a></h2>
-                                                                <p><span class='txcwhite portcontentcolor'><a href='https://demo.themexbd.com/sk/tramo/portfolio-category/entertaintment/'>Entertaintment</a></span><span class='txcwhite portcontentcolor'><a href='https://demo.themexbd.com/sk/tramo/portfolio-category/lifestyle/'>Lifestyle</a></span></p>
-                                                            </div>
-                                                        </div> -->
                                                     </div>
                                                 </div>
-                                                <!-- single portfolio 2 -->
-                                                <div class="col-lg-6  eportfolio_item col-md-6 col-xs-12 col-sm-12 inspirational mordern    allprt30">
+                                                <div class="col-lg-6  eportfolio_item col-md-6 col-xs-12 col-sm-12 lifestyle    allprt30">
                                                     <div class="tx_portfolio allposihv">
                                                         <div class="tx_pfthumb boxtextposire txbdbfall txbdbfltrb100 txbdbfallz txbdbfallbgov">
-                                                            <img decoding="async" width="975" height="550" src="./imgs/agm1.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
-                                                            <!-- icon -->
-                                                            <!-- <div class="tx_pf_icon tx_pf_i2  boxtextposi zindex999 ">
-                                                                <div class="boxtextposineer">
-
-                                                                    <a class="iconall iconalltf iconall iconallactive venobox" data-gall="myGallery" href="https://demo.themexbd.com/sk/tramo/wp-content/uploads/2024/08/blog_3.jpg"><i class="ti-image"></i></a>
-
-                                                                    <a class="iconall iconalltf iconall iconallactive" href="https://demo.themexbd.com/sk/tramo/portfolios/insurance-policy-will/"><i class="ti-link"></i></a>
-
-                                                                </div>
-                                                            </div> -->
+                                                            <img loading="lazy" decoding="async" width="975" height="550" src="{{asset('images/user/awart1.jpg')}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
                                                         </div>
-                                                        <!-- text -->
-                                                        <!-- <div class="tx_pf_content tx_pft_s2">
-                                                            <div class="tx_pf_text ">
-                                                                <h2 class="ptfcolor mg00"><a class="" href="https://demo.themexbd.com/sk/tramo/portfolios/insurance-policy-will/">Insurance policy will</a></h2>
-                                                                <p><span class='txcwhite portcontentcolor'><a href='https://demo.themexbd.com/sk/tramo/portfolio-category/inspirational/'>Inspirational</a></span><span class='txcwhite portcontentcolor'><a href='https://demo.themexbd.com/sk/tramo/portfolio-category/mordern/'>Mordern</a></span></p>
-                                                            </div>
-                                                        </div> -->
                                                     </div>
                                                 </div>
-                                                <!-- single portfolio 2 -->
-                                                <div class="col-lg-6  eportfolio_item col-md-6 col-xs-12 col-sm-12 lifestyle mordern    allprt30">
+                                                <!-- section 2 -->
+
+                                                <div class="col-lg-6  eportfolio_item col-md-6 col-xs-12 col-sm-12 entertaintment     allprt30">
                                                     <div class="tx_portfolio allposihv">
                                                         <div class="tx_pfthumb boxtextposire txbdbfall txbdbfltrb100 txbdbfallz txbdbfallbgov">
-                                                            <img loading="lazy" decoding="async" width="975" height="550" src="./imgs/awart1.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
-                                                            <!-- icon -->
-                                                            <!-- <div class="tx_pf_icon tx_pf_i2  boxtextposi zindex999 ">
-                                                                <div class="boxtextposineer">
-
-                                                                    <a class="iconall iconalltf iconall iconallactive venobox" data-gall="myGallery" href="https://demo.themexbd.com/sk/tramo/wp-content/uploads/2024/08/blog_4.jpg"><i class="ti-image"></i></a>
-
-                                                                    <a class="iconall iconalltf iconall iconallactive" href="https://demo.themexbd.com/sk/tramo/portfolios/the-way-to-avoid/"><i class="ti-link"></i></a>
-
-                                                                </div>
-                                                            </div> -->
+                                                            <img fetchpriority="high" decoding="async" width="975" height="550" src="{{asset('images/user/event2.jpeg')}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
                                                         </div>
-                                                        <!-- text -->
-                                                        <!-- <div class="tx_pf_content tx_pft_s2">
-                                                            <div class="tx_pf_text ">
-                                                                <h2 class="ptfcolor mg00"><a class="" href="https://demo.themexbd.com/sk/tramo/portfolios/the-way-to-avoid/">The Way To Avoid</a></h2>
-                                                                <p><span class='txcwhite portcontentcolor'><a href='https://demo.themexbd.com/sk/tramo/portfolio-category/lifestyle/'>Lifestyle</a></span><span class='txcwhite portcontentcolor'><a href='https://demo.themexbd.com/sk/tramo/portfolio-category/mordern/'>Mordern</a></span></p>
-                                                            </div>
-                                                        </div> -->
                                                     </div>
                                                 </div>
-                                                <!-- single portfolio 2 -->
-                                                <div class="col-lg-6  eportfolio_item col-md-6 col-xs-12 col-sm-12 entertaintment    allprt30">
+                                                <div class="col-lg-6  eportfolio_item col-md-6 col-xs-12 col-sm-12 inspirational    allprt30">
                                                     <div class="tx_portfolio allposihv">
                                                         <div class="tx_pfthumb boxtextposire txbdbfall txbdbfltrb100 txbdbfallz txbdbfallbgov">
-                                                            <img loading="lazy" decoding="async" width="975" height="550" src="./imgs/event3.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
-                                                            <!-- icon -->
-                                                            <!-- <div class="tx_pf_icon tx_pf_i2  boxtextposi zindex999 ">
-                                                                <div class="boxtextposineer">
-
-                                                                    <a class="iconall iconalltf iconall iconallactive venobox" data-gall="myGallery" href="https://demo.themexbd.com/sk/tramo/wp-content/uploads/2024/08/blog_5.jpg"><i class="ti-image"></i></a>
-
-                                                                    <a class="iconall iconalltf iconall iconallactive" href="https://demo.themexbd.com/sk/tramo/portfolios/new-construction/"><i class="ti-link"></i></a>
-
-                                                                </div>
-                                                            </div> -->
+                                                            <img decoding="async" width="975" height="550" src="{{asset('images/user/agm2.jpg')}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
                                                         </div>
-                                                        <!-- text -->
-                                                        <!-- <div class="tx_pf_content tx_pft_s2">
-                                                            <div class="tx_pf_text ">
-                                                                <h2 class="ptfcolor mg00"><a class="" href="https://demo.themexbd.com/sk/tramo/portfolios/new-construction/">New Construction</a></h2>
-                                                                <p><span class='txcwhite portcontentcolor'><a href='https://demo.themexbd.com/sk/tramo/portfolio-category/entertaintment/'>Entertaintment</a></span><span class='txcwhite portcontentcolor'><a href='https://demo.themexbd.com/sk/tramo/portfolio-category/inspirational/'>Inspirational</a></span></p>
-                                                            </div>
-                                                        </div> -->
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-6  eportfolio_item col-md-6 col-xs-12 col-sm-12 lifestyle mordern    allprt30">
+                                                <div class="col-lg-6  eportfolio_item col-md-6 col-xs-12 col-sm-12 lifestyle    allprt30">
                                                     <div class="tx_portfolio allposihv">
                                                         <div class="tx_pfthumb boxtextposire txbdbfall txbdbfltrb100 txbdbfallz txbdbfallbgov">
-                                                            <img loading="lazy" decoding="async" width="975" height="550" src="./imgs/awart4.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
-                                                            <!-- icon -->
+                                                            <img loading="lazy" decoding="async" width="975" height="550" src="{{asset('images/user/awart2.jpg')}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
                                                         </div>
-                                                        <!-- text -->
-                                                        <!-- <div class="tx_pf_content tx_pft_s2">
-                                                            <div class="tx_pf_text ">
-                                                                <h2 class="ptfcolor mg00"><a class="" href="https://demo.themexbd.com/sk/tramo/portfolios/the-way-to-avoid/">The Way To Avoid</a></h2>
-                                                                <p><span class='txcwhite portcontentcolor'><a href='https://demo.themexbd.com/sk/tramo/portfolio-category/lifestyle/'>Lifestyle</a></span><span class='txcwhite portcontentcolor'><a href='https://demo.themexbd.com/sk/tramo/portfolio-category/mordern/'>Mordern</a></span></p>
-                                                            </div>
-                                                        </div> -->
                                                     </div>
                                                 </div>
-                                                <!-- single portfolio 2 -->
-                                                <div class="col-lg-6  eportfolio_item col-md-6 col-xs-12 col-sm-12 entertaintment mordern    allprt30">
+
+                                                <!-- section 3 -->
+                                                <div class="col-lg-6  eportfolio_item col-md-6 col-xs-12 col-sm-12 entertaintment     allprt30">
                                                     <div class="tx_portfolio allposihv">
                                                         <div class="tx_pfthumb boxtextposire txbdbfall txbdbfltrb100 txbdbfallz txbdbfallbgov">
-                                                            <img loading="lazy" decoding="async" width="975" height="550" src="./imgs/event4.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
-                                                            <!-- icon -->
-                                                            <!-- <div class="tx_pf_icon tx_pf_i2  boxtextposi zindex999 ">
-                                                                <div class="boxtextposineer">
-
-                                                                    <a class="iconall iconalltf iconall iconallactive venobox" data-gall="myGallery" href="https://demo.themexbd.com/sk/tramo/wp-content/uploads/2024/08/blog_6.jpg"><i class="ti-image"></i></a>
-
-                                                                    <a class="iconall iconalltf iconall iconallactive" href="https://demo.themexbd.com/sk/tramo/portfolios/questions-business/"><i class="ti-link"></i></a>
-
-                                                                </div>
-                                                            </div> -->
+                                                            <img fetchpriority="high" decoding="async" width="975" height="550" src="{{asset('images/user/event3.jpg')}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
                                                         </div>
-                                                        <!-- text -->
-                                                        <!-- <div class="tx_pf_content tx_pft_s2">
-                                                            <div class="tx_pf_text ">
-                                                                <h2 class="ptfcolor mg00"><a class="" href="https://demo.themexbd.com/sk/tramo/portfolios/questions-business/">Questions business</a></h2>
-                                                                <p><span class='txcwhite portcontentcolor'><a href='https://demo.themexbd.com/sk/tramo/portfolio-category/entertaintment/'>Entertaintment</a></span><span class='txcwhite portcontentcolor'><a href='https://demo.themexbd.com/sk/tramo/portfolio-category/mordern/'>Mordern</a></span></p>
-                                                            </div>
-                                                        </div> -->
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-6  eportfolio_item col-md-6 col-xs-12 col-sm-12 lifestyle mordern    allprt30">
+                                                <div class="col-lg-6  eportfolio_item col-md-6 col-xs-12 col-sm-12 inspirational    allprt30">
                                                     <div class="tx_portfolio allposihv">
                                                         <div class="tx_pfthumb boxtextposire txbdbfall txbdbfltrb100 txbdbfallz txbdbfallbgov">
-                                                            <img loading="lazy" decoding="async" width="975" height="550" src="./imgs/awart2.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
-                                                            <!-- icon -->
-                                                            <!-- <div class="tx_pf_icon tx_pf_i2  boxtextposi zindex999 ">
-                                                                <div class="boxtextposineer">
-
-                                                                    <a class="iconall iconalltf iconall iconallactive venobox" data-gall="myGallery" href="https://demo.themexbd.com/sk/tramo/wp-content/uploads/2024/08/blog_4.jpg"><i class="ti-image"></i></a>
-
-                                                                    <a class="iconall iconalltf iconall iconallactive" href="https://demo.themexbd.com/sk/tramo/portfolios/the-way-to-avoid/"><i class="ti-link"></i></a>
-
-                                                                </div>
-                                                            </div> -->
+                                                            <img decoding="async" width="975" height="550" src="{{asset('images/user/agm3.jpg')}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
                                                         </div>
-                                                        <!-- text -->
-                                                        <!-- <div class="tx_pf_content tx_pft_s2">
-                                                            <div class="tx_pf_text ">
-                                                                <h2 class="ptfcolor mg00"><a class="" href="https://demo.themexbd.com/sk/tramo/portfolios/the-way-to-avoid/">The Way To Avoid</a></h2>
-                                                                <p><span class='txcwhite portcontentcolor'><a href='https://demo.themexbd.com/sk/tramo/portfolio-category/lifestyle/'>Lifestyle</a></span><span class='txcwhite portcontentcolor'><a href='https://demo.themexbd.com/sk/tramo/portfolio-category/mordern/'>Mordern</a></span></p>
-                                                            </div>
-                                                        </div> -->
                                                     </div>
                                                 </div>
-                                                <!-- single portfolio 2 -->
-                                                <div class="col-lg-6  eportfolio_item col-md-6 col-xs-12 col-sm-12 inspirational  allprt30">
+                                                <div class="col-lg-6  eportfolio_item col-md-6 col-xs-12 col-sm-12 lifestyle    allprt30">
                                                     <div class="tx_portfolio allposihv">
                                                         <div class="tx_pfthumb boxtextposire txbdbfall txbdbfltrb100 txbdbfallz txbdbfallbgov">
-                                                            <img loading="lazy" decoding="async" width="975" height="550" src="./imgs/agm2.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
-                                                            <!-- icon -->
-                                                            <!-- <div class="tx_pf_icon tx_pf_i2  boxtextposi zindex999 ">
-                                                                <div class="boxtextposineer">
-
-                                                                    <a class="iconall iconalltf iconall iconallactive venobox" data-gall="myGallery" href="https://demo.themexbd.com/sk/tramo/wp-content/uploads/2024/08/blog_7.jpg"><i class="ti-image"></i></a>
-
-                                                                    <a class="iconall iconalltf iconall iconallactive" href="https://demo.themexbd.com/sk/tramo/portfolios/must-able-to-answer/"><i class="ti-link"></i></a>
-
-                                                                </div>
-                                                            </div> -->
+                                                            <img loading="lazy" decoding="async" width="975" height="550" src="{{asset('images/user/awart4.jpg')}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
                                                         </div>
-                                                        <!-- text -->
-                                                        <!-- <div class="tx_pf_content tx_pft_s2">
-                                                            <div class="tx_pf_text ">
-                                                                <h2 class="ptfcolor mg00"><a class="" href="https://demo.themexbd.com/sk/tramo/portfolios/must-able-to-answer/">Must able to answer</a></h2>
-                                                                <p><span class='txcwhite portcontentcolor'><a href='https://demo.themexbd.com/sk/tramo/portfolio-category/inspirational/'>Inspirational</a></span><span class='txcwhite portcontentcolor'><a href='https://demo.themexbd.com/sk/tramo/portfolio-category/lifestyle/'>Lifestyle</a></span></p>
-                                                            </div>
-                                                        </div> -->
                                                     </div>
                                                 </div>
-                                                <!-- single portfolio 2 -->
-                                                <div class="col-lg-6  eportfolio_item col-md-6 col-xs-12 col-sm-12 inspirational mordern    allprt30">
+
+                                                <!-- section 4 -->
+                                                <div class="col-lg-6  eportfolio_item col-md-6 col-xs-12 col-sm-12 entertaintment     allprt30">
                                                     <div class="tx_portfolio allposihv">
                                                         <div class="tx_pfthumb boxtextposire txbdbfall txbdbfltrb100 txbdbfallz txbdbfallbgov">
-                                                            <img loading="lazy" decoding="async" width="975" height="550" src="./imgs/agm3.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
-                                                            <!-- icon -->
-                                                            <!-- <div class="tx_pf_icon tx_pf_i2  boxtextposi zindex999 ">
-                                                                <div class="boxtextposineer">
-
-                                                                    <a class="iconall iconalltf iconall iconallactive venobox" data-gall="myGallery" href="https://demo.themexbd.com/sk/tramo/wp-content/uploads/2024/08/blog_8.jpg"><i class="ti-image"></i></a>
-
-                                                                    <a class="iconall iconalltf iconall iconallactive" href="https://demo.themexbd.com/sk/tramo/portfolios/best-construction/"><i class="ti-link"></i></a>
-
-                                                                </div>
-                                                            </div> -->
+                                                            <img fetchpriority="high" decoding="async" width="975" height="550" src="{{asset('images/user/event4.jpg')}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
                                                         </div>
-                                                        <!-- text -->
-                                                        <!-- <div class="tx_pf_content tx_pft_s2">
-                                                            <div class="tx_pf_text ">
-                                                                <h2 class="ptfcolor mg00"><a class="" href="https://demo.themexbd.com/sk/tramo/portfolios/best-construction/">Best Construction</a></h2>
-                                                                <p><span class='txcwhite portcontentcolor'><a href='https://demo.themexbd.com/sk/tramo/portfolio-category/inspirational/'>Inspirational</a></span><span class='txcwhite portcontentcolor'><a href='https://demo.themexbd.com/sk/tramo/portfolio-category/mordern/'>Mordern</a></span></p>
-                                                            </div>
-                                                        </div> -->
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-6  eportfolio_item col-md-6 col-xs-12 col-sm-12 lifestyle mordern    allprt30">
+                                                <div class="col-lg-6  eportfolio_item col-md-6 col-xs-12 col-sm-12 inspirational    allprt30">
                                                     <div class="tx_portfolio allposihv">
                                                         <div class="tx_pfthumb boxtextposire txbdbfall txbdbfltrb100 txbdbfallz txbdbfallbgov">
-                                                            <img loading="lazy" decoding="async" width="975" height="550" src="./imgs/awart3.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
-                                                            <!-- icon -->
-                                                            <!-- <div class="tx_pf_icon tx_pf_i2  boxtextposi zindex999 ">
-                                                                <div class="boxtextposineer">
-
-                                                                    <a class="iconall iconalltf iconall iconallactive venobox" data-gall="myGallery" href="https://demo.themexbd.com/sk/tramo/wp-content/uploads/2024/08/blog_4.jpg"><i class="ti-image"></i></a>
-
-                                                                    <a class="iconall iconalltf iconall iconallactive" href="https://demo.themexbd.com/sk/tramo/portfolios/the-way-to-avoid/"><i class="ti-link"></i></a>
-
-                                                                </div>
-                                                            </div> -->
+                                                            <img decoding="async" width="975" height="550" src="{{asset('images/user/agm4.jpg')}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
                                                         </div>
-                                                        <!-- text -->
-                                                        <!-- <div class="tx_pf_content tx_pft_s2">
-                                                            <div class="tx_pf_text ">
-                                                                <h2 class="ptfcolor mg00"><a class="" href="https://demo.themexbd.com/sk/tramo/portfolios/the-way-to-avoid/">The Way To Avoid</a></h2>
-                                                                <p><span class='txcwhite portcontentcolor'><a href='https://demo.themexbd.com/sk/tramo/portfolio-category/lifestyle/'>Lifestyle</a></span><span class='txcwhite portcontentcolor'><a href='https://demo.themexbd.com/sk/tramo/portfolio-category/mordern/'>Mordern</a></span></p>
-                                                            </div>
-                                                        </div> -->
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6  eportfolio_item col-md-6 col-xs-12 col-sm-12 lifestyle    allprt30">
+                                                    <div class="tx_portfolio allposihv">
+                                                        <div class="tx_pfthumb boxtextposire txbdbfall txbdbfltrb100 txbdbfallz txbdbfallbgov">
+                                                            <img loading="lazy" decoding="async" width="975" height="550" src="{{asset('images/user/awart4.jpg')}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
+                                                        </div>
                                                     </div>
                                                 </div>
 
+                                                <!-- section 5 -->
+                                                <div class="col-lg-6  eportfolio_item col-md-6 col-xs-12 col-sm-12 entertaintment     allprt30">
+                                                    <div class="tx_portfolio allposihv">
+                                                        <div class="tx_pfthumb boxtextposire txbdbfall txbdbfltrb100 txbdbfallz txbdbfallbgov">
+                                                            <img fetchpriority="high" decoding="async" width="975" height="550" src="{{asset('images/user/event5.jpg')}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6  eportfolio_item col-md-6 col-xs-12 col-sm-12 inspirational    allprt30">
+                                                    <div class="tx_portfolio allposihv">
+                                                        <div class="tx_pfthumb boxtextposire txbdbfall txbdbfltrb100 txbdbfallz txbdbfallbgov">
+                                                            <img decoding="async" width="975" height="550" src="{{asset('images/user/agm5.jpg')}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6  eportfolio_item col-md-6 col-xs-12 col-sm-12 lifestyle    allprt30">
+                                                    <div class="tx_portfolio allposihv">
+                                                        <div class="tx_pfthumb boxtextposire txbdbfall txbdbfltrb100 txbdbfallz txbdbfallbgov">
+                                                            <img loading="lazy" decoding="async" width="975" height="550" src="{{asset('images/user/awart6.jpg')}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6  eportfolio_item col-md-6 col-xs-12 col-sm-12 inspirational    allprt30">
+                                                    <div class="tx_portfolio allposihv">
+                                                        <div class="tx_pfthumb boxtextposire txbdbfall txbdbfltrb100 txbdbfallz txbdbfallbgov">
+                                                            <img decoding="async" width="975" height="550" src="{{asset('images/user/agm6.jpg')}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                         <!-- START PAGINATION -->
