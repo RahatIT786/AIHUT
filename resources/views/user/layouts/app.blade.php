@@ -17,6 +17,37 @@
     <header>
        
         <!-- Add Navigation -->
+        <div class="wrapper">
+
+            <!-- MAIN HEADER START -->
+            <div class="tramo_theme_harea     ">
+        
+                <!-- HEADER TOP AREA -->
+        
+        
+        
+                <!-- HEADER TOP 2 creative AREA -->
+        
+                <div class="tx_top2_relative">
+                    <div class="">
+        
+        
+        
+                        <!-- Mobile Logo -->
+        
+                      @include('user.layouts.navbar')
+        
+                        <!-- relative div -->
+        
+                    </div>
+                    <!-- top 2 absulate div -->
+                </div>
+                <!--  top 2 relative div  extra -->
+        
+        
+        
+            </div>
+            <!-- END MAIN HEADER -->
     </header>
 
     <!-- Main Content -->
@@ -32,7 +63,7 @@
 
 
 @include('user.styles.home-script')
-@include('user.styles.franchise-script')
-@include('user.styles.contactus-script')
+{{-- @include('user.styles.franchise-script')
+@include('user.styles.contactus-script') --}}
 </body>
 </html>

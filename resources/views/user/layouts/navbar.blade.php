@@ -25,7 +25,7 @@
                                     <div class="menu_area mobile-menu ">
                                         <nav>
                                             <ul id="menu-main-menu" class="main-menu mobile_menu_item clearfix">
-                                                <li id="menu-item-11595" class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-11595"><a href="../index.php">Get Started</a></li>
+                                                <li id="menu-item-11595" class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-11595"><a href="{{route('home')}}">Get Started</a></li>
                                                 <li id="menu-item-11572" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11572"><a href="{{route('franchise')}}">Rahat Franchise</a></li>
                                                 <li id="menu-item-11585" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11585"><a href="#">Umrah Agency</a></li>
                                                 <li id="menu-item-11600" class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-11600"><a href="#">Freelance ID</a></li>
@@ -74,7 +74,7 @@
                                 <div class="col-xl-10 col-lg-9 col-md-10 col-sm-12">
                                     <nav class="tramo_menu">
                                         <ul id="menu-main-menu-1" class="sub-menu">
-                                            <li class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-11595"><a href="../index.php">Get started</a></li>
+                                            <li class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-11595"><a href="{{route('home')}}">Get started</a></li>
                                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11572"><a href="{{route('franchise')}}">Rahat Franchise</a></li>
                                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11585"><a href="#"> Umrah Agency </a></li>
                                             <li class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-11600"><a href="#">Freelancer ID</a></li>
