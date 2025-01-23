@@ -10,7 +10,32 @@
     <div class="page-content-home-page">
         <div data-elementor-type="wp-page" data-elementor-id="11552" class="elementor elementor-11552">
             <div class="elementor-element elementor-element-d8ec2e5 e-flex e-con-boxed e-con e-parent" data-id="d8ec2e5" data-element_type="container">
+               
                 <div class="e-con-inner">
+                    <div class="container d-flex justify-content-evenly p-3" >
+                       <div class="d-flex flex-column gap-3 justify-content-center align-items-center">
+                        <div>
+                            <span style="padding: 10px 15px; border: 2px solid #FD8C00; border-radius: 30px ; font-size: larger;"><i class="fa-solid fa-phone"></i></span>
+                        </div>
+                        <p class="text-center">24/7 Customer Support <br> <a href="tel:+917863878630" >+91 786 38 786 30</a></p>
+                        <p></p>
+                       </div>
+                       <div class="d-flex flex-column gap-3 justify-content-center align-items-center">
+                        <div>
+                            <span style="padding: 10px 15px; border: 2px solid #FD8C00; border-radius: 30px ; font-size: larger;"><i class="fa-brands fa-sellsy"></i></span>
+                        </div>
+                        <p class="text-center">Sales Support <br> <a href="tel:+917506195551" >+91 750619 5551</a></p>
+                        <p></p>
+                       </div>
+                       <div class="d-flex flex-column gap-3 justify-content-center align-items-center">
+                        <div>
+                            <span style="padding: 10px 15px; border: 2px solid #FD8C00; border-radius: 30px ; font-size: larger;"><i class="fa-solid fa-building-user"></i></span>
+                        </div>
+                        <p class="text-center">Agency Support <br> <a href="+917861078617" >+91 78610 78617</a></p>
+                        <p></p>
+                       </div>
+                        
+                    </div>
                     <div class="elementor-element elementor-element-0dff1ab elementor-widget elementor-widget-tts" data-id="0dff1ab" data-element_type="widget" data-widget_type="tts.default">
                         <div class="elementor-widget-container">
                             <!-- title center -->
@@ -29,7 +54,7 @@
                                     <!-- end icon position -->
 
                                     <!-- title middle -->
-                                    <h2 class="txbdstitle sttwo hlight">you can <span>contact </span>us from here</h2>
+                                    <h2 class="txbdstitle sttwo hlight">Contact Us <span>Today! </span></h2>
                                     <!-- title bottom -->
 
 
@@ -42,7 +67,7 @@
 
 
                                     <!-- content -->
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority Lorem Ipsum available. There are many variations of passages of Lorem Ipsum available, but the majority Lorem Ipsum available.
+                                    <p>Reach out for more details on how you can get involved. Our team is ready to help you launch or elevate your travel business.
                                         </p>
 
                                 </div>
@@ -81,7 +106,13 @@
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6">
                                                     <div class="twr_form_box">
-                                                        <p><span class="wpcf7-form-control-wrap" data-name="text-30"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false" placeholder="Name" value="" type="text" name="text-30" /></span>
+                                                        <p><span class="wpcf7-form-control-wrap" data-name="text-30"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false" placeholder="Owner Name" value="" type="text" name="text-30" /></span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6">
+                                                    <div class="twr_form_box">
+                                                        <p><span class="wpcf7-form-control-wrap" data-name="text-30"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false" placeholder="Company Name" value="" type="text" name="text-30" /></span>
                                                         </p>
                                                     </div>
                                                 </div>
@@ -99,7 +130,34 @@
                                                 </div>
                                                 <div class="col-lg-6 col-md-6">
                                                     <div class="twr_form_box">
-                                                        <p><span class="wpcf7-form-control-wrap" data-name="text-31"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false" placeholder="Subject" value="" type="text" name="text-31" /></span>
+                                                        <p><span class="wpcf7-form-control-wrap" data-name="text-31"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false" placeholder="City" value="" type="text" name="text-31" /></span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6">
+                                                    <div class="twr_form_box">
+                                                        <p><span class="wpcf7-form-control-wrap" data-name="text-31"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false" placeholder="State" value="" type="text" name="text-31" /></span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6">
+                                                    <div class="twr_form_box">
+                                                        <p><span class="wpcf7-form-control-wrap" data-name="text-31"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false" placeholder="Country" value="" type="text" name="text-31" /></span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6">
+                                                    <div class="twr_form_box">
+                                                        <p><span class="wpcf7-form-control-wrap" data-name="text-31">
+                                                            {{-- <input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false" placeholder="State" value="" type="text" name="text-31" /> --}}
+                                                                 <!-- <label for="partnership_type">Partnership Type:</label> -->
+                                                        <select id="partnership_type" name="partnership_type" required>
+                                                             <option value="">-- Select Partnership Type --</option>
+                                                             <option value="freelancer">Freelancer</option>
+                                                                <option value="agency">Agency</option>
+                                                                <option value="franchisee">Franchisee</option>
+                                                            </select>
+                                                        </span>
                                                         </p>
                                                     </div>
                                                 </div>
@@ -162,7 +220,7 @@
 
 
                                         <!-- content -->
-                                        <p>Anchorage Street, Alaska 99508, United States America. </p>
+                                        <p>Head Office :- 305 SVP Road, Dongri, <br> Mumbai - 3. </p>
 
                                     </div>
                                     <!-- inner title -->
@@ -207,7 +265,7 @@
 
 
                                         <!-- content -->
-                                        <p>demo@example.com <br> info@example.com </p>
+                                        <p><a href="mailto:nazim@aihut.in">nazim@aihut.in</a><br> <a href="mailto:info@rahat.in">info@rahat.in</a> </p>
 
                                     </div>
                                     <!-- inner title -->
@@ -252,7 +310,7 @@
 
 
                                         <!-- content -->
-                                        <p>+880 65843 749385 <br> +880 5748 758395 </p>
+                                        <p><a href="tel:+917863878630">+91 78638 78630 </a><br><a href="tel:+917863878632">  +91 786 38 786 32 </a></p>
 
                                     </div>
                                     <!-- inner title -->
