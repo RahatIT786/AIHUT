@@ -51,13 +51,13 @@
                                 <div class="swiper witr_active ">
                                     <div class="swiper-wrapper">
 
-                                        <div class="swiper-slide txbdslider" style="background-image:url(https://demo.themexbd.com/sk/tramo/wp-content/uploads/2024/09/slider-bg.jpg);">
+                                        <div class="swiper-slide txbdslider" style="background-image:url('{{ asset('images/hero_bg_img.jpg') }}');">
                                             <div id="form-container" class="txbdsinner sliderheightdiv allleft">
                                                 <div class="txbdscontent">
                                                     <!-- title 2 -->
-                                                    <h1 class="txbdstitle swsmall swtone hlight">Start your Hajj & Umrah Franchisee</h1>
+                                                    <h1 class="txbdstitle swsmall swtone hlight">Earn High Commissions</h1>
                                                     <!-- title 3 -->
-                                                    <h2 class="txbdstitle swttwo hlight">Rahat Group <span> Franchisees</span></h2>
+                                                    <h2 class="txbdstitle swttwo hlight">START Your <span><br> Hajj & Umrah Business</span></h2>
 
                                                     <!-- title -->
                                                     <!-- content -->
@@ -69,7 +69,7 @@
                                                     <div class="txbdsbtn allcostyle">
                                                         <!--- button 1 --->
 
-                                                        <a class="btnallt btnall " href="#291783d">ABOUT US</a>
+                                                        <a class="btnallt btnall " href="#291783d">JOIN US</a>
 
                                                         <a class="btnallt btnall btnallactive " href="/contact.php">BOOK NOW</a>
 
@@ -90,7 +90,7 @@
                                                 <div id="successMessage" class="success-message">
 Your form has been submitted successfully!
 </div>
-<h2>Join Us as a Trusted Agent</h2>
+<h2>Join Us as a Travel Partner</h2>
 <form action="/admin/aihut/manage-quries.php" method="POST">
     <!-- <label for="company_name">Company Name:</label> -->
     <input type="text" id="company_name" name="company_name" placeholder="Enter company name" required>
@@ -555,7 +555,7 @@ Your form has been submitted successfully!
                                         <div class="witr_btn_style mr">
                                             <div class="witr_btn_sinner">
 
-                                                <a href="https://demo.themexbd.com/sk/tramo/contact/" class="witr_btn">BOOK NOW                 <!-- icon --></a>
+                                                <a href="https://demo.themexbd.com/sk/tramo/contact/" class="witr_btn">JOIN NOW                 <!-- icon --></a>
 
                                             </div>
                                         </div>
