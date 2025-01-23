@@ -55,7 +55,7 @@
 				<div class="elementor-widget-container">
 								<!-- title left -->
                      <div class="txbdsbtn allcostyle">
-                         <a class="btnallt btnall btnallactive " href="/contact.php">REGISTER AS A FRANCHISER</a>
+                         <a class="btnallt btnall btnallactive " href="">REGISTER AS A FRANCHISER</a>
                      </div>			
 				</div>
 				</div>
@@ -218,7 +218,7 @@
 								
 							
 							<!-- content -->
-															<p>Copyright © tramo All Right Reserved </p>		
+															<p>Copyright © Rahat IT Solutions All Right Reserved </p>		
 								
 						</div>
 							<!-- inner title -->
@@ -236,11 +236,14 @@
 							
 					<div class="footer-menu">
 						<!-- FOOTER COPYRIGHT MENU -->				
-						 <ul id="menu-footer-menu" class=""><li id="menu-item-19298" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19298"><a href="https://demo.themexbd.com/sk/tramo/about/">About</a></li>
-<li id="menu-item-14450" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14450"><a href="https://demo.themexbd.com/sk/tramo/service/">Service</a></li>
-<li id="menu-item-14449" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14449"><a href="https://demo.themexbd.com/sk/tramo/portfolio-grid/">Portfolio</a></li>
-<li id="menu-item-14448" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14448"><a href="https://demo.themexbd.com/sk/tramo/contact/">Contact</a></li>
-</ul> 
+						 <ul id="menu-footer-menu" class="">
+                            <li id="menu-item-19298" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19298"><a href="">Get Started </a></li>
+                            <li id="menu-item-14450" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14450"><a href="">Freelancer Id </a></li>
+                            <li id="menu-item-14449" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14449"><a href="">Umrah Agency </a></li>
+                            <li id="menu-item-14448" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14448"><a href=""> Rahat Franchise </a></li>
+                            <li id="menu-item-14448" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14448"><a href="">Contact Us </a></li>
+                          
+                         </ul> 
 						
 					</div>					
 				</div>					
