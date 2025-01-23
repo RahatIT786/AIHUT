@@ -71,7 +71,7 @@
 
                                                         <a class="btnallt btnall " href="#291783d">JOIN US</a>
 
-                                                        <a class="btnallt btnall btnallactive " href="/contact.php">BOOK NOW</a>
+                                                        <a class="btnallt btnall btnallactive " href="/contact.php">JOIN NOW</a>
 
 
 
@@ -353,7 +353,7 @@ Your form has been submitted successfully!
                                     <div class="single_image_area">
                                         <div class="single_image single_line_option  ">
                                             <!-- image -->
-                                            <img loading="lazy" decoding="async" width="706" height="735" src="https://demo.themexbd.com/sk/tramo/wp-content/uploads/2024/09/about-us.png" class="attachment-large size-large wp-image-27218" alt="" />
+                                            <img loading="lazy" decoding="async" width="706" height="735" src="{{asset('images/aboutus.jpg')}}" class="attachment-large size-large wp-image-27218" alt="" />
                                         </div>
                                     </div>
 
