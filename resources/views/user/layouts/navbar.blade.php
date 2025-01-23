@@ -26,7 +26,7 @@
                                         <nav>
                                             <ul id="menu-main-menu" class="main-menu mobile_menu_item clearfix">
                                                 <li id="menu-item-11595" class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-11595"><a href="../index.php">Get Started</a></li>
-                                                <li id="menu-item-11572" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11572"><a href="#">Rahat Franchise</a></li>
+                                                <li id="menu-item-11572" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11572"><a href="{{route('franchise')}}">Rahat Franchise</a></li>
                                                 <li id="menu-item-11585" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11585"><a href="#">Umrah Agency</a></li>
                                                 <li id="menu-item-11600" class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-11600"><a href="#">Freelance ID</a></li>
                                                 <li id="menu-item-11599" class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-11599"><a href="#">testimonials</a></li>
