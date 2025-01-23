@@ -63,7 +63,6 @@
 
 
 @include('user.styles.home-script')
-{{-- @include('user.styles.franchise-script')
-@include('user.styles.contactus-script') --}}
+@include('user.styles.franchise-script')
 </body>
 </html>
