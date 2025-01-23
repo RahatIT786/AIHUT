@@ -8,7 +8,15 @@
     <!-- Add your CSS/JS links here -->
 </head> --}}
 
-@include('user.styles.style')
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@yield('title', 'Default Title')</title>
+
+
+    @include('user.styles.home-style')
+    @include('user.styles.contactus-style')
+</head>
 <body  class="home page-template page-template-template-nofooter page-template-template-nofooter-php page page-id-17066 wp-embed-responsive elementor-default elementor-kit-7 elementor-page elementor-page-17066">
     <!-- Header Section -->
     <header>
@@ -28,6 +36,7 @@
 
 
 
-@include('user.styles.script')
+@include('user.styles.home-script')
+@include('user.styles.contactus-script')
 </body>
 </html>

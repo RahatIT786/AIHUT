@@ -1,9 +1,6 @@
-<head>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@yield('title', 'Default Title')</title>
 
+    
 
 
 
@@ -712,15 +709,34 @@
 
 
 
-
+        @media (max-width: 970px) {
+            #form-container{
+                margin-top: 10%;
+                margin-bottom: 10%;
+               
+                
+            }
+          
+            
+        }
 
 
          /* Mobile responsiveness */
          @media (max-width: 768px) {
             .form-container {
+                
                 padding: 20px;
                 width: 90%;
             }
+            #form-container{
+                margin-top: 90%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center
+                
+            }
+          
 
             .form-container h2 {
                 font-size: 24px;
@@ -742,9 +758,11 @@
                 margin-bottom: 20rem;
             }
             #form-container{
-                margin-top: 80%;
+                margin-top: 90vw;
                 display: flex;
                 flex-direction: column;
+                align-items: center;
+                justify-content: center
                 
             }
 
@@ -763,4 +781,3 @@
             }
         }
 </style>
-</head>
