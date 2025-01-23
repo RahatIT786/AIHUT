@@ -210,6 +210,7 @@ Your form has been submitted successfully!
                     </div>
                 </div>
 
+
                 <div  class="elementor-element e-flex e-con-boxed e-con e-parent " data-id="4cce8ef" data-element_type="container">
                     <div class="e-con-inner">
                        
@@ -224,6 +225,7 @@ Your form has been submitted successfully!
                                         </div>
                                     </div>
                                 </div>
+
 
                 <div class="elementor-element elementor-element-e5eec4c e-flex e-con-boxed e-con e-parent" data-id="e5eec4c" data-element_type="container">
                     <div class="e-con-inner">
@@ -738,6 +740,7 @@ Your form has been submitted successfully!
                                             <!-- end icon position -->
 
                                             <!-- title middle -->
+
                                             <h2 class="txbdstitle sttwo hlight">People Love <span> RAHAT .. </span> Watch some of Our Agents Speak... </h2>
                                             <!-- title bottom -->
 
@@ -778,10 +781,8 @@ Your form has been submitted successfully!
                                                 <!-- image icon -->
                                                 <div class="txbdcon">
                                                     <!-- title -->
-
                                                     <h2 class="txbdsvtitle txstcolor hlight"> RATNAGRI</h2>
                                                     
-
                                                     <!-- button -->
                                                     <div class="txbdsvbtn txbdbtnicon">
                                                         <!-- <a class="btnallt btnalldefault " href="#">more details</a> -->
@@ -825,6 +826,7 @@ Your form has been submitted successfully!
                                                     <!-- title -->
 
                                                     <h2 class="txbdsvtitle txstcolor hlight">Laddak</h2>
+
 
                                                     <!-- button -->
                                                     <div class="txbdsvbtn txbdbtnicon">
@@ -1141,7 +1143,7 @@ Your form has been submitted successfully!
 
 
 
-</div>
+  </div>
 
 
 
