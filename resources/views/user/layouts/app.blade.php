@@ -12,6 +12,7 @@
     @include('user.styles.home-style')
     @include('user.styles.franchise-style')
     @include('user.styles.contactus-style')
+    @include('user.styles.agency-style')
 </head>
 <body  class="home page-template page-template-template-nofooter page-template-template-nofooter-php page page-id-17066 wp-embed-responsive elementor-default elementor-kit-7 elementor-page elementor-page-17066">
     <!-- Header Section -->
@@ -64,6 +65,6 @@
 
 
 @include('user.styles.home-script')
-@include('user.styles.franchise-script')
+{{-- @include('user.styles.franchise-script') --}}
 </body>
 </html>
