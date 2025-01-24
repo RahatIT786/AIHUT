@@ -1051,7 +1051,7 @@
 																
 							</div>						
 							<div class="tsimg tsst4">
-																<h2 class="tstitle">MD. Mahfuz islam<span class="tesspanf d-block txbdbcolor">Pune</span> </h2>
+																<h2 class="tstitle">Mr.Asif<span class="tesspanf d-block txbdbcolor">Pune</span> </h2>
 																
 							</div>
 						</div>						
@@ -1067,7 +1067,7 @@
 																
 							</div>						
 							<div class="tsimg tsst4">
-																<h2 class="tstitle">MD. Mahfuz islam<span class="tesspanf d-block txbdbcolor"> Laddak </span> </h2>
+																<h2 class="tstitle">Mr. Mahfuz islam<span class="tesspanf d-block txbdbcolor"> Laddak </span> </h2>
 																
 							</div>
 						</div>						
