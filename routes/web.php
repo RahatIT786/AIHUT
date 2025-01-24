@@ -11,3 +11,5 @@ Route::get('/user/franchise', function () { return view('user.pages.franchise');
 Route::get('/user/agency', function () { return view('user.pages.agency'); })->name('agency');
 
 Route::get('/user/contact', function () { return view('user.pages.contactus'); })->name('contact');
+Route::get('/user/freelancer',function(){return view('user.pages.freelancer');})->name('freelancer');
+Route::get('/user/testimonials',function(){return view('user.pages.testimonials');})->name('testimonials');
