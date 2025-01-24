@@ -100,10 +100,10 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 					}
 				}
 			</style>
-			<link rel="icon" href="https://demo.themexbd.com/sk/tramo/wp-content/uploads/2024/09/favicon_1.png" sizes="32x32" />
-<link rel="icon" href="https://demo.themexbd.com/sk/tramo/wp-content/uploads/2024/09/favicon_1.png" sizes="192x192" />
-<link rel="apple-touch-icon" href="https://demo.themexbd.com/sk/tramo/wp-content/uploads/2024/09/favicon_1.png" />
-<meta name="msapplication-TileImage" content="https://demo.themexbd.com/sk/tramo/wp-content/uploads/2024/09/favicon_1.png" />
+			<link rel="icon" href="{{asset('images/rahat_logo.png')}}" sizes="32x32" />
+<link rel="icon" href="{{asset('images/rahat_logo.png')}}" sizes="192x192" />
+<link rel="apple-touch-icon" href="{{asset('images/rahat_logo.png')}}" />
+<meta name="msapplication-TileImage" content="{{asset('images/rahat_logo.png')}}" />
 <style id="tramo_opt-dynamic-css" title="dynamic-css" class="redux-options-output">
                     .tramo_menu > ul > li > a,
                     .heading_style_4 .tramo_menu > ul > li > a,
