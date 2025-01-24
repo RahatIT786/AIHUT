@@ -77,8 +77,8 @@
                                             <li class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-11595"><a href="{{route('home')}}">Get started</a></li>
                                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11572"><a href="{{route('franchise')}}">Rahat Franchise</a></li>
                                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11585"><a href="#"> Umrah Agency </a></li>
-                                            <li class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-11600"><a href="#">Freelancer ID</a></li>
-                                            <li class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-11599"><a href="#">testimonials</a></li>
+                                            <li class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-11600"><a href="{{route('freelancer')}}">Freelancer ID</a></li>
+                                            <li class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-11599"><a href="{{route('testimonials')}}">testimonials</a></li>
                                             <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-11552 current_page_item menu-item-11604"><a href="{{route('contact')}}" aria-current="page">contact us</a></li>
                                         </ul>
                                         <div class="tx_right_otherx d-flex align-items-center">
