@@ -13,4 +13,8 @@ Route::get('/user/agency', function () { return view('user.pages.agency'); })->n
 Route::get('/user/contact', function () { return view('user.pages.contactus'); })->name('contact');
 Route::get('/user/freelancer',function(){return view('user.pages.freelancer');})->name('freelancer');
 Route::get('/user/testimonials',function(){return view('user.pages.testimonials');})->name('testimonials');
+
 Route::get('/user/privacy_policy',function(){return view('user.pages.privacypolicy');})->name('privacypolicy');
+
+Route::get('/user/conditions',function(){return view('user.pages.termsandservice');})->name('condition');
+

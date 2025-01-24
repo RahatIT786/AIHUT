@@ -7,5 +7,12 @@
         .d-flex {
             flex-direction: column; /* Stack the items vertically on small screens */
         }
+
+        #agent-revenue{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
     }
 </style>

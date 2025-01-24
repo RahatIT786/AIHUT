@@ -67,9 +67,9 @@
 				<div class="elementor-widget-container">
 				
 		<div class="single_image_area">
-			<div class="single_image single_line_option  ">
+			<div class="single_image single_line_option  " >
 				<!-- image -->
-				<img loading="lazy" decoding="async" width="351" height="302" src="https://demo.themexbd.com/sk/tramo/wp-content/uploads/2024/09/layer.png" class="attachment-large size-large wp-image-27468" alt="layer" />		
+				<img style="border-radius: 20px 0 20px 0;" loading="lazy" decoding="async" width="351" height="302" src="{{asset('images/user/Umrah_Agency1.jpeg')}}" class="attachment-large size-large wp-image-27468" alt="layer" />		
 											</div>
 		</div>
 			
@@ -103,7 +103,9 @@
                     <!-- end icon position -->
 
                     <!-- title middle -->
-                                                    <h2 class="txbdstitle sttwo hlight"> Why Choose  for<span>  Rahat Group</span>  Your Umrah Agency? </h2>
+
+                                                    <h2 class="txbdstitle sttwo hlight"> Why Choose  for &nbsp;<span>Rahat Group</span>  Your Umrah Agency? </h2>
+
                                                 <!-- title bottom -->
                     
                                                 
@@ -292,7 +294,7 @@
 <div class="elementor-element elementor-element-3ef1bb4 elementor-widget elementor-widget-tts" data-id="3ef1bb4" data-element_type="widget" data-widget_type="tts.default">
 <div class="elementor-widget-container">
                 <!-- title left -->
-    <div class="tts text-left">
+    <div class="tts text-left  ">
         <div class="ttin">
         
             <!-- icon position -->
@@ -324,6 +326,9 @@
                                             <br>
                                             <p>Be the owner of your Business and be part of something truly special. Together, we can help create unforgettable experiences for more pilgrims who dream of fulfilling their religious duty with trustworthy partners.</p>	
                 
+        </div>
+        <div>
+            <img style="border-radius: 10px" src="{{asset('images/user/Umrah_Agency3.jpeg')}}" alt="">
         </div>
             <!-- inner title -->
                                     
@@ -450,6 +455,521 @@
     </div>
 </div>
 <!--region-end-->
+
+
+{{-- monthly revenue start--}}
+<div class="elementor-element elementor-element-4fc85d4 e-flex e-con-boxed e-con e-parent" data-id="4fc85d4" data-element_type="container">
+    <div class="e-con-inner">
+<div class="elementor-element elementor-element-00f9a3a e-con-full e-flex e-con e-child" data-id="00f9a3a" data-element_type="container">
+<div class="elementor-element elementor-element-3ef1bb4 elementor-widget elementor-widget-tts" data-id="3ef1bb4" data-element_type="widget" data-widget_type="tts.default">
+<div class="elementor-widget-container">
+                <!-- title left -->
+    <div class="tts text-left">
+        <div class="ttin d-flex flex-column justify-content-center align-items-center gap-5" style="width: 70vw;">
+        
+            <!-- icon position -->
+                
+            <!-- end icon position -->
+            
+            <!-- title top -->
+            
+
+            <!-- icon position -->
+                
+            <!-- end icon position -->
+
+            <!-- title middle -->
+                                            <h2 class="txbdstitle sttwo hlight text-center">Generate Monthly Revenue with <span> our Hajj & Umrah B2B Model..</span> ?</h2>
+                                        <!-- title bottom -->
+            
+                                        
+            <!-- image -->
+                                        <!-- icon -->
+                                        
+            <!-- bar -->
+                                        <!-- circle bar -->
+                                        
+                
+            
+            <!-- content -->
+            <div class="d-flex flex-wrap  " id="agent-revenue" style="width: 70vw">
+                <div class="text-center m-5">
+                    <span style="border: 2px solid #FE8D00; padding: 15px 20px; border-radius: 35px; font-size: xx-large;"><i class="fa-solid fa-chart-line"></i></span>
+                    <br> <br>
+                <h5>1.High Earning Potential</h5>
+                </div>
+                <div class="text-center m-5">
+                    <span style="border: 2px solid #FE8D00; padding: 15px 20px; border-radius: 35px; font-size: xx-large;"><i class="fa-brands fa-paypal"></i></span>
+                    <br> <br>
+                <h5>2.Cut and Pay Commission Structure</h5>
+                </div>
+                <div class="text-center m-5">
+                    <span style="border: 2px solid #FE8D00; padding: 15px 20px; border-radius: 35px; font-size: xx-large;"><i class="fa-solid fa-magnifying-glass"></i></span>
+                    <br> <br>
+                <h5>3.Research Support</h5>
+                </div>
+                <div class="text-center m-5">
+                    <span style="border: 2px solid #FE8D00; padding: 15px 20px; border-radius: 35px; font-size: xx-large;"><i class="fa-solid fa-rectangle-ad"></i></i></span>
+                    <br> <br>
+                <h5>4.Digital Marketing Support</h5>
+                </div>
+                <div class="text-center m-5">
+                    <span style="border: 2px solid #FE8D00; padding: 15px 20px; border-radius: 35px; font-size: xx-large;"><i class="fa-solid fa-book"></i></span>
+                    <br> <br>
+                <h5>5.Comprehensive Training</h5>
+                </div>
+                
+            </div>
+                
+        </div>
+            <!-- inner title -->
+                                    
+    </div>				
+        </div>
+</div>
+<div class="elementor-element elementor-element-9431847 e-con-full e-flex e-con e-child" data-id="9431847" data-element_type="container">
+<div class="elementor-element elementor-element-195e06b e-con-full e-flex e-con e-child" data-id="195e06b" data-element_type="container">
+<div class="elementor-element elementor-element-b540a2f elementor-widget elementor-widget-tts" data-id="b540a2f" data-element_type="widget" data-widget_type="tts.default">
+<div class="elementor-widget-container">
+                <!-- title left -->
+     <div class="txbdsbtn allcostyle">
+         {{-- <a class="btnallt btnall btnallactive " href="/contact.php">REGISTER AS A AGENCY</a> --}}
+     </div>			
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-b9b727e e-con-full e-flex e-con e-child" data-id="b9b727e" data-element_type="container">
+<div class="elementor-element elementor-element-899a03b elementor-widget elementor-widget-witrsimage" data-id="899a03b" data-element_type="widget" data-widget_type="witrsimage.default">
+<div class="elementor-widget-container">
+
+<div class="single_image_area">
+<div class="single_image single_line_option  ">
+<!-- image -->
+{{-- <img loading="lazy" decoding="async" width="351" height="302" src="https://demo.themexbd.com/sk/tramo/wp-content/uploads/2024/09/layer.png" class="attachment-large size-large wp-image-27468" alt="layer" />		 --}}
+                            </div>
+</div>
+
+
+
+
+</div>
+</div>
+</div>
+    </div>
+</div>
+
+{{-- monthly revenue end --}}
+
+{{-- agent feedback start --}}
+<div class="elementor-element elementor-element-68ce90f e-con-full e-flex e-con e-parent" data-id="68ce90f" data-element_type="container">
+    <div class="elementor-element elementor-element-585a160 e-flex e-con-boxed e-con e-child" data-id="585a160" data-element_type="container">
+        <div class="e-con-inner">
+            <div class="elementor-element elementor-element-b269311 elementor-widget elementor-widget-tts" data-id="b269311" data-element_type="widget" data-widget_type="tts.default">
+                <div class="elementor-widget-container">
+                    <!-- title center -->
+                    <div class="tts text-center">
+                        <div class="ttin">
+
+                            <!-- icon position -->
+
+                            <!-- end icon position -->
+
+                            <!-- title top -->
+
+
+                            <!-- icon position -->
+
+                            <!-- end icon position -->
+
+                            <!-- title middle -->
+
+                            <h2 class="txbdstitle sttwo hlight">People Love <span> RAHAT .. </span> Watch some of Our Agents Speak... </h2>
+                            <!-- title bottom -->
+
+
+                            <!-- image -->
+                            <!-- icon -->
+
+                            <!-- bar -->
+                            <!-- circle bar -->
+
+
+
+                            <!-- content -->
+                            <!-- <p>To my mind, the greatest reward and luxury of travel is to be able to experience everyday things as if for the first time, to be in a position in which almost nothing is so familiar it is taken for granted.
+                                </p> -->
+
+                        </div>
+                        <!-- inner title -->
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="elementor-element elementor-element-7d47f8f e-con-full e-flex e-con e-child" data-id="7d47f8f" data-element_type="container">
+        <div class="elementor-element elementor-element-c66fb56 elementor-widget elementor-widget-witrsslick" data-id="c66fb56" data-element_type="widget" data-widget_type="witrsslick.default">
+            <div class="elementor-widget-container">
+                <div class="witr_carousel_main row witr_slick_active row" dir="ltr" data-witrshowdata="{&quot;witr_infiv&quot;:true,&quot;witr_stsv&quot;:4,&quot;witr_stsr&quot;:1,&quot;witr_apv&quot;:true,&quot;witr_apsv&quot;:6000,&quot;witr_spv&quot;:1000,&quot;witr_pohv&quot;:true,&quot;witr_cmv&quot;:true,&quot;witr_cpv&quot;:&quot;0px&quot;,&quot;witr_fadev&quot;:false,&quot;witr_arrv&quot;:false,&quot;witr_dotv&quot;:true,&quot;witr_bpdv&quot;:1200,&quot;witr_shv&quot;:3,&quot;witr_bptv&quot;:992,&quot;witr_tshv&quot;:2,&quot;witr_bpmv&quot;:767,&quot;witr_mshv&quot;:1,&quot;witr_bpsmv&quot;:480,&quot;witr_smshv&quot;:1}"
+                    style="display:block">
+                    <div class="col-lg-12">
+                        <div class="txbdsva allcostyle boxsh text-center  ">
+                            <div class="thbdsvthumb">
+                                <p align="center" style="font-weight: bold"><iframe width="560" height="315" src="https://www.youtube.com/embed/D5hPm6YOXNs?si=8Pf4BJVImoUHi2EY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+                                </div>
+                            <div class="txbdsi boxtexrelative  iconsabsconpd sselect">
+                                <!-- overlay icon -->
+                                <!-- image icon -->
+                                <div class="txbdcon">
+                                    <!-- title -->
+                                    <h2 class="txbdsvtitle txstcolor hlight"> RATNAGRI</h2>
+                                    
+                                    <!-- button -->
+                                    <div class="txbdsvbtn txbdbtnicon">
+                                        <!-- <a class="btnallt btnalldefault " href="#">more details</a> -->
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="txbdsva allcostyle boxsh text-center  ">
+                            <div class="thbdsvthumb">
+                            <p align="center" style="font-weight: bold"><iframe width="560" height="315" src="https://www.youtube.com/embed/V5lULHzkVgI?si=iXjbbjDUeLH5xphe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p> </div>
+                            <div class="txbdsi boxtexrelative  iconsabsconpd sselect">
+                                <!-- overlay icon -->
+                                <!-- image icon -->
+                                <div class="txbdcon">
+                                    <!-- title -->
+
+                                    <h2 class="txbdsvtitle txstcolor hlight">DELHI</h2>
+                                    
+                                    <!-- button -->
+                                    <div class="txbdsvbtn txbdbtnicon">
+                                        <!-- <a class="btnallt btnalldefault " href="#">more details</a> -->
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="txbdsva allcostyle boxsh text-center  ">
+                            <div class="thbdsvthumb">
+                            <p align="center" style="font-weight: bold"><iframe width="560" height="315" src="https://www.youtube.com/embed/D8QKXg-srMI?si=0_logzn7fz5iimqS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>  </div>
+                            <div class="txbdsi boxtexrelative  iconsabsconpd sselect">
+                                <!-- overlay icon -->
+                                <!-- image icon -->
+                                <div class="txbdcon">
+                                    <!-- title -->
+
+                                    <h2 class="txbdsvtitle txstcolor hlight">Laddak</h2>
+
+
+                                    <!-- button -->
+                                    <div class="txbdsvbtn txbdbtnicon">
+                                        <!-- <a class="btnallt btnalldefault " href="#">more details</a> -->
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="txbdsva allcostyle boxsh text-center  ">
+                            <div class="thbdsvthumb">
+                            <p align="center" style="font-weight: bold"><iframe width="560" height="315" src="https://www.youtube.com/embed/vbREORgANBE?si=d623-gkS6JjQE9-J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p> </div>
+                            <div class="txbdsi boxtexrelative  iconsabsconpd sselect">
+                                <!-- overlay icon -->
+                                <!-- image icon -->
+                                <div class="txbdcon">
+                                    <!-- title -->
+
+                                    <h2 class="txbdsvtitle txstcolor hlight">VARANASI</h2>
+
+                                    <!-- button -->
+                                    <div class="txbdsvbtn txbdbtnicon">
+                                        <!-- <a class="btnallt btnalldefault " href="#">more details</a> -->
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="txbdsva allcostyle boxsh text-center  ">
+                            <div class="thbdsvthumb">
+                            <p align="center" style="font-weight: bold"><iframe width="560" height="315" src="https://www.youtube.com/embed/dmgmIMQPH0o?si=YmQHRwSLgToJC3a-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p> </div>
+                            <div class="txbdsi boxtexrelative  iconsabsconpd sselect">
+                                <!-- overlay icon -->
+                                <!-- image icon -->
+                                <div class="txbdcon">
+                                    <!-- title -->
+
+                                    <h2 class="txbdsvtitle txstcolor hlight">PUNE</h2>
+                                    
+
+                                    <!-- button -->
+                                    <div class="txbdsvbtn txbdbtnicon">
+                                        <!-- <a class="btnallt btnalldefault " href="#">more details</a> -->
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{{-- agent feedback end --}}
+
+{{-- FAQ START --}}
+<div class="elementor-element elementor-element-afbc4fa e-flex e-con-boxed e-con e-parent" data-id="afbc4fa" data-element_type="container">
+    <div class="e-con-inner">
+        <div class="elementor-element elementor-element-72707b3 e-con-full e-flex e-con e-child" data-id="72707b3" data-element_type="container">
+            <div class="elementor-element elementor-element-60fd5f2 elementor-widget elementor-widget-witr_section_Shape" data-id="60fd5f2" data-element_type="widget" data-widget_type="witr_section_Shape.default">
+                <div class="elementor-widget-container">
+
+                    <div class="witr_shape_item">
+                        <div class="witr_shape_item_inner">
+                            <div class="witr_shape_image " style="animation: witr_movelr_box45  5s  linear  1s  infinite  alternate  running;">
+                                <!-- image -->
+                                <img decoding="async" width="136" height="155" src="https://demo.themexbd.com/sk/tramo/wp-content/uploads/2024/09/sun.png" class="attachment-large size-large wp-image-27308" alt="sun" />
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+            <div class="elementor-element elementor-element-90f511f elementor-widget elementor-widget-witrsimage" data-id="90f511f" data-element_type="widget" data-widget_type="witrsimage.default">
+                <div class="elementor-widget-container">
+
+                    <div class="single_image_area">
+                        <div class="single_image single_line_option  ">
+                            <!-- image -->
+                            <img style="border-radius:10px;" loading="lazy" decoding="async" width="522" height="629" src="{{asset('images/user/Umrah_Agency2.jpeg')}}" class="attachment-large size-large wp-image-27495" alt="" />
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+            <div class="elementor-element elementor-element-c6778ba elementor-widget elementor-widget-witr_section_Shape" data-id="c6778ba" data-element_type="widget" data-widget_type="witr_section_Shape.default">
+                <div class="elementor-widget-container">
+
+                    <div class="witr_shape_item">
+                        <div class="witr_shape_item_inner">
+                            <div class="witr_shape_image " style="animation: witr_movelr_box45  5s  linear  1s  infinite  alternate  running;">
+                                <!-- image -->
+                                <img loading="lazy" decoding="async" width="472" height="222" src="https://demo.themexbd.com/sk/tramo/wp-content/uploads/2024/09/cloud-08.png" class="attachment-large size-large wp-image-27687" alt="" />
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+        <div class="elementor-element elementor-element-4ce98d2 e-con-full e-flex e-con e-child" data-id="4ce98d2" data-element_type="container">
+            <div class="elementor-element elementor-element-3806c60 elementor-widget elementor-widget-witr_section_Shape" data-id="3806c60" data-element_type="widget" data-widget_type="witr_section_Shape.default">
+                <div class="elementor-widget-container">
+
+                    <div class="witr_shape_item">
+                        <div class="witr_shape_item_inner">
+                            <div class="witr_shape_image " style="animation: witr_movelr_box45  5s  linear  1s  infinite  alternate  running;">
+                                <!-- image -->
+                                <img loading="lazy" decoding="async" width="509" height="376" src="https://demo.themexbd.com/sk/tramo/wp-content/uploads/2024/09/cloud-06.png" class="attachment-large size-large wp-image-27674" alt="" />
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+            <div class="elementor-element elementor-element-aea1318 elementor-widget elementor-widget-witracco" data-id="aea1318" data-element_type="widget" data-widget_type="witracco.default">
+                <div class="elementor-widget-container">
+
+
+
+
+                    <div class="accordion_area">
+                        <div class="faq-part">
+                            <div id="accordion">
+                                <div class="card card-2  ">
+                                    <div class="card-header witr_ac_card">
+                                        <a href="#" class="card-link witr_ac_style" data-bs-toggle="collapse" data-bs-target="#collapse_c56dfa11" aria-expanded="true">
+                                            <!-- icon -->
+                                            <i class=""></i>What is the initial investment required to become a Hajj & Umrah franchise partner? </a>
+                                    </div>
+                                    <div id="collapse_c56dfa11" class="collapse ac_s_padding  " data-bs-parent="#accordion">
+                                        <strong>Join Rahat Travels of India as an Umrah Agency: Two Flexible Options to Suit Your Needs</strong>
+                                        <p>
+
+                                            At Rahat Travels of India, we offer two convenient options for travel agencies looking to enter the Hajj and Umrah market</p>
+                                            <ul>
+                                                <ol><strong>Unpaid Agency Option: </strong> This option allows you to register as an authorized Umrah agency without any upfront fees. You simply need to provide the required documents for registration, and you’ll receive access to our support and resources to help you succeed in the industry.</ol>
+                                                <ol><strong>Paid Agency Option</strong> For a one-time fee of <strong>49,999 INR,</strong> this option includes additional benefits and exclusive resources to enhance your agency's capabilities. You’ll need to provide the necessary documents for registration along with the fee to unlock a range of premium services and support.</ol>
+                                            </ul>
+                                            <p>No matter which option you choose, Rahat Travels of India is committed to helping you establish and grow your presence in the Hajj and Umrah industry with comprehensive training, marketing support, and operational guidance.</p>
+                                            <p><strong>Get Started Today: </strong>Choose the option that best fits your needs and begin your journey with us!</p>
+                                    </div>
+                                </div>
+                                <!-- card -->
+                                <div class="card card-2  active show">
+                                    <div class="card-header witr_ac_card">
+                                        <a href="#" class="card-link witr_ac_style" data-bs-toggle="collapse" data-bs-target="#collapse_733e6061" aria-expanded="true">
+                                            <!-- icon -->
+                                            <i class=""></i> What kind of training and support is provided to new franchisees?</a>
+                                    </div>
+                                    <div id="collapse_733e6061" class="collapse ac_s_padding  active show" data-bs-parent="#accordion">
+                                        <p>Rahat Travels of India is dedicated to empowering new travel agencies entering the Hajj and Umrah industry. We offer <strong>comprehensive training programs</strong> that cover every aspect of Hajj and Umrah travel, including operations, marketing, and customer service. Our expert guidance ensures you are well-prepared for IATA registration and securing a Hajj quota, setting you up for success from day one.</p>
+                                    </div>
+                                </div>
+                                <!-- card -->
+                                <div class="card card-2  ">
+                                    <div class="card-header witr_ac_card">
+                                        <a href="#" class="card-link witr_ac_style" data-bs-toggle="collapse" data-bs-target="#collapse_322c6d31" aria-expanded="true">
+                                            <!-- icon -->
+                                            <i class=""></i> How long does it take to start operating as a Hajj & Umrah franchisee? </a>
+                                    </div>
+                                    <div id="collapse_322c6d31" class="collapse ac_s_padding  " data-bs-parent="#accordion">
+                                        <p>With our support, becoming a Hajj & Umrah franchisee typically takes just a few months. We provide comprehensive guidance throughout the entire process, from registration to full operation, ensuring a smooth and efficient setup.</p>
+                                    </div>
+                                </div>
+                                <!-- card -->
+                                <div class="card card-2  ">
+                                    <div class="card-header witr_ac_card">
+                                        <a href="#" class="card-link witr_ac_style" data-bs-toggle="collapse" data-bs-target="#collapse_f3d04b61" aria-expanded="true">
+                                            <!-- icon -->
+                                            <i class=""></i> Do you provide marketing and sales support? </a>
+                                    </div>
+                                    <div id="collapse_f3d04b61" class="collapse ac_s_padding  " data-bs-parent="#accordion">
+                                        <p>Yes, we offer comprehensive marketing and sales support to all our franchisees. This includes digital marketing, branding, and lead generation strategies designed to help you effectively reach your target audience and grow your business. With Rahat Travels of India, you'll have all the tools you need to succeed in the Hajj and Umrah industry.</p>
+                                    </div>
+                                </div>
+                                <!-- card -->
+                                <div class="card card-2  ">
+                                    <div class="card-header witr_ac_card">
+                                        <a href="#" class="card-link witr_ac_style" data-bs-toggle="collapse" data-bs-target="#collapse_26a09fc1" aria-expanded="true">
+                                            <!-- icon -->
+                                            <i class=""></i> What is the booking process for clients?</a>
+                                    </div>
+                                    <div id="collapse_26a09fc1" class="collapse ac_s_padding  " data-bs-parent="#accordion">
+                                        <p>We provide a user-friendly online booking system that simplifies the reservation process, making it easy for clients to book their Hajj and Umrah packages. Additionally, we offer dedicated customer support to assist clients every step of the way, ensuring a smooth and hassle-free booking experience.</p>
+                                    </div>
+                                </div>
+                                <!-- card -->
+                                
+                                 <!-- card -->
+                                 <div class="card card-2  ">
+                                    <div class="card-header witr_ac_card">
+                                        <a href="#" class="card-link witr_ac_style" data-bs-toggle="collapse" data-bs-target="#collapse_26a09fc2" aria-expanded="true">
+                                            <!-- icon -->
+                                            <i class=""></i> How do you handle customer inquiries and complaints?</a>
+                                    </div>
+                                    <div id="collapse_26a09fc2" class="collapse ac_s_padding  " data-bs-parent="#accordion">
+                                        <p>We have a dedicated customer service team committed to addressing all inquiries and complaints promptly and effectively. Our team ensures that every client receives timely and professional assistance, enhancing their overall experience with Rahat Travels of India. We Provide 24*7 Customer Support.</p>
+                                    </div>
+                                </div>
+                                <!-- card -->
+                                 <!-- card -->
+                                 <div class="card card-2  ">
+                                    <div class="card-header witr_ac_card">
+                                        <a href="#" class="card-link witr_ac_style" data-bs-toggle="collapse" data-bs-target="#collapse_26a09fc3" aria-expanded="true">
+                                            <!-- icon -->
+                                            <i class=""></i> What is the expected return on investment?</a>
+                                    </div>
+                                    <div id="collapse_26a09fc3" class="collapse ac_s_padding  " data-bs-parent="#accordion">
+                                        <p>The return on investment (ROI) can vary depending on factors such as location, market conditions, and your business acumen. However, we will provide you with estimated projections to help you plan and understand the potential of your investment.</p>
+                                    </div>
+                                </div>
+                                <!-- card -->
+                                 <!-- card -->
+                                 <div class="card card-2  ">
+                                    <div class="card-header witr_ac_card">
+                                        <a href="#" class="card-link witr_ac_style" data-bs-toggle="collapse" data-bs-target="#collapse_26a09fc4" aria-expanded="true">
+                                            <!-- icon -->
+                                            <i class=""></i> Are there any restrictions on package pricing or offerings?</a>
+                                    </div>
+                                    <div id="collapse_26a09fc4" class="collapse ac_s_padding  " data-bs-parent="#accordion">
+                                        <p>We provide detailed guidelines for package pricing and offerings to ensure consistency and maintain high-quality standards across all services. This helps you deliver a reliable and exceptional experience to your clients.</p>
+                                    </div>
+                                </div>
+                                <!-- card -->
+                                <!-- card -->
+                                <div class="card card-2  ">
+                                    <div class="card-header witr_ac_card">
+                                        <a href="#" class="card-link witr_ac_style" data-bs-toggle="collapse" data-bs-target="#collapse_26a09fc5" aria-expanded="true">
+                                            <!-- icon -->
+                                            <i class=""></i> What is the support structure for franchisees?</a>
+                                    </div>
+                                    <div id="collapse_26a09fc5" class="collapse ac_s_padding  " data-bs-parent="#accordion">
+                                        <p>We offer ongoing support that includes continuous training, marketing assistance, and operational guidance to help you thrive in the Hajj and Umrah industry. Our support ensures that you stay updated with best practices and industry standards while effectively managing and growing your business.</p>
+                                    </div>
+                                </div>
+                                <!-- card -->
+                            </div>
+                        </div>
+                        <!-- faq part -->
+                    </div>
+
+                    <script type='text/javascript'>
+                        jQuery(function($) {
+                            $('#accordion .card').each(function() {
+                                var $this = $(this);
+                                $this.on('click', function(e) {
+                                    var has = $this.hasClass('active');
+                                    $('#accordion .card').removeClass('active show');
+                                    if (has) {
+                                        $this.removeClass('active show');
+                                    } else {
+                                        $this.addClass('active show');
+                                    }
+                                });
+                            });
+                        });
+                    </script>
+                </div>
+            </div>
+            <div class="elementor-element elementor-element-073f675 elementor-widget elementor-widget-witr_section_Shape" data-id="073f675" data-element_type="widget" data-widget_type="witr_section_Shape.default">
+                <div class="elementor-widget-container">
+
+                    <div class="witr_shape_item">
+                        <div class="witr_shape_item_inner">
+                            <div class="witr_shape_image " style="animation: witr_movelr_box45  5s  linear  1s  infinite  alternate  running;">
+                                <!-- image -->
+                                <img decoding="async" width="253" height="105" src="https://demo.themexbd.com/sk/tramo/wp-content/uploads/2024/09/body-01.png" class="attachment-large size-large wp-image-27309" alt="" />
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{{-- FAQ END--}}
 
       
 		    <div class="elementor-element elementor-element-b1a2b17 e-con-full e-flex e-con e-parent" data-id="b1a2b17" data-element_type="container">
