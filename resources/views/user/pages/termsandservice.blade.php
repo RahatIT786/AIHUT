@@ -204,3 +204,4 @@
     </div>
 </div>
 <!-- terms End -->
+@endsection
