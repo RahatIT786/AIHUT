@@ -451,6 +451,112 @@
 </div>
 <!--region-end-->
 
+
+{{-- monthly revenue start--}}
+<div class="elementor-element elementor-element-4fc85d4 e-flex e-con-boxed e-con e-parent" data-id="4fc85d4" data-element_type="container">
+    <div class="e-con-inner">
+<div class="elementor-element elementor-element-00f9a3a e-con-full e-flex e-con e-child" data-id="00f9a3a" data-element_type="container">
+<div class="elementor-element elementor-element-3ef1bb4 elementor-widget elementor-widget-tts" data-id="3ef1bb4" data-element_type="widget" data-widget_type="tts.default">
+<div class="elementor-widget-container">
+                <!-- title left -->
+    <div class="tts text-left">
+        <div class="ttin">
+        
+            <!-- icon position -->
+                
+            <!-- end icon position -->
+            
+            <!-- title top -->
+            
+
+            <!-- icon position -->
+                
+            <!-- end icon position -->
+
+            <!-- title middle -->
+                                            <h2 class="txbdstitle sttwo hlight">Generate Montly Revenue with <span> our Hajj & Umrah B2B Model..</span> ?</h2>
+                                        <!-- title bottom -->
+            
+                                        
+            <!-- image -->
+                                        <!-- icon -->
+                                        
+            <!-- bar -->
+                                        <!-- circle bar -->
+                                        
+                
+            
+            <!-- content -->
+            <div class="d-flex flex-wrap ">
+                <div class="text-center m-5">
+                    <span style="border: 2px solid #FE8D00; padding: 15px 20px; border-radius: 35px; font-size: xx-large;"><i class="fa-solid fa-chart-line"></i></span>
+                    <br> <br>
+                <h5>1.High Earning Potential</h5>
+                </div>
+                <div class="text-center m-5">
+                    <span style="border: 2px solid #FE8D00; padding: 15px 20px; border-radius: 35px; font-size: xx-large;"><i class="fa-brands fa-paypal"></i></span>
+                    <br> <br>
+                <h5>2.Cut and Pay Commission Structure</h5>
+                </div>
+                <div class="text-center m-5">
+                    <span style="border: 2px solid #FE8D00; padding: 15px 20px; border-radius: 35px; font-size: xx-large;"><i class="fa-solid fa-magnifying-glass"></i></span>
+                    <br> <br>
+                <h5>3.Research Support</h5>
+                </div>
+                <div class="text-center m-5">
+                    <span style="border: 2px solid #FE8D00; padding: 15px 20px; border-radius: 35px; font-size: xx-large;"><i class="fa-solid fa-rectangle-ad"></i></i></span>
+                    <br> <br>
+                <h5>4.Digital Marketing Support</h5>
+                </div>
+                <div class="text-center m-5">
+                    <span style="border: 2px solid #FE8D00; padding: 15px 20px; border-radius: 35px; font-size: xx-large;"><i class="fa-solid fa-book"></i></span>
+                    <br> <br>
+                <h5>5.Comprehensive Training</h5>
+                </div>
+                
+            </div>
+                
+        </div>
+            <!-- inner title -->
+                                    
+    </div>				
+        </div>
+</div>
+<div class="elementor-element elementor-element-9431847 e-con-full e-flex e-con e-child" data-id="9431847" data-element_type="container">
+<div class="elementor-element elementor-element-195e06b e-con-full e-flex e-con e-child" data-id="195e06b" data-element_type="container">
+<div class="elementor-element elementor-element-b540a2f elementor-widget elementor-widget-tts" data-id="b540a2f" data-element_type="widget" data-widget_type="tts.default">
+<div class="elementor-widget-container">
+                <!-- title left -->
+     <div class="txbdsbtn allcostyle">
+         {{-- <a class="btnallt btnall btnallactive " href="/contact.php">REGISTER AS A AGENCY</a> --}}
+     </div>			
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-b9b727e e-con-full e-flex e-con e-child" data-id="b9b727e" data-element_type="container">
+<div class="elementor-element elementor-element-899a03b elementor-widget elementor-widget-witrsimage" data-id="899a03b" data-element_type="widget" data-widget_type="witrsimage.default">
+<div class="elementor-widget-container">
+
+<div class="single_image_area">
+<div class="single_image single_line_option  ">
+<!-- image -->
+{{-- <img loading="lazy" decoding="async" width="351" height="302" src="https://demo.themexbd.com/sk/tramo/wp-content/uploads/2024/09/layer.png" class="attachment-large size-large wp-image-27468" alt="layer" />		 --}}
+                            </div>
+</div>
+
+
+
+
+</div>
+</div>
+</div>
+    </div>
+</div>
+
+{{-- monthly revenue end --}}
+
       
 		    <div class="elementor-element elementor-element-b1a2b17 e-con-full e-flex e-con e-parent" data-id="b1a2b17" data-element_type="container">
 		    <div class="elementor-element elementor-element-0bd7e23 e-con-full e-flex e-con e-child" data-id="0bd7e23" data-element_type="container" style="background-image: url({{asset('images/makkah.jpg')}});">
