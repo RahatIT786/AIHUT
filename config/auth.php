@@ -40,10 +40,16 @@ return [
             'driver' => 'session',
             'provider' => 'users',
         ],
+
          // Custom guard for partner
          'partner' => [
             'driver' => 'session',
             'provider' => 'partners',
+
+        'admins'=>[
+            'driver'=>'session',
+            'provider'=>'admins',
+
         ],
     ],
 
@@ -65,9 +71,9 @@ return [
     */
 
     'providers' => [
-        'users' => [
+        'admins' => [
             'driver' => 'eloquent',
-            'model' => env('AUTH_MODEL', App\Models\User::class),
+            'model'=>App\Models\SuperAdmin::class,
         ],
 
         // 'users' => [

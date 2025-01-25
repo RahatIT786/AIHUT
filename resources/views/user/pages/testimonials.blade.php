@@ -28,7 +28,7 @@
 								<!-- end icon position -->
 
 								<!-- title middle -->
-																<h2 class="txbdstitle sttwo hlight"><span>testimonials</span></h2>
+																<h2 class="txbdstitle sttwo hlight">Dear <span>RAHAT</span> Community,</h2>
 															<!-- title bottom -->
 								
 															
@@ -39,15 +39,20 @@
 															<!-- circle bar -->
 															
 									
-								
-								<!-- content -->
-																<p>At Rahat Group, we pride ourselves on the positive impact we've made on our agents, freelancers, and franchisees. Hear firsthand accounts of how our dedicated support, innovative solutions, and rewarding opportunities have helped them grow and succeed in the travel industry. Whether you're an agent building relationships, a freelancer exploring new career paths, or a franchisee expanding your business, our testimonials highlight the success stories that inspire others to join our journey.</p>
+                                                                <p>At Rahat Group, we pride ourselves on the positive impact we've made on our agents, freelancers, and franchisees. Hear firsthand accounts of how our dedicated support, innovative solutions, and rewarding opportunities have helped them grow and succeed in the travel industry. Whether you're an agent building relationships, a freelancer exploring new career paths, or a franchisee expanding your business, our testimonials highlight the success stories that inspire others to join our journey.</p>
+								<!-- content -->                <p>I am delighted to address you today as we reflect on our journey and look ahead to the promising future that lies before us. Over the years, our team's dedication and hard work have propelled us to new heights, and I am immensely proud of what we have achieved together.</p>
+                                                                <p>Our commitment to excellence remains unwavering. In an ever-evolving landscape, we continue to adapt, innovate, and exceed expectations. Our success is a testament to the collective efforts of each team member, and I want to express my gratitude for your passion and perseverance.</p>
+                                                                <p>As we set sail into the future, our vision remains clear: to be at the forefront of Travel Industry and in Particular the Hajj & Umrah Industry , delivering unparalleled value to our clients and stakeholders. We will leverage emerging technologies, foster a culture of continuous learning, and uphold the highest standards of integrity.</p>
+                                                                <p>I am excited about the opportunities that lie ahead. The challenges we face are opportunities for growth, and I am confident that, together, we will overcome them. Our commitment to sustainability, diversity, and social responsibility will remain integral to our identity, reflecting our values as an organization.</p>
+                                                                <p>In conclusion, I invite each one of you to embrace the journey ahead with enthusiasm and determination. Let us continue to innovate, collaborate, and strive for excellence in everything we do. Together, we will shape a future that reflects the extraordinary potential within our organization.</p>
+                                                                <p>Thank you for your hard work, dedication, and unwavering support.</p>
+																
                                                                 <div class="txbdsbtn allcostyle">
                                                         <!--- button 1 --->
 
-                                                        <a class="btnallt btnall " style="background-color: #002B4B !important;color:white !important" href="https://rahatgroup.in/customer/directors-speak">DIRECTORS SPEAK</a>
+                                                        <!-- <a class="btnallt btnall " style="background-color: #002B4B !important;color:white !important" href="https://rahatgroup.in/customer/directors-speak">DIRECTORS SPEAK</a>
 
-                                                        <a class="btnallt btnall btnallactive " href="https://rahatgroup.in/customer/agent-speak">AGENTS SPEAK</a>
+                                                        <a class="btnallt btnall btnallactive " href="https://rahatgroup.in/customer/agent-speak">AGENTS SPEAK</a> -->
 
                                                     </div>		
 									
@@ -136,14 +141,14 @@
                                     <div class="col-lg-12">
                                         <div class="txbdsva allcostyle boxsh text-center  ">
                                             <div class="thbdsvthumb">
-                                                <p align="center" style="font-weight: bold"><iframe width="560" height="315" src="https://www.youtube.com/embed/D5hPm6YOXNs?si=8Pf4BJVImoUHi2EY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+                                                <p align="center" style="font-weight: bold"><iframe width="560" height="315" src="https://www.youtube.com/embed/dra9bPw1oAc?si=LcIh3tjTqd04EYxj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
                                                 </div>
                                             <div class="txbdsi boxtexrelative  iconsabsconpd sselect">
                                                 <!-- overlay icon -->
                                                 <!-- image icon -->
                                                 <div class="txbdcon">
                                                     <!-- title -->
-                                                    <h2 class="txbdsvtitle txstcolor hlight"> RATNAGRI</h2>
+                                                    <h2 class="txbdsvtitle txstcolor hlight"> Mumbai</h2>
                                                     
                                                     <!-- button -->
                                                     <div class="txbdsvbtn txbdbtnicon">
@@ -158,14 +163,14 @@
                                     <div class="col-lg-12">
                                         <div class="txbdsva allcostyle boxsh text-center  ">
                                             <div class="thbdsvthumb">
-                                            <p align="center" style="font-weight: bold"><iframe width="560" height="315" src="https://www.youtube.com/embed/V5lULHzkVgI?si=iXjbbjDUeLH5xphe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p> </div>
+                                            <p align="center" style="font-weight: bold"><iframe width="560" height="315" src="https://www.youtube.com/embed/LSHlFm34d6s?si=x_oqQi8KIng64dsg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p> </div>
                                             <div class="txbdsi boxtexrelative  iconsabsconpd sselect">
                                                 <!-- overlay icon -->
                                                 <!-- image icon -->
                                                 <div class="txbdcon">
                                                     <!-- title -->
 
-                                                    <h2 class="txbdsvtitle txstcolor hlight">DELHI</h2>
+                                                    <h2 class="txbdsvtitle txstcolor hlight">LUCKNOW</h2>
                                                     
                                                     <!-- button -->
                                                     <div class="txbdsvbtn txbdbtnicon">
@@ -180,14 +185,14 @@
                                     <div class="col-lg-12">
                                         <div class="txbdsva allcostyle boxsh text-center  ">
                                             <div class="thbdsvthumb">
-                                            <p align="center" style="font-weight: bold"><iframe width="560" height="315" src="https://www.youtube.com/embed/D8QKXg-srMI?si=0_logzn7fz5iimqS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>  </div>
+                                            <p align="center" style="font-weight: bold"><iframe width="560" height="315" src="https://www.youtube.com/embed/5R_Td6uorG4?si=lf1kAUrFcs_QIFP1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>  </div>
                                             <div class="txbdsi boxtexrelative  iconsabsconpd sselect">
                                                 <!-- overlay icon -->
                                                 <!-- image icon -->
                                                 <div class="txbdcon">
                                                     <!-- title -->
 
-                                                    <h2 class="txbdsvtitle txstcolor hlight">Laddak</h2>
+                                                    <h2 class="txbdsvtitle txstcolor hlight">Maharashtra</h2>
 
 
                                                     <!-- button -->
@@ -203,14 +208,14 @@
                                     <div class="col-lg-12">
                                         <div class="txbdsva allcostyle boxsh text-center  ">
                                             <div class="thbdsvthumb">
-                                            <p align="center" style="font-weight: bold"><iframe width="560" height="315" src="https://www.youtube.com/embed/vbREORgANBE?si=d623-gkS6JjQE9-J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p> </div>
+                                            <p align="center" style="font-weight: bold"><iframe width="560" height="315" src="https://www.youtube.com/embed/rUOumC9GyUw?si=WRBz8PyUtA8-9IgB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p> </div>
                                             <div class="txbdsi boxtexrelative  iconsabsconpd sselect">
                                                 <!-- overlay icon -->
                                                 <!-- image icon -->
                                                 <div class="txbdcon">
                                                     <!-- title -->
 
-                                                    <h2 class="txbdsvtitle txstcolor hlight">VARANASI</h2>
+                                                    <h2 class="txbdsvtitle txstcolor hlight">dELHI</h2>
 
                                                     <!-- button -->
                                                     <div class="txbdsvbtn txbdbtnicon">
@@ -225,14 +230,14 @@
                                     <div class="col-lg-12">
                                         <div class="txbdsva allcostyle boxsh text-center  ">
                                             <div class="thbdsvthumb">
-                                            <p align="center" style="font-weight: bold"><iframe width="560" height="315" src="https://www.youtube.com/embed/dmgmIMQPH0o?si=YmQHRwSLgToJC3a-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p> </div>
+                                            <p align="center" style="font-weight: bold"><iframe width="560" height="315" src="https://www.youtube.com/embed/2Q-izB3jpvw?si=45QUvmOplc_aAUgV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p> </div>
                                             <div class="txbdsi boxtexrelative  iconsabsconpd sselect">
                                                 <!-- overlay icon -->
                                                 <!-- image icon -->
                                                 <div class="txbdcon">
                                                     <!-- title -->
 
-                                                    <h2 class="txbdsvtitle txstcolor hlight">PUNE</h2>
+                                                    <h2 class="txbdsvtitle txstcolor hlight">Navi</h2>
                                                     
 
                                                     <!-- button -->
