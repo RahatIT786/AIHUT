@@ -18,3 +18,8 @@ Route::get('/user/privacy_policy',function(){return view('user.pages.privacypoli
 
 Route::get('/user/conditions',function(){return view('user.pages.termsandservice');})->name('condition');
 
+Route::get('/admin-dashboard', function () {return view('admin.pages.dashboard');})->name('dashboard');
+Route::get('/admin/user_enquiry',function(){return view('admin.pages.user_enquiry');});
+Route::get('/admin/franchise',function(){return view('admin.pages.franchise');})->name('admin.franchise');
+Route::get('/admin/freelancer',function(){return view('admin.pages.freelancer');})->name('admin.freelancer');
+Route::get('/admin/agent',function(){return view('admin.pages.agency');})->name('admin.agency');
