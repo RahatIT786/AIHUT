@@ -17,7 +17,7 @@ class PartnerAuthendicaton
     public function handle(Request $request, Closure $next): Response
     {
         if(!Auth::guard('partner')->check()){
-            return redirect()->route('home')
+            return redirect()->route('home');
         }
         return $next($request);
     }
