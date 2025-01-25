@@ -45,6 +45,7 @@ return [
          'partner' => [
             'driver' => 'session',
             'provider' => 'partners',
+            ],
 
         'admins'=>[
             'driver'=>'session',
