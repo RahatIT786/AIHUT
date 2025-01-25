@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\MailController;
 use Illuminate\Support\Facades\Route;
 
 // Route::get('/', function () {
@@ -18,3 +19,7 @@ Route::get('/user/privacy_policy',function(){return view('user.pages.privacypoli
 
 Route::get('/user/conditions',function(){return view('user.pages.termsandservice');})->name('condition');
 
+
+
+//EMAIL SENDING ROUTES
+Route::get('/email/travelpartner',[MailController::class,'sendTravelPartnerMail']);
