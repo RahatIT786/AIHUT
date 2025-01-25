@@ -60,19 +60,31 @@
                                                     <div id="successMessage" class="success-message">
     Your form has been submitted successfully!
     </div >
+    @if (session('success'))
+    <div class="alert alert-success">
+        {{ session('success') }}
+    </div>
+@endif
+
+@if (session('error'))
+    <div class="alert alert-danger">
+        {{ session('error') }}
+    </div>
+@endif
     <h2>Travel Partner Login</h2>
     <form >
+        @csrf
         <!-- <label for="company_name">Company Name:</label> -->
         <input type="text" id="company_name" name="company_name" placeholder="example@gmail.com"  required>
     
        <input type="password" name="password" placeholder="password" >
-   <a href="for" class="text-end ">forget password?</a>
+   <a href="for" class="text-end " onmouseover="this.style.color='black';">forget password?</a>
    <br>
 
         <button >Submit</button>
         <br>
         <div style="color: white; cursor: pointer; " class="text-center ">
-          <span onclick="partnerRegister()" style="font-size: larger;"><i class="fa-solid fa-user-tie"></i>&nbsp; Register New Partner </span>  
+          <span onclick="partnRegister()" style="font-size: larger;">  <a href="{{route('agent.regiform')}}" onmouseover="this.style.color='black';"><i class="fa-solid fa-user-tie"></i>&nbsp; Register New Partner</a>   </span>  
         </div>
     </form>
     </div>
@@ -83,29 +95,58 @@
                                                 <div id="successMessage" class="success-message">
 Your form has been submitted successfully!
 </div >
+{{-- @if (session('success'))
+    <div class="alert alert-success">
+        {{ session('success') }}
+    </div>
+@endif
+
+@if (session('error'))
+    <div class="alert alert-danger">
+        {{ session('error') }}
+    </div>
+@endif --}}
 <h2>Join Us as a Travel Partner</h2>
-<form >
+<form method="post" action="{{route('agent.register')}}" >
+    @csrf
     <!-- <label for="company_name">Company Name:</label> -->
     <input type="text" id="company_name" name="company_name" placeholder="Enter company name" required>
+    @error('company_name')
+    <div class="text-danger">{{ $message }}</div>
+    @enderror
 
     <!-- <label for="owner_name">Owner Name:</label> -->
     <input type="text" id="owner_name" name="owner_name" placeholder="Enter owner name" required>
+    @error('owner_name')
+    <div class="text-danger">{{ $message }}</div>
+    @enderror
 
     <!-- <label for="mobile">Mobile:</label> -->
     <input type="tel" id="mobile" name="mobile" placeholder="Enter mobile number" pattern="[0-9]{10}" title="Enter a valid 10-digit mobile number" required>
+    @error('mobile')
+    <div class="text-danger">{{ $message }}</div>
+@enderror
 
     <!-- <label for="city">City:</label> -->
     <input type="text" id="city" name="city" placeholder="Enter city" required>
-
+    @error('city')
+    <div class="text-danger">{{ $message }}</div>
+@enderror
     <!-- <label for="state">State:</label> -->
     <input type="text" id="state" name="state" placeholder="Enter state" required>
-
+    @error('state')
+    <div class="text-danger">{{ $message }}</div>
+@enderror
     <!-- <label for="country">Country:</label> -->
     <input type="text" id="country" name="country" placeholder="Enter country" required>
-
+    @error('country')
+    <div class="text-danger">{{ $message }}</div>
+@enderror
     <!-- <label for="email">Email:</label> -->
     <input type="email" id="email" name="email" placeholder="Enter email address" required>
-
+    @error('email')
+    <div class="text-danger">{{ $message }}</div>
+@enderror
     <!-- <label for="partnership_type">Partnership Type:</label> -->
     <select id="partnership_type" name="partnership_type" required>
         <option value="">-- Select Partnership Type --</option>
@@ -113,7 +154,14 @@ Your form has been submitted successfully!
         <option value="agency">Agency</option>
         <option value="franchisee">Franchisee</option>
     </select>
+    @error('partership_type')
+    <div class="text-danger">{{ $message }}</div>
+@enderror
 
+    <input type="password" name="password" placeholder="password" required>
+    @error('owner_name')
+    <div class="text-danger">{{ $message }}</div>
+@enderror
     <!-- <label for="comments">Comments:</label> -->
     {{-- <textarea id="comments" name="comments" rows="4" placeholder="Enter any additional comments"></textarea> --}}
 

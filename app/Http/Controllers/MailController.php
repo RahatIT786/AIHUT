@@ -10,6 +10,11 @@ class MailController extends Controller
 {
    
 
+    public function sendTravelPartnerRegistrationMail($data){
+
+
+    }
+
     public function sendTravelPartnerMail(Request $request){
 
         $request->validate([

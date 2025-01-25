@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Agent\ParterAuthController;
 use App\Http\Controllers\MailController;
 use Illuminate\Support\Facades\Route;
 
@@ -26,8 +27,16 @@ Route::get('/admin/franchise',function(){return view('admin.pages.franchise');})
 Route::get('/admin/freelancer',function(){return view('admin.pages.freelancer');})->name('admin.freelancer');
 Route::get('/admin/agent',function(){return view('admin.pages.agency');})->name('admin.agency');
 
-
+//AGENT LOGIN
+Route::post('/agent/register',[ParterAuthController::class,'partnerRegistration'])->name('agent.register');
+Route::post('/agent/registerer',[ParterAuthController::class,'partnerRegistration'])->name('agent.registerer');
+Route::get('/agent/form',function(){return view('user.pages.registerform');})->name('agent.regiform');
 
 //EMAIL SENDING ROUTES
 Route::get('/email/travelpartner',[MailController::class,'sendTravelPartnerMail']);
+
+
+
+//FALL BACK URLS
+Route::fallback(function(){return view('errors.general');});
 

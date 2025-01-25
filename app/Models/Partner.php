@@ -13,9 +13,22 @@ class Partner extends Model
         'city',
         'state',
         'country',
-        'mail',
+        'email',
         'partership_type',
         'email_verified_at',
         'user_status',
+        'password',
+        'pincode',
+        'hear_about',
+        'document_type',
+        'document_path',
+        'address',
+
+    ];
+
+    protected $hidden=['password','remember_token'];
+
+    protected $casts=[
+        'email_verified_at'=>'datetime'
     ];
 }
