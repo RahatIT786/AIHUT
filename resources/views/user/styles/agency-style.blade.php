@@ -14,5 +14,19 @@
             justify-content: center;
             align-items: center;
         }
+
+        {{-- #agent-get-tick{
+            border: 1px solid black;
+            img{
+                width: 10vw;
+            }
+           
+            div{
+               
+            }
+        }
+        #fdjljf{
+            width: fit-content;
+        } --}}
     }
 </style>

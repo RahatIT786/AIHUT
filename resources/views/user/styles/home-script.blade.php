@@ -239,3 +239,20 @@ if (urlParams.has('success')) {
     window.history.replaceState({}, document.title, newUrl);
 }
 </script>
+
+
+<script>
+
+    login =document.getElementById('travel-partner-login');
+    register =document.getElementById('travel-partner-register').style.display='none';
+
+    function partnerRegister(){
+        login =document.getElementById('travel-partner-login').style.display='none';
+        register =document.getElementById('travel-partner-register').style.display='block';
+    }
+    function partnerLogin(){
+        login =document.getElementById('travel-partner-login').style.display='block';
+        register =document.getElementById('travel-partner-register').style.display='none';
+
+    }
+</script>
