@@ -25,7 +25,7 @@
                                             <div id="form-container" class="txbdsinner sliderheightdiv allleft">
                                                 <div class="txbdscontent">
                                                     <!-- title 2 -->
-                                                    <h1 class="txbdstitle swsmall swtone hlight">Earn High Commissions</h1>
+                                                    <!-- <h1 class="txbdstitle swsmall swtone hlight">Earn High Commissions</h1> -->
                                                     <!-- title 3 -->
                                                     <h2 class="txbdstitle swttwo hlight">START Your <span><br> Hajj & Umrah Business</span></h2>
 
@@ -56,7 +56,7 @@
 
                                                 </div>
                                                 {{-- login form start --}}
-                                                <div id="travel-partner-login" class="form-container" style="display: ;">
+                                                <div id="travel-partner-login" class="form-container">
                                                     <div id="successMessage" class="success-message">
     Your form has been submitted successfully!
     </div >

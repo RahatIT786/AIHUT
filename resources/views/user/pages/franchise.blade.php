@@ -911,14 +911,14 @@
                                     <div class="col-lg-12">
                                         <div class="txbdsva allcostyle boxsh text-center  ">
                                             <div class="thbdsvthumb">
-                                            <p align="center" style="font-weight: bold"><iframe width="560" height="315" src="https://www.youtube.com/embed/V5lULHzkVgI?si=iXjbbjDUeLH5xphe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p> </div>
+                                            <p align="center" style="font-weight: bold"><iframe width="560" height="315" src="https://www.youtube.com/embed/doWnZ0l3VyY?si=mOx0c2wTKU75KrKU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p> </div>
                                             <div class="txbdsi boxtexrelative  iconsabsconpd sselect">
                                                 <!-- overlay icon -->
                                                 <!-- image icon -->
                                                 <div class="txbdcon">
                                                     <!-- title -->
 
-                                                    <h2 class="txbdsvtitle txstcolor hlight">DELHI</h2>
+                                                    <h2 class="txbdsvtitle txstcolor hlight">rajasthan</h2>
                                                     
                                                     <!-- button -->
                                                     <div class="txbdsvbtn txbdbtnicon">
@@ -933,14 +933,14 @@
                                     <div class="col-lg-12">
                                         <div class="txbdsva allcostyle boxsh text-center  ">
                                             <div class="thbdsvthumb">
-                                            <p align="center" style="font-weight: bold"><iframe width="560" height="315" src="https://www.youtube.com/embed/D8QKXg-srMI?si=0_logzn7fz5iimqS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>  </div>
+                                            <p align="center" style="font-weight: bold"><iframe width="560" height="315" src="https://www.youtube.com/embed/F_lLyO8xIe8?si=nYLeDx_J2qJwuZ_N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>  </div>
                                             <div class="txbdsi boxtexrelative  iconsabsconpd sselect">
                                                 <!-- overlay icon -->
                                                 <!-- image icon -->
                                                 <div class="txbdcon">
                                                     <!-- title -->
 
-                                                    <h2 class="txbdsvtitle txstcolor hlight">Laddak</h2>
+                                                    <h2 class="txbdsvtitle txstcolor hlight">Bhopal</h2>
 
 
                                                     <!-- button -->
@@ -956,14 +956,14 @@
                                     <div class="col-lg-12">
                                         <div class="txbdsva allcostyle boxsh text-center  ">
                                             <div class="thbdsvthumb">
-                                            <p align="center" style="font-weight: bold"><iframe width="560" height="315" src="https://www.youtube.com/embed/vbREORgANBE?si=d623-gkS6JjQE9-J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p> </div>
+                                            <p align="center" style="font-weight: bold"><iframe width="560" height="315" src="https://www.youtube.com/embed/-qXgqVR2leA?si=9BTKeeUu0K1158EG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p> </div>
                                             <div class="txbdsi boxtexrelative  iconsabsconpd sselect">
                                                 <!-- overlay icon -->
                                                 <!-- image icon -->
                                                 <div class="txbdcon">
                                                     <!-- title -->
 
-                                                    <h2 class="txbdsvtitle txstcolor hlight">VARANASI</h2>
+                                                    <h2 class="txbdsvtitle txstcolor hlight">HYDERABAD</h2>
 
                                                     <!-- button -->
                                                     <div class="txbdsvbtn txbdbtnicon">
@@ -978,14 +978,14 @@
                                     <div class="col-lg-12">
                                         <div class="txbdsva allcostyle boxsh text-center  ">
                                             <div class="thbdsvthumb">
-                                            <p align="center" style="font-weight: bold"><iframe width="560" height="315" src="https://www.youtube.com/embed/dmgmIMQPH0o?si=YmQHRwSLgToJC3a-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p> </div>
+                                            <p align="center" style="font-weight: bold"><iframe width="560" height="315" src="https://www.youtube.com/embed/Qmfni5R1qVE?si=VyKf36nCvRKS1Xit" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p> </div>
                                             <div class="txbdsi boxtexrelative  iconsabsconpd sselect">
                                                 <!-- overlay icon -->
                                                 <!-- image icon -->
                                                 <div class="txbdcon">
                                                     <!-- title -->
 
-                                                    <h2 class="txbdsvtitle txstcolor hlight">PUNE</h2>
+                                                    <h2 class="txbdsvtitle txstcolor hlight">MUMBAI</h2>
                                                     
 
                                                     <!-- button -->
