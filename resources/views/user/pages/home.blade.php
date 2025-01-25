@@ -55,11 +55,34 @@
 
 
                                                 </div>
+                                                {{-- login form start --}}
+                                                <div id="travel-partner-login" class="form-container" style="display: ;">
+                                                    <div id="successMessage" class="success-message">
+    Your form has been submitted successfully!
+    </div >
+    <h2>Travel Partner Login</h2>
+    <form >
+        <!-- <label for="company_name">Company Name:</label> -->
+        <input type="text" id="company_name" name="company_name" placeholder="example@gmail.com"  required>
+    
+       <input type="password" name="password" placeholder="password" >
+   <a href="for" class="text-end ">forget password?</a>
+   <br>
 
-                                                <div class="form-container">
+        <button >Submit</button>
+        <br>
+        <div style="color: white; cursor: pointer; " class="text-center ">
+          <span onclick="partnerRegister()" style="font-size: larger;"><i class="fa-solid fa-user-tie"></i>&nbsp; Register New Partner </span>  
+        </div>
+    </form>
+    </div>
+    
+                                                {{-- login form end --}}
+
+                                                <div id="travel-partner-register" class="form-container" style="display:none ;">
                                                 <div id="successMessage" class="success-message">
 Your form has been submitted successfully!
-</div>
+</div >
 <h2>Join Us as a Travel Partner</h2>
 <form >
     <!-- <label for="company_name">Company Name:</label> -->
@@ -92,9 +115,14 @@ Your form has been submitted successfully!
     </select>
 
     <!-- <label for="comments">Comments:</label> -->
-    <textarea id="comments" name="comments" rows="4" placeholder="Enter any additional comments"></textarea>
+    {{-- <textarea id="comments" name="comments" rows="4" placeholder="Enter any additional comments"></textarea> --}}
 
     <button >Submit</button>
+    <br>
+
+    <div class="text-center" style="color: white; cursor: pointer;">
+      <span onclick="partnerLogin()"><i class="fa-solid fa-right-to-bracket"></i> &nbsp; Partner Login</span>  
+    </div>
 </form>
 </div>
 

@@ -69,7 +69,7 @@
 			<div class="single_image_area">
 				<div class="single_image single_line_option  ">
 					<!-- image -->
-					<img loading="lazy" decoding="async" style="border-radius: 5px;" width="351" height="302" src="{{asset('images/Umrah-Franchisee.jpg')}}" class="attachment-large size-large wp-image-27468" alt="layer" />		
+					{{-- <img loading="lazy" decoding="async" style="border-radius: 5px;" width="351" height="302" src="{{asset('images/Umrah-Franchisee.jpg')}}" class="attachment-large size-large wp-image-27468" alt="layer" />		 --}}
 												</div>
 			</div>
 				
@@ -356,7 +356,7 @@
 			<div class="single_image_area">
 				<div class="single_image single_line_option  ">
 					<!-- image -->
-					<img loading="lazy" decoding="async" width="351" height="302" src="{{asset('images/Umrah_Image_1.png')}}" class="attachment-large size-large wp-image-27468" alt="layer" />		
+					<img loading="lazy" decoding="async" width="351" height="302" src="{{asset('images/qaba.png')}}" class="attachment-large size-large wp-image-27468" alt="layer" />		
 												</div>
 			</div>
 				

@@ -415,8 +415,8 @@
                 </div>
             </div>
             {{--  --}}
-            <div>
-               <div class="d-flex"> <span><img src="{{asset('images/Right_Check.png')}}" alt="tick" style="height: 25px;"></span> &nbsp;&nbsp;&nbsp; <p> 50 Bags Printed under your name.</p> </div>
+            <div id="">
+               <div id="agent-get-tick" class="d-flex"> <span><img src="{{asset('images/Right_Check.png')}}" alt="tick" style="height: 25px; width: auto;"></span> <span id="fdjljf"> 50 Bags Printed under your name.</span> </div>
                <div class="d-flex"> <span><img src="{{asset('images/Right_Check.png')}}" alt="tick" style="height: 25px;"></span> &nbsp;&nbsp;&nbsp; <p> 100 Multilanguage Umrah Books printed under your Name.</p> </div>
                <div class="d-flex"> <span><img src="{{asset('images/Right_Check.png')}}" alt="tick" style="height: 25px;"></span> &nbsp;&nbsp;&nbsp; <p> 100 Durood Books printed under your name.</p> </div>
                <div class="d-flex"> <span><img src="{{asset('images/Right_Check.png')}}" alt="tick" style="height: 25px;"></span> &nbsp;&nbsp;&nbsp; <p>Banner, Plug Card, Standees all Printed under your name.</p> </div>
