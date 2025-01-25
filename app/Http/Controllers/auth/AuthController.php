@@ -12,25 +12,30 @@ class AuthController extends Controller{
     public function adminLoginForm(){
         return view("admin.auth.admin-login");
     }
-    public function login(Request $request){
-        $credentials = $request->validate([
-            'email'=>['required','email'],
-            'password'=>['required'],
-        ]);
+    public function login(Request $request)
+{
 
-        $password = trim($request->password);
-        $user=SuperAdmin::where('email',$request->email)->first();
-        $remember=$request->has('remember');
+    $testemail = 'info@rahat.in';
+    $testpassword = 'info@rahat.in';
+    $credentials = $request->validate([
+        'email' => ['required', 'email'],
+        'password' => ['required'],
+    ]);
 
-        if(Auth::guard('admins')->attempt($credentials,$remember)){
-            $request->session()->regenerate();
-            return redirect()->route('admin.dashboard');
-        }
+    $password = trim($request->password);
+    $user = SuperAdmin::where('email', $request->email)->first();
+    $remember = $request->has('remember');
 
-        return back()->withErrors([
-            'email'=> 'The provided credentials do not match',
-        ]);
+    if (Auth::guard('admins')->attempt($credentials, $remember)) {
+        $request->session()->regenerate();
+        return redirect()->route('admin.dashboard');
     }
+
+    return back()->withErrors([
+        'email' => 'The provided credentials do not match.',
+    ]);
+}
+
     public function logout(Request $request){
         Auth::guard('admins')->logout();
 
