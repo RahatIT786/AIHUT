@@ -16,23 +16,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
     <!-- Theme Style -->
-    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
-    <link rel="stylesheet" type="text/css" href="css/animation.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-select.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="{{asset('admin/css/animate.min.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('admin/css/animation.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('admin/css/bootstrap.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('admin/css/bootstrap-select.min.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('admin/css/style.css')}}">
 
 
 
     <!-- Font -->
-    <link rel="stylesheet" href="font/fonts.css">
+    <link rel="stylesheet" href="{{asset('admin/font/fonts.css')}}">
 
     <!-- Icon -->
-    <link rel="stylesheet" href="icon/style.css">
+    <link rel="stylesheet" href="{{asset('admin/icon/style.css')}}">
 
     <!-- Favicon and Touch Icons  -->
-    <link rel="shortcut icon" href="images/favicon.png">
-    <link rel="apple-touch-icon-precomposed" href="images/favicon.png">
+    <link rel="shortcut icon" href="{{asset('admin/images/favicon.png')}}">
+    <link rel="apple-touch-icon-precomposed" href="{{asset('admin/images/favicon.png')}}">
 
 </head>
 
@@ -52,7 +52,8 @@
                             <h3>Login to account</h3>
                             <div class="body-text">Enter your email & password to login</div>
                         </div>
-                        <form class="form-login flex flex-column gap24">
+                        <form method="POST" action="" class="form-login flex flex-column gap24">
+                            @csrf
                             <fieldset class="email">
                                 <div class="body-title mb-10">Email address <span class="tf-color-1">*</span></div>
                                 <input class="flex-grow" type="email" placeholder="Enter your email address" name="email" tabindex="0" value="" aria-required="true" required="">
@@ -72,7 +73,7 @@
                                 </div>
                                 <a href="#" class="body-text tf-color">Forgot password?</a>
                             </div>
-                            <a href="index.html" class="tf-button w-full">Login</a>
+                            <button  type="submit" class="tf-button w-full">Login</button>
                         </form>
                         <div>
                             <div class="text-tiny mb-16 text-center">Or continue with social account</div>
@@ -125,11 +126,10 @@
     <!-- /#wrapper -->
 
     <!-- Javascript -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/bootstrap-select.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="{{asset('admin/js/jquery.min.js')}}"></script>
+    <script src="{{asset('admin/js/bootstrap.min.js')}}"></script>
+    <script src="{{asset('admin/js/bootstrap-select.min.js')}}"></script>
+    <script src="{{asset('admin/js/main.js')}}"></script>
 
 </body>
-
 </html>

@@ -13,7 +13,7 @@
                                 <div class="center-heading">Main Home</div>
                                 <ul class="menu-list">
                                     <li class="menu-item  active">
-                                        <a href="{{route('dashboard')}}" class="menu-item-button">
+                                        <a href="{{route('admin.dashboard')}}" class="menu-item-button">
                                             <div class="icon"><i class="icon-grid"></i></div>
                                             <div class="text">Dashboard</div>
                                         </a>
