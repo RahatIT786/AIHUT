@@ -89,7 +89,7 @@
         </div>
            <!-- <label for="company_name">Company Name:</label> -->
        
-   <a href="for" class="text-end " onmouseover="this.style.color='black';">Forgot Password?</a>
+   <a  class="text-end " onmouseover="this.style.color='black';">Forgot Password?</a>
 
    <br>
   
