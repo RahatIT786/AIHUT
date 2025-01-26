@@ -639,8 +639,9 @@
 <style>
      .form-container {
             max-width: 400px;
+
             
-            width: 400px;
+            width: 700px;
             margin: 50px auto;
             background: #fff;
             padding: 20px 30px;
