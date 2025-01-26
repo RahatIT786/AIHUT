@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Agent\ParterAuthController;
 use App\Http\Controllers\MailController;
 use App\Http\Controllers\auth\AuthController;
 use App\Models\SuperAdmin;
@@ -46,7 +47,19 @@ Route::get('/addAdmin',function(){
 });
 
 
-
+//AGENT LOGIN
+Route::post('/agent/register',[ParterAuthController::class,'partnerRegistration'])->name('agent.register');
+Route::post('/agent/registerer',[ParterAuthController::class,'partnerRegistration'])->name('agent.registerer');
+Route::get('/agent/form',function(){return view('user.pages.registerform');})->name('agent.regiform');
 
 //EMAIL SENDING ROUTES
 Route::get('/email/travelpartner',[MailController::class,'sendTravelPartnerMail']);
+
+
+
+
+//FALL BACK URLS
+Route::fallback(function(){return view('errors.general');});
+
+
+

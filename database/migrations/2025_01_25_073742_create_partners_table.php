@@ -15,6 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('owner_name');
             $table->string('company_name');
+            $table->string('password');
             
             $table->string('mobile')->unique();
             $table->string('city');
@@ -22,7 +23,15 @@ return new class extends Migration
             $table->string('country');
             $table->string('email')->unique();
             $table->string('partership_type');
+            $table->string('pincode');
+            $table->string('hear_about');
+            $table->string('document_type');
+            $table->string('document_path');
+            $table->longText('address');
+
+
             $table->timestamp('email_verified_at')->nullable();
+            $table->string('remember_token')->nullable();
             $table->integer('user_status')->default(1);
 
             $table->timestamps();

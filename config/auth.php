@@ -40,9 +40,17 @@ return [
             'driver' => 'session',
             'provider' => 'users',
         ],
+
+         // Custom guard for partner
+         'partner' => [
+            'driver' => 'session',
+            'provider' => 'partners',
+            ],
+
         'admins'=>[
             'driver'=>'session',
             'provider'=>'admins',
+
         ],
     ],
 
@@ -73,6 +81,11 @@ return [
         //     'driver' => 'database',
         //     'table' => 'users',
         // ],
+         // Partner provider
+         'partners' => [
+            'driver' => 'eloquent',
+            'model' => App\Models\Partner::class,  // Partner model
+        ],
     ],
 
     /*
