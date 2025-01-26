@@ -66,7 +66,7 @@
         <input type="text" id="company_name" name="company_name" placeholder="example@gmail.com"  required>
     
        <input type="password" name="password" placeholder="password" >
-   <a href="for" class="text-end ">forget password?</a>
+   <a href="for" class="text-end ">Forgot password?</a>
    <br>
 
         <button >Submit</button>
