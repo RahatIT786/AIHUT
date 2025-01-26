@@ -19,13 +19,16 @@ Route::get('/user/testimonials',function(){return view('user.pages.testimonials'
 Route::get('/user/privacy_policy',function(){return view('user.pages.privacypolicy');})->name('privacypolicy');
 
 Route::get('/user/conditions',function(){return view('user.pages.termsandservice');})->name('condition');
+Route::get('/user/directorspeak',function(){return view('user.pages.directorspeak');})->name('directorspeak');
 
 
+//ADMIN URLS
 Route::get('/admin-dashboard', function () {return view('admin.pages.dashboard');})->name('dashboard');
 Route::get('/admin/user_enquiry',function(){return view('admin.pages.user_enquiry');});
 Route::get('/admin/franchise',function(){return view('admin.pages.franchise');})->name('admin.franchise');
 Route::get('/admin/freelancer',function(){return view('admin.pages.freelancer');})->name('admin.freelancer');
 Route::get('/admin/agent',function(){return view('admin.pages.agency');})->name('admin.agency');
+
 
 //AGENT LOGIN
 Route::post('/agent/register',[ParterAuthController::class,'partnerRegistration'])->name('agent.register');

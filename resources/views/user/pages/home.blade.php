@@ -71,23 +71,56 @@
         {{ session('error') }}
     </div>
 @endif
-    <h2>Travel Partner Login</h2>
+    <h2>Login to you account</h2>
     <form >
         @csrf
-        <!-- <label for="company_name">Company Name:</label> -->
-        <input type="text" id="company_name" name="company_name" placeholder="example@gmail.com"  required>
-    
-       <input type="password" name="password" placeholder="password" >
-   <a href="for" class="text-end " onmouseover="this.style.color='black';">forget password?</a>
-   <br>
-
-        <button >Submit</button>
-        <br>
-        <div style="color: white; cursor: pointer; " class="text-center ">
-          <span onclick="partnRegister()" style="font-size: larger;">  <a href="{{route('agent.regiform')}}" onmouseover="this.style.color='black';"><i class="fa-solid fa-user-tie"></i>&nbsp; Register New Partner</a>   </span>  
+        <div style="background-color: white; padding: 0 6px; border-radius: 7px; display: flex; align-items: center;">
+            <i class="fa-solid fa-user" style="margin-right: 5px;"></i>
+            <input type="text" style="margin: 0; border: none; flex: 1; outline: none;" placeholder="Email / Username" name="username">
         </div>
+        <br>
+        <div style="background-color: white; padding: 0 6px; border-radius: 7px; display: flex; align-items: center; position: relative;">
+            <i class="fa-solid fa-key" style="margin-right: 5px;"></i>
+            <input type="password" id="password" style="margin: 0; border: none; flex: 1; outline: none;" placeholder="Password" name="password">
+            {{-- <i style="text-color: rgba(0,0,0,0.4)" class="fa-solid fa-eye" id="togglePassword" style="cursor: pointer; margin-left: 5px;"></i> --}}
+            <i class="fa-solid fa-eye" id="togglePassword" style="cursor: pointer; margin-left: 5px; margin-right:10px; color: #4e4c4c;"></i> 
+
+        </div>
+           <!-- <label for="company_name">Company Name:</label> -->
+       
+   <a href="for" class="text-end " onmouseover="this.style.color='black';">Forgot Password?</a>
+   <br>
+  
+
+        <button >Login  <i class="fa-solid fa-arrow-right"></i></button>
+        
+        <div>
+            <p>Don't have an account? Register with us</p>
+        </div>
+
+        <br>
+
+
+        {{-- <div style="color: white; cursor: pointer; " class="text-center ">
+          <span onclick="partnRegister()" style="font-size: larger;">  <a href="{{route('agent.regiform')}}" onmouseover="this.style.color='black';"><i class="fa-solid fa-user-tie"></i>&nbsp; Register New Partner</a>   </span>  
+        </div> --}}
     </form>
     </div>
+
+    <script>
+        const togglePassword = document.getElementById('togglePassword');
+        const passwordInput = document.getElementById('password');
+    
+        togglePassword.addEventListener('click', function () {
+            // Toggle the type attribute
+            const type = passwordInput.getAttribute('type') === 'password' ? 'text' : 'password';
+            passwordInput.setAttribute('type', type);
+    
+            // Toggle the eye icon
+            this.classList.toggle('fa-eye');
+            this.classList.toggle('fa-eye-slash');
+        });
+    </script>
     
                                                 {{-- login form end --}}
 
