@@ -31,6 +31,7 @@
                                                 <li id="menu-item-11600" class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-11600"><a href="{{route('freelancer')}}">Freelance ID</a></li>
                                                 <li id="menu-item-11599" class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-11599"><a href="{{route('testimonials')}}">testimonials</a></li>
                                                 <li id="menu-item-11604" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-11552 current_page_item menu-item-11604"><a href="{{route('contact')}}" aria-current="page">contact us</a></li>
+                                                <li><a href="{{route('agent.regiform')}}">Register</a></li>
                                             </ul>
                                         </nav>
                                         <div class="mobile_menu_items ">
