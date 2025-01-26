@@ -25,7 +25,7 @@
                                             <div id="form-container" class="txbdsinner sliderheightdiv allleft">
                                                 <div class="txbdscontent">
                                                     <!-- title 2 -->
-                                                    <h1 class="txbdstitle swsmall swtone hlight">Earn High Commissions</h1>
+                                                    <!-- <h1 class="txbdstitle swsmall swtone hlight">Earn High Commissions</h1> -->
                                                     <!-- title 3 -->
                                                     <h2 class="txbdstitle swttwo hlight">START Your <span><br> Hajj & Umrah Business</span></h2>
 
@@ -56,7 +56,7 @@
 
                                                 </div>
                                                 {{-- login form start --}}
-                                                <div id="travel-partner-login" class="form-container" style="display: ;">
+                                                <div id="travel-partner-login" class="form-container">
                                                     <div id="successMessage" class="success-message">
     Your form has been submitted successfully!
     </div >
@@ -74,6 +74,7 @@
     <h2>Login to you account</h2>
     <form >
         @csrf
+
         <div style="background-color: white; padding: 0 6px; border-radius: 7px; display: flex; align-items: center;">
             <i class="fa-solid fa-user" style="margin-right: 5px;"></i>
             <input type="text" style="margin: 0; border: none; flex: 1; outline: none;" placeholder="Email / Username" name="username">
@@ -89,6 +90,7 @@
            <!-- <label for="company_name">Company Name:</label> -->
        
    <a href="for" class="text-end " onmouseover="this.style.color='black';">Forgot Password?</a>
+
    <br>
   
 
@@ -798,7 +800,167 @@ Your form has been submitted successfully!
                         </div>
                     </div>
                 </div>
-                <div class="elementor-element elementor-element-68ce90f e-con-full e-flex e-con e-parent" data-id="68ce90f" data-element_type="container">
+        <div class="elementor-element elementor-element-4fc85d4 e-flex e-con-boxed e-con e-parent" style="margin-top: 50px !important;" data-id="4fc85d4" data-element_type="container">
+            <div class="e-con-inner">
+                <div class="elementor-element elementor-element-00f9a3a e-con-full e-flex e-con e-child" data-id="00f9a3a" data-element_type="container">
+                        <div class="elementor-element elementor-element-3ef1bb4 elementor-widget elementor-widget-tts" data-id="3ef1bb4" data-element_type="widget" data-widget_type="tts.default">
+                        <div class="elementor-widget-container">
+                                        <!-- title left -->
+                            <div class="tts text-left">
+                                <div class="ttin">
+                                
+                                    <!-- icon position -->
+                                        
+                                    <!-- end icon position -->
+                                    
+                                    <!-- title top -->
+                                    
+
+                                    <!-- icon position -->
+                                        
+                                    <!-- end icon position -->
+
+                                    <!-- title middle -->
+                                                                    <h2 style="font-size: 35px;" style="text-align:center" class="txbdstitle sttwo hlight">ALL THE PRODUCTS YOU WANT TO GROW THE BUSINESS</h2>
+                                                                <!-- title bottom -->
+                                    
+                                                                
+                                    <!-- image -->
+                                                                <!-- icon -->
+                                                                
+                                    <!-- bar -->
+                                                                <!-- circle bar -->
+                                                                
+                                        
+                                    
+                                    <!-- content -->
+                                                                    <!-- <p>Rahat Travels of India Pvt. ltd. provides unparalleled support for new travel agencies entering the Hajj and Umrah industry. With our guidance, agencies can easily prepare their documens and secure a Hajj quota, ensuring a smooth start in this specialized market.</p>		 -->
+                                                                    <br>
+                                                                <div class="agency-benifit">
+                                                                    <h1 class="text-center" style="border-bottom: 1px solid #FE8D00;"></h1>
+                                                                    <div>
+                                                                    <div class="d-flex justify-content-between gap-5 m-4">
+                                                                        <div class="benifit-item" style="width: 40vw">
+                                                                            <div class="d-flex align-items-center gap-3">
+                                                                            <span style="border: 2px solid #FE8D00; padding: 10px 20px; border-radius: 35px; font-size: xx-large;"><i class="fa-solid fa-jug-detergent"></i></span>
+                                                                            <div>
+                                                                                <h3>Laundry </h3>
+                                                                                <span>Rahat Group provides premium laundry services for Hajj & Umrah groups and families in Makkah and Madinah, ensuring hassle-free cleaning.</span>
+                                                                            </div>
+                                                                            </div>
+                                                                            <span></span>
+                                                                        </div>
+                                                                        <!---->
+                                                                        <div class="benifit-item" style="width: 40vw">
+                                                                            <div class="d-flex align-items-center gap-3">
+                                                                            <span style="border: 2px solid #FE8D00; padding: 10px 20px; border-radius: 35px; font-size: xx-large;"><i class="fa-solid fa-coins"></i></span>
+                                                                            <div>
+                                                                                <h3> Forex</h3>
+                                                                                <span>Rahat Forex India Private Limited – Premium Forex Services in India, Makkah, and Madinah.</span>
+                                                                            </div>
+                                                                            </div>
+                                                                            <span></span>
+                                                                        </div>
+                                                                        <!---->
+
+
+
+
+                                                                    </div>
+                                                                    {{--  --}}
+                                                                    <div class="d-flex justify-content-between gap-5 m-4">
+                                                                        <div class="benifit-item" style="width: 40vw">
+                                                                            <div class="d-flex align-items-center gap-3">
+                                                                            <span style="border: 2px solid #FE8D00; padding: 10px 20px; border-radius: 35px; font-size: xx-large;"><i class="fa-solid fa-cart-shopping"></i></span>
+                                                                            <div>
+                                                                                <h3>Shoping</h3>
+                                                                                <span>Rahat Group offers convenient shopping services, making your Hajj & Umrah experience hassle-free with a range of essentials.</span>
+                                                                            </div>
+                                                                            </div>
+                                                                            <span></span>
+                                                                        </div>
+                                                                        <!---->
+                                                                        <div class="benifit-item" style="width: 40vw">
+                                                                            <div class="d-flex align-items-center gap-3">
+                                                                            <span style="border: 2px solid #FE8D00; padding: 10px 20px; border-radius: 35px; font-size: xx-large;"><i class="fa-solid fa-user"></i></i></span>
+                                                                            <div>
+                                                                                <h3>Personal Assistance</h3>
+                                                                                
+                                                                                <span>Whether you need personal assistance (Gents or Ladies) for performing Umrah or require wheelchair assistance, Rahat Group is here to help.</span>
+                                                                            </div>
+                                                                            </div>
+                                                                            <span></span>
+                                                                        </div>
+                                                                        <!---->
+                                                                                                                                                
+                                                                    </div>
+                                                                    <div class="d-flex justify-content-between gap-5 m-4">
+                                                                      <!---->
+                                                                      <div class="benifit-item" style="width: 40vw">
+                                                                            <div class="d-flex align-items-center gap-3">
+                                                                            <span style="border: 2px solid #FE8D00; padding: 10px 20px; border-radius: 35px; font-size: xx-large;"><i class="fa-solid fa-book-quran"></i></i></span>
+                                                                            <div>
+                                                                                <h3>Publication</h3>
+                                                                                
+                                                                                <span>Rahat Group provides calendars and other publications, offering valuable resources for your Hajj & Umrah journey.</span>
+                                                                            </div>
+                                                                            </div>
+                                                                            <span></span>
+                                                                        </div>
+                                                                        <!---->
+
+                                                                                                                                                <!---->
+                                                                                                                                                <div class="benifit-item" style="width: 40vw">
+                                                                            <div class="d-flex align-items-center gap-3">
+                                                                            <span style="border: 2px solid #FE8D00; padding: 10px 20px; border-radius: 35px; font-size: xx-large;"><i class="fa-solid fa-bag-shopping"></i></i></span>
+                                                                            <div>
+                                                                                <h3> Bags & Kit</h3>
+                                                                                
+                                                                                <span>Rahat Group offers bags and Umrah kits for kids, ensuring a comfortable and convenient experience for young travelers.</span>
+                                                                            </div>
+                                                                            </div>
+                                                                            <span></span>
+                                                                        </div>
+                                                                        <!---->
+                                                                                                                                                
+                                                                    </div>
+                                                                    </div>
+                                                                </div>
+                                        
+                                </div>
+                                    <!-- inner title -->
+                                                            
+                            </div>				
+                                </div>
+                        </div>
+                <div class="elementor-element elementor-element-9431847 e-con-full e-flex e-con e-child" data-id="9431847" data-element_type="container">
+                <div class="elementor-element elementor-element-195e06b e-con-full e-flex e-con e-child" data-id="195e06b" data-element_type="container">
+                        <div class="elementor-element elementor-element-b540a2f elementor-widget elementor-widget-tts" data-id="b540a2f" data-element_type="widget" data-widget_type="tts.default">
+                        <div class="elementor-widget-container">
+                                        <!-- title left -->
+                            <div class="txbdsbtn allcostyle">
+                                {{-- <a class="btnallt btnall btnallactive " href="/contact.php">REGISTER AS A AGENCY</a> --}}
+                            </div>			
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="elementor-element elementor-element-b9b727e e-con-full e-flex e-con e-child" data-id="b9b727e" data-element_type="container">
+                    <div class="elementor-element elementor-element-899a03b elementor-widget elementor-widget-witrsimage" data-id="899a03b" data-element_type="widget" data-widget_type="witrsimage.default">
+                        <div class="elementor-widget-container">
+                            <div class="single_image_area">
+                                <div class="single_image single_line_option  ">
+                                    <!-- image -->
+                                    <img loading="lazy" decoding="async" width="351" height="302" src="{{asset('images/Moon_Makkah_Madina.png')}}" class="attachment-large size-large wp-image-27468" alt="layer" />	
+                                                                </div>
+                            </div>
+                        </div>
+                     </div>
+                </div>
+            </div>
+       </div>
+                <div class="elementor-element elementor-element-68ce90f e-con-full e-flex e-con e-parent" style="padding-top: 0px;" data-id="68ce90f" data-element_type="container">
                     <div class="elementor-element elementor-element-585a160 e-flex e-con-boxed e-con e-child" data-id="585a160" data-element_type="container">
                         <div class="e-con-inner">
                             <div class="elementor-element elementor-element-b269311 elementor-widget elementor-widget-tts" data-id="b269311" data-element_type="widget" data-widget_type="tts.default">

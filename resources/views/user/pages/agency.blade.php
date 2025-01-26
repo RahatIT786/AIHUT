@@ -66,12 +66,11 @@
 				<div class="elementor-element elementor-element-899a03b elementor-widget elementor-widget-witrsimage" data-id="899a03b" data-element_type="widget" data-widget_type="witrsimage.default">
 				<div class="elementor-widget-container">
 				
-		<div class="single_image_area">
+		<!-- <div class="single_image_area">
 			<div class="single_image single_line_option  " >
-				<!-- image -->
 				<img style="border-radius: 20px 0 20px 0;" loading="lazy" decoding="async" width="351" height="302" src="{{asset('images/user/Umrah_Agency1.jpeg')}}" class="attachment-large size-large wp-image-27468" alt="layer" />		
-											</div>
-		</div>
+			</div>
+		</div> -->
 			
 			
 		
@@ -327,9 +326,9 @@
                                             <p>Be the owner of your Business and be part of something truly special. Together, we can help create unforgettable experiences for more pilgrims who dream of fulfilling their religious duty with trustworthy partners.</p>	
                 
         </div>
-        <div>
+        <!-- <div>
             <img style="border-radius: 10px" src="{{asset('images/user/Umrah_Agency3.jpeg')}}" alt="">
-        </div>
+        </div> -->
             <!-- inner title -->
                                     
     </div>				
@@ -461,7 +460,7 @@
 <div class="elementor-element elementor-element-4fc85d4 e-flex e-con-boxed e-con e-parent" data-id="4fc85d4" data-element_type="container">
     <div class="e-con-inner">
 <div class="elementor-element elementor-element-00f9a3a e-con-full e-flex e-con e-child" data-id="00f9a3a" data-element_type="container">
-<div class="elementor-element elementor-element-3ef1bb4 elementor-widget elementor-widget-tts" data-id="3ef1bb4" data-element_type="widget" data-widget_type="tts.default">
+<div class="elementor-element elementor-element-3ef1bb4 elementor-widget elementor-widget-tts"  data-id="3ef1bb4" data-element_type="widget" data-widget_type="tts.default">
 <div class="elementor-widget-container">
                 <!-- title left -->
     <div class="tts text-left">
@@ -492,40 +491,40 @@
                 
             
             <!-- content -->
-            <div class="d-flex flex-wrap  " id="agent-revenue" style="width: 70vw">
+            <div class="d-flex flex-wrap  " id="agent-revenue" style="width: 90vw; margin-left:100px">
                 <div class="text-center m-5">
                     <span style="border: 2px solid #FE8D00; padding: 15px 20px; border-radius: 35px; font-size: xx-large;"><i class="fa-solid fa-chart-line"></i></span>
                     <br> <br>
-                <h5>1.High Earning Potential</h5>
+                <h5>High Earning Potential</h5>
                 </div>
                 <div class="text-center m-5">
                     <span style="border: 2px solid #FE8D00; padding: 15px 20px; border-radius: 35px; font-size: xx-large;"><i class="fa-brands fa-paypal"></i></span>
                     <br> <br>
-                <h5>2.Cut and Pay Commission Structure</h5>
+                <h5>Cut and Pay Commission Structure</h5>
                 </div>
                 <div class="text-center m-5">
                     <span style="border: 2px solid #FE8D00; padding: 15px 20px; border-radius: 35px; font-size: xx-large;"><i class="fa-solid fa-magnifying-glass"></i></span>
                     <br> <br>
-                <h5>3.Research Support</h5>
+                <h5>Research Support</h5>
                 </div>
                 <div class="text-center m-5">
                     <span style="border: 2px solid #FE8D00; padding: 15px 20px; border-radius: 35px; font-size: xx-large;"><i class="fa-solid fa-rectangle-ad"></i></i></span>
                     <br> <br>
-                <h5>4.Digital Marketing Support</h5>
+                <h5>Digital Marketing Support</h5>
                 </div>
                 <div class="text-center m-5">
                     <span style="border: 2px solid #FE8D00; padding: 15px 20px; border-radius: 35px; font-size: xx-large;"><i class="fa-solid fa-book"></i></span>
                     <br> <br>
-                <h5>5.Comprehensive Training</h5>
+                <h5>Comprehensive Training</h5>
                 </div>
                 
             </div>
                 
-        </div>
+         </div>
             <!-- inner title -->
                                     
-    </div>				
-        </div>
+        </div>				
+      </div>
 </div>
 <div class="elementor-element elementor-element-9431847 e-con-full e-flex e-con e-child" data-id="9431847" data-element_type="container">
 <div class="elementor-element elementor-element-195e06b e-con-full e-flex e-con e-child" data-id="195e06b" data-element_type="container">
@@ -563,7 +562,7 @@
 {{-- monthly revenue end --}}
 
 {{-- agent feedback start --}}
-<div class="elementor-element elementor-element-68ce90f e-con-full e-flex e-con e-parent" data-id="68ce90f" data-element_type="container">
+<div class="elementor-element elementor-element-68ce90f e-con-full e-flex e-con e-parent" data-id="68ce90f" data-element_type="container" style="padding-top: 0px;">
     <div class="elementor-element elementor-element-585a160 e-flex e-con-boxed e-con e-child" data-id="585a160" data-element_type="container">
         <div class="e-con-inner">
             <div class="elementor-element elementor-element-b269311 elementor-widget elementor-widget-tts" data-id="b269311" data-element_type="widget" data-widget_type="tts.default">
@@ -618,14 +617,14 @@
                     <div class="col-lg-12">
                         <div class="txbdsva allcostyle boxsh text-center  ">
                             <div class="thbdsvthumb">
-                                <p align="center" style="font-weight: bold"><iframe width="560" height="315" src="https://www.youtube.com/embed/D5hPm6YOXNs?si=8Pf4BJVImoUHi2EY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+                                <p align="center" style="font-weight: bold"><iframe width="560" height="315" src="https://www.youtube.com/embed/-8P6Yh7r7Nk?si=chFzVCHKlVv5FnFN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
                                 </div>
                             <div class="txbdsi boxtexrelative  iconsabsconpd sselect">
                                 <!-- overlay icon -->
                                 <!-- image icon -->
                                 <div class="txbdcon">
                                     <!-- title -->
-                                    <h2 class="txbdsvtitle txstcolor hlight"> RATNAGRI</h2>
+                                    <h2 class="txbdsvtitle txstcolor hlight"> mumbai</h2>
                                     
                                     <!-- button -->
                                     <div class="txbdsvbtn txbdbtnicon">
@@ -640,14 +639,14 @@
                     <div class="col-lg-12">
                         <div class="txbdsva allcostyle boxsh text-center  ">
                             <div class="thbdsvthumb">
-                            <p align="center" style="font-weight: bold"><iframe width="560" height="315" src="https://www.youtube.com/embed/V5lULHzkVgI?si=iXjbbjDUeLH5xphe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p> </div>
+                            <p align="center" style="font-weight: bold"><iframe width="560" height="315" src="https://www.youtube.com/embed/YCRhZrEJnbU?si=G16WUIv8MISOzOKm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p> </div>
                             <div class="txbdsi boxtexrelative  iconsabsconpd sselect">
                                 <!-- overlay icon -->
                                 <!-- image icon -->
                                 <div class="txbdcon">
                                     <!-- title -->
 
-                                    <h2 class="txbdsvtitle txstcolor hlight">DELHI</h2>
+                                    <h2 class="txbdsvtitle txstcolor hlight">Chennai</h2>
                                     
                                     <!-- button -->
                                     <div class="txbdsvbtn txbdbtnicon">
@@ -662,14 +661,14 @@
                     <div class="col-lg-12">
                         <div class="txbdsva allcostyle boxsh text-center  ">
                             <div class="thbdsvthumb">
-                            <p align="center" style="font-weight: bold"><iframe width="560" height="315" src="https://www.youtube.com/embed/D8QKXg-srMI?si=0_logzn7fz5iimqS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>  </div>
+                            <p align="center" style="font-weight: bold"><iframe width="560" height="315" src="https://www.youtube.com/embed/SlS35xeZdqg?si=MHCRFA283W05ngfo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>  </div>
                             <div class="txbdsi boxtexrelative  iconsabsconpd sselect">
                                 <!-- overlay icon -->
                                 <!-- image icon -->
                                 <div class="txbdcon">
                                     <!-- title -->
 
-                                    <h2 class="txbdsvtitle txstcolor hlight">Laddak</h2>
+                                    <h2 class="txbdsvtitle txstcolor hlight">Nagaur</h2>
 
 
                                     <!-- button -->
@@ -685,14 +684,14 @@
                     <div class="col-lg-12">
                         <div class="txbdsva allcostyle boxsh text-center  ">
                             <div class="thbdsvthumb">
-                            <p align="center" style="font-weight: bold"><iframe width="560" height="315" src="https://www.youtube.com/embed/vbREORgANBE?si=d623-gkS6JjQE9-J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p> </div>
+                            <p align="center" style="font-weight: bold"><iframe width="560" height="315" src="https://www.youtube.com/embed/zESeK44ctDY?si=i_WQ9rTXvT140UmJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p> </div>
                             <div class="txbdsi boxtexrelative  iconsabsconpd sselect">
                                 <!-- overlay icon -->
                                 <!-- image icon -->
                                 <div class="txbdcon">
                                     <!-- title -->
 
-                                    <h2 class="txbdsvtitle txstcolor hlight">VARANASI</h2>
+                                    <h2 class="txbdsvtitle txstcolor hlight">Saharanpur</h2>
 
                                     <!-- button -->
                                     <div class="txbdsvbtn txbdbtnicon">
@@ -707,14 +706,14 @@
                     <div class="col-lg-12">
                         <div class="txbdsva allcostyle boxsh text-center  ">
                             <div class="thbdsvthumb">
-                            <p align="center" style="font-weight: bold"><iframe width="560" height="315" src="https://www.youtube.com/embed/dmgmIMQPH0o?si=YmQHRwSLgToJC3a-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p> </div>
+                            <p align="center" style="font-weight: bold"><iframe width="560" height="315" src="https://www.youtube.com/embed/LbpOr_2Ho-Y?si=Ew__ABkBjfTIEyiy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p> </div>
                             <div class="txbdsi boxtexrelative  iconsabsconpd sselect">
                                 <!-- overlay icon -->
                                 <!-- image icon -->
                                 <div class="txbdcon">
                                     <!-- title -->
 
-                                    <h2 class="txbdsvtitle txstcolor hlight">PUNE</h2>
+                                    <h2 class="txbdsvtitle txstcolor hlight">Himachal Pradesh</h2>
                                     
 
                                     <!-- button -->
@@ -760,8 +759,8 @@
 
                     <div class="single_image_area">
                         <div class="single_image single_line_option  ">
-                            <!-- image -->
-                            <img style="border-radius:10px;" loading="lazy" decoding="async" width="522" height="629" src="{{asset('images/user/Umrah_Agency2.jpeg')}}" class="attachment-large size-large wp-image-27495" alt="" />
+                           
+                            <img style="border-radius:10px;" loading="lazy" decoding="async" width="522" height="629" src="{{asset('images/tower.jpg')}}" class="attachment-large size-large wp-image-27495" alt="" />
                         </div>
                     </div>
 
