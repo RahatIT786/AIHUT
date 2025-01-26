@@ -96,8 +96,9 @@
 
         <button >Login  <i class="fa-solid fa-arrow-right"></i></button>
         
-        <div>
-            <p>Don't have an account? Register with us</p>
+        <div class="mt-3">
+            Don't have an account? <span style="cursor: pointer;">Register with us</span>
+          
         </div>
 
         <br>
