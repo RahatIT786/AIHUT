@@ -24,7 +24,7 @@
                         <div>
                             <span style="padding: 10px 15px; border: 2px solid #FD8C00; border-radius: 30px ; font-size: larger;"><i class="fa-brands fa-sellsy"></i></span>
                         </div>
-                        <p class="text-center">Sales Support <br> <a href="tel:+917506195551" >+91 750619 5551</a></p>
+                        <p class="text-center">Sales Support <br> <a href="tel:+917861078618" >+91 78610 78618</a></p>
                         <p></p>
                        </div>
                        <div class="d-flex flex-column gap-3 justify-content-center align-items-center">
@@ -213,7 +213,7 @@
                                         <!-- end icon position -->
 
                                         <!-- title top -->
-                                        <h4 class="txbdstitle tsmall stone hlight txbdbcolor">ADDRESS </h4>
+                                        <h4 class="txbdstitle tsmall stone hlight txbdbcolor">OFFICES </h4>
 
 
                                         <!-- icon position -->
@@ -226,7 +226,7 @@
 
 
                                         <!-- content -->
-                                        <p>Head Office :- 305 SVP Road, Dongri, <br> Mumbai - 3. </p>
+                                        <p>Head Office : Mumbai <br>Corporate Offices : Delhi, Bangalore, Lucknow & Dubai </p>
 
                                     </div>
                                     <!-- inner title -->
