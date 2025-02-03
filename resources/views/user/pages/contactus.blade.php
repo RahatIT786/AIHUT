@@ -341,7 +341,9 @@
                                             <!-- title top -->
 
                                             <!-- title middle -->
-                                            <h2 class="txbdstitle sttwo hlight">To work <span>tour guide</span> please fill the form</h2>
+                                            <h2 class="txbdstitle sttwo hlight">Together, let's make great things happen!
+                                                Explore open positions <span>Work with Rahat Group.
+                                                </span> please fill the form</h2>
                                             <!-- title bottom -->
                                             <!-- image -->
                                             <!-- icon -->
@@ -358,7 +360,7 @@
                                     <div class="col-lg-4 col-md-4 col-sm-12">
                                         <!-- button -->
                                         <div class="text-right ttitlebtn">
-                                            <a class="btnallt btnall btnallactive" href="#">JOIN OUR TEAM </a>
+                                            <a class="btnallt btnall btnallactive" href="{{route('agent.regiform')}}">JOIN OUR TEAM </a>
                                         </div>
 
                                     </div>
