@@ -900,7 +900,10 @@
                                                     <!-- title top -->
 
                                                     <!-- title middle -->
-                                                    <h2 class="txbdstitle sttwo hlight">To work <span>tour guide</span> please fill the form</h2>
+                                                    <h2 class="txbdstitle sttwo hlight">Together, let's make great things happen!
+Explore open positions. 
+
+ <span>Work with Rahat Group.</span> please fill the form</h2>
                                                     <!-- title bottom -->
                                                     <!-- image -->
                                                     <!-- icon -->

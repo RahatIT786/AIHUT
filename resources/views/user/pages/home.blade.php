@@ -71,37 +71,62 @@
         {{ session('error') }}
     </div>
 @endif
-    <h2>Login to you account</h2>
+   
+    <h1 class="text-start " style="font-size:px; width:100%;">I'm interested, Sign me up!</h1>
+    <span class="mb-3">Login here to your account as</span>
     <form >
         @csrf
 
-        <div style="background-color: white; padding: 0 6px; border-radius: 7px; display: flex; align-items: center;">
+        <div class="mt-3 mb-3" style="background-color: white; padding: 0 6px; border-radius: 7px; display: flex; align-items: center; border: 1px solid #cfcaca;">
             <i class="fa-solid fa-user" style="margin-right: 5px;"></i>
-            <input type="text" style="margin: 0; border: none; flex: 1; outline: none;" placeholder="Email / Username" name="username">
+            <input type="text" style="margin: 0; border: none; flex: 1; outline: none;" placeholder="Full Name" name="username">
         </div>
-        <br>
-        <div style="background-color: white; padding: 0 6px; border-radius: 7px; display: flex; align-items: center; position: relative;">
+        <div class="mb-3" style="background-color: white; padding: 0 6px; border-radius: 7px; display: flex; align-items: center; border: 1px solid #cfcaca;">
+            <i class="fa-solid fa-phone" style="margin-right: 5px;"></i>
+           
+            <input type="tel" style="margin: 0; border: none; flex: 1; outline: none;" placeholder="Mobile" name="mobile">
+        </div>
+        <div class="mb-3" style="background-color: white; padding: 0 6px; border-radius: 7px; display: flex; align-items: center; border: 1px solid #cfcaca;">
+            <i class="fa-solid fa-envelope" style="margin-right: 5px;"></i>
+           
+            <input type="email" style="margin: 0; border: none; flex: 1; outline: none;" placeholder="Email Address" name="email">
+        </div>
+        <div class="mb-3" style="background-color: white; padding: 0 6px; border-radius: 7px; display: flex; align-items: center; border: 1px solid #cfcaca;">
+            <i class="fa-solid fa-building-user" style="margin-right: 5px;"></i>
+           
+            <input type="text" style="margin: 0; border: none; flex: 1; outline: none;" placeholder="City/State" name="city">
+        </div>
+        
+        
+        {{-- <div style="background-color: white; padding: 0 6px; border-radius: 7px; display: flex; align-items: center; position: relative; border: 1px solid #cfcaca;">
             <i class="fa-solid fa-key" style="margin-right: 5px;"></i>
             <input type="password" id="password" style="margin: 0; border: none; flex: 1; outline: none;" placeholder="Password" name="password">
             {{-- <i style="text-color: rgba(0,0,0,0.4)" class="fa-solid fa-eye" id="togglePassword" style="cursor: pointer; margin-left: 5px;"></i> --}}
-            <i class="fa-solid fa-eye" id="togglePassword" style="cursor: pointer; margin-left: 5px; margin-right:10px; color: #4e4c4c;"></i> 
+            {{-- <i class="fa-solid fa-eye" id="togglePassword" style="cursor: pointer; margin-left: 5px; margin-right:10px; color: #4e4c4c;"></i>  --}}
 
-        </div>
+        {{-- </div> --}} 
            <!-- <label for="company_name">Company Name:</label> -->
        
-   <a  class="text-end " onmouseover="this.style.color='black';">Forgot Password?</a>
 
-   <br>
+   {{-- <a href="for" class="text-end " onmouseover="this.style.color='black';">Forgot Password?</a> --}}
+
+
+
+   
   
 
-        <button >Login  <i class="fa-solid fa-arrow-right"></i></button>
+        <button >SUBMIT  <i class="fa-solid fa-arrow-right"></i></button>
         
-        <div class="mt-3">
-            Don't have an account? <span style="cursor: pointer;">Register with us</span>
-          
-        </div>
+            <div class="mt-4">
+                <span>Our support executives will help you activate your account and guide you along the way </span>
+            </div>
 
-        <br>
+        {{-- <div class="mt-3">
+            Don't have an account? <span style="cursor: pointer;"><a onmouseover="this.style.color='blue'" href="{{route('agent.regiform')}}">Register with us</a></span>
+          
+        </div> --}}
+
+        
 
 
         {{-- <div style="color: white; cursor: pointer; " class="text-center ">

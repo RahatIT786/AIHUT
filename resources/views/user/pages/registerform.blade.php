@@ -36,7 +36,7 @@
                     <div class="elementor-element elementor-element-0dff1ab elementor-widget elementor-widget-tts" data-id="0dff1ab" data-element_type="widget" data-widget_type="tts.default">
                         <div class="elementor-widget-container">
                             <!-- title center -->
-                            <div class="tts text-center">
+                            <div id="partner-form" class="tts text-center">
                                 <div class="ttin">
 
                                     <!-- icon position -->
@@ -286,6 +286,8 @@
                                                     
                                                    
                                                 </div>
+
+                                                
                                                 <div class="col-lg-12 col-md-12 row">
                                                     <div class="twr_form_box ">
                                                         <p class="text-start"><span class="wpcf7-form-control-wrap" data-name="textarea">
@@ -333,7 +335,9 @@
                                             <!-- title top -->
 
                                             <!-- title middle -->
-                                            <h2 class="txbdstitle sttwo hlight">To work <span>tour guide</span> please fill the form</h2>
+                                            <h2 class="txbdstitle sttwo hlight">Together, let's make great things happen!
+                                                Explore open positions<span> Work with Rahat Group.
+                                                </span> please fill the form</h2>
                                             <!-- title bottom -->
                                             <!-- image -->
                                             <!-- icon -->
@@ -350,7 +354,7 @@
                                     <div class="col-lg-4 col-md-4 col-sm-12">
                                         <!-- button -->
                                         <div class="text-right ttitlebtn">
-                                            <a class="btnallt btnall btnallactive" href="#">JOIN OUR TEAM </a>
+                                            <a class="btnallt btnall btnallactive" href="#partner-form">JOIN OUR TEAM </a>
                                         </div>
 
                                     </div>
