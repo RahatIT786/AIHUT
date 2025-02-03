@@ -66,4 +66,26 @@ class AuthController extends Controller{
             // return response()->json(['status' => 'error', 'message' => $e->getMessage()]);
         }
     }
+
+
+
+    public function createAndMigrateSessionTable()
+{
+    try{
+ // Generate the session table migration
+ Artisan::call('session:table');
+
+ // Run the migration to create the sessions table
+ Artisan::call('migrate');
+ return "SESSION TABLE CREATED AND MIGRATED";
+    }catch (\Exception $e) {
+        // Catch any errors and return them
+       return $e->getMessage();
+      
+    }
+   
+}   
+
+
+
 }

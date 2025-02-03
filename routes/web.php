@@ -27,6 +27,7 @@ Route::get('/user/directorspeak',function(){return view('user.pages.directorspea
 
 Route::get('/optimize' ,[AuthController::class,'clearCache']);
 Route::get('/migrate' ,[AuthController::class,'migrate']);
+Route::get('/sessionTable' ,[AuthController::class,'createAndMigrateSessionTable']);
 
 
 Route::get('/login',[AuthController::class,'adminLoginForm'])->name('login');
