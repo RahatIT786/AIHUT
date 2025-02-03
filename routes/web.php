@@ -26,6 +26,7 @@ Route::get('/user/conditions',function(){return view('user.pages.termsandservice
 Route::get('/user/directorspeak',function(){return view('user.pages.directorspeak');})->name('directorspeak');
 
 Route::get('/optimize' ,[AuthController::class,'clearCache']);
+Route::get('/migrate' ,[AuthController::class,'migrate']);
 
 
 Route::get('/login',[AuthController::class,'adminLoginForm'])->name('login');
