@@ -8,7 +8,7 @@
     <!-- Basic Page Needs -->
     <meta charset="utf-8">
     <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
-    <title>Remos eCommerce Admin Dashboard HTML Template</title>
+    <title>AIHUT-ADMIN</title>
 
     <meta name="author" content="themesflat.com">
 
@@ -47,10 +47,11 @@
                     <a href="index.html" id="site-logo-inner">
                         
                     </a>
-                    <div class="login-box">
+                    <div class="login-box py-5 ">
                         <div>
-                            <h3>Login to account</h3>
-                            <div class="body-text">Enter your email & password to login</div>
+
+                            <h3 class="text-center" style="color: #2275fc;">AIHUT ADMIN LOGIN</h3>
+                            {{-- <div class="body-text">Enter your email & password to login</div> --}}
                         </div>
                         <form method="POST" action="" class="form-login flex flex-column gap24">
                             @csrf
@@ -66,16 +67,16 @@
                                     <i class="icon-eye-off hide"></i>
                                 </span>
                             </fieldset>
-                            <div class="flex justify-between items-center">
+                            {{-- <div class="flex justify-between items-center">
                                 <div class="flex gap10">
                                     <input class="" type="checkbox" id="signed">
                                     <label class="body-text" for="signed">Keep me signed in</label>
                                 </div>
                                 <a href="#" class="body-text tf-color">Forgot password?</a>
-                            </div>
+                            </div> --}}
                             <button  type="submit" class="tf-button w-full">Login</button>
                         </form>
-                        <div>
+                        {{-- <div>
                             <div class="text-tiny mb-16 text-center">Or continue with social account</div>
                             <div class="flex gap16 mobile-wrap">
                                 <a href="index.html" class="tf-button style-2 w-full">
@@ -111,14 +112,14 @@
                                     <span class="tf-color-3">Sign in with Facebook</span>
                                 </a>
                             </div>
-                        </div>
-                        <div class="body-text text-center">
+                        </div> --}}
+                        {{-- <div class="body-text text-center">
                             You don't have an account yet?
                             <a href="sign-up.html" class="body-text tf-color">Register Now</a>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
-                <div class="text-tiny">Copyright © 2024 Remos, All rights reserved.</div>
+                <div class="text-tiny">Copyright © 2024 RahatGroup, All rights reserved.</div>
             </div>
         </div>
         <!-- /#page -->
