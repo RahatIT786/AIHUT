@@ -6,7 +6,7 @@
                     <div class="header-dashboard">
                         <div class="wrap">
                             <div class="header-left">
-                                <a href="index.html">
+                                <a >
                                     <img class="" id="logo_header_mobile" alt="" src="{{asset('admin/images/logo/logo.png')}}" data-light="{{asset('admin/images/logo/logo.png')}}" data-dark="{{asset(('admin/images/logo/logo-dark.png'))}}" data-width="154px" data-height="52px" data-retina="{{asset('admin/images/logo/logo@2x.png')}}">
                                 </a>
                                 <div class="button-show-hide">

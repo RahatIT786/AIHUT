@@ -69,7 +69,7 @@
 								{{-- <li id="menu-item-14450" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14450"><a href="https://rahatgroup.in/customer/agent-speak">Agents Speak</a></li> --}}
 								<li id="menu-item-14449" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14449"><a href="tel:+917863878632">Call Us Back</a></li>
 								{{-- <li id="menu-item-14448" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14448"><a href="{{route('franchise')}}"> Rahat Franchise </a></li> --}}
-								<li id="menu-item-14448" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14448"><a href="#">Careers </a></li>
+								<li id="menu-item-14448" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14448"><a href="{{route('career.form')}}">Careers </a></li>
 								{{-- <li id="menu-item-14448" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14448"><a href="{{route('privacypolicy')}}">Privacy Policy</a></li>
 								<li id="menu-item-14448" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14448"><a href="{{route('condition')}}">Terms and Conditons</a></li> --}}
 							 </ul> 

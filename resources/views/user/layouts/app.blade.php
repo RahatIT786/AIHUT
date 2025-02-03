@@ -14,6 +14,30 @@
     @include('user.styles.franchise-style')
     @include('user.styles.contactus-style')
     @include('user.styles.agency-style')
+
+    <style>
+ 
+        #whatsapp{
+            height: clamp(25px,30vw,5rem);
+            z-index: 4;
+            position: fixed;
+            right: 10px;
+            bottom:6rem;
+            cursor: pointer;
+          
+        }
+        #call{
+         
+            height: clamp(15px,8vw,3rem);
+            z-index: 4;
+            position: fixed;
+            left: 1rem;
+            bottom:7rem;
+            cursor: pointer;
+          
+        
+        }
+        </style>
 </head>
 <body  class="home page-template page-template-template-nofooter page-template-template-nofooter-php page page-id-17066 wp-embed-responsive elementor-default elementor-kit-7 elementor-page elementor-page-17066">
     <!-- Header Section -->
@@ -52,6 +76,19 @@
             </div>
             <!-- END MAIN HEADER -->
     </header>
+
+    <div id="whatsapp">
+        {{-- <a href="https://wa.me/+971567866713"> --}}
+            <a href="https://api.whatsapp.com/send/?phone=%2B971567866713&text={{urlencode('Hello, I want some details about package')}}&type=phone_number&app_absent=0">
+        <img src="{{asset('images/whatsapp.png')}}" alt="whats_app" style="height: 100%;">
+    </a>
+    </div>
+
+    <div id="call">
+        <a href="tel:+971566115491">
+        <img src="{{asset('images/call_logo.png')}}" alt="call_logo" style="height: 100%;">
+    </a>
+    </div>
 
     <!-- Main Content -->
     <main>

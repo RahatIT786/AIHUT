@@ -1,8 +1,10 @@
 <?php
 
+use App\Http\Controllers\Admin\AdminController;
 use App\Http\Controllers\Agent\ParterAuthController;
 use App\Http\Controllers\MailController;
 use App\Http\Controllers\auth\AuthController;
+use App\Http\Controllers\user\UserController;
 use App\Models\SuperAdmin;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Route;
@@ -16,6 +18,7 @@ Route::get('/user/franchise', function () { return view('user.pages.franchise');
 Route::get('/user/agency', function () { return view('user.pages.agency'); })->name('agency');
 
 Route::get('/user/contact', function () { return view('user.pages.contactus'); })->name('contact');
+Route::post('/user/contact/formsubmit', [UserController::class,'sumbitUserContactForm'])->name('user.contactus.formsubmit');
 Route::get('/user/freelancer',function(){return view('user.pages.freelancer');})->name('freelancer');
 Route::get('/user/testimonials',function(){return view('user.pages.testimonials');})->name('testimonials');
 
@@ -39,6 +42,11 @@ Route::middleware(['auth:admins'])->group(function(){
     Route::get('/admin/franchise',function(){return view('admin.pages.franchise');})->name('admin.franchise');
     Route::get('/admin/freelancer',function(){return view('admin.pages.freelancer');})->name('admin.freelancer');
     Route::get('/admin/agent',function(){return view('admin.pages.agency');})->name('admin.agency');
+    Route::get('/admin/listquiry',[AdminController::class,'userEnquries'])->name('admin.enquries');
+
+
+
+
 });
 Route::get('/addAdmin',function(){
     try{
@@ -66,6 +74,7 @@ Route::get('/admin/agent',function(){return view('admin.pages.agency');})->name(
 Route::post('/agent/register',[ParterAuthController::class,'partnerRegistration'])->name('agent.register');
 Route::post('/agent/registerer',[ParterAuthController::class,'partnerRegistration'])->name('agent.registerer');
 Route::get('/agent/form',function(){return view('user.pages.registerform');})->name('agent.regiform');
+Route::post('/agent/form/submit',[ParterAuthController::class,'partnerRegistration'])->name('agent.submit.registerform');
 
 //EMAIL SENDING ROUTES
 Route::get('/email/travelpartner',[MailController::class,'sendTravelPartnerMail']);
@@ -76,6 +85,11 @@ Route::get('/email/travelpartner',[MailController::class,'sendTravelPartnerMail'
 //FALL BACK URLS
 Route::fallback(function(){return view('errors.general');});
 
+
+//signup form 
+Route::post('/user/signup',[UserController::class,'submitSignUpForm'])->name('user.signup.form');
+Route::get('/user/career',function(){return view('user.pages.careerform');})->name('career.form');
+Route::post('/user/career/formsubmit',[UserController::class,'userCareerForm'])->name('career.form.submit');
 
 
 
