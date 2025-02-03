@@ -60,9 +60,9 @@
                                                     <div id="successMessage" class="success-message">
     Your form has been submitted successfully!
     </div >
-    @if (session('success'))
-    <div class="alert alert-success">
-        {{ session('success') }}
+    @if (session('message'))
+    <div id="success-alert" class="alert alert-success text-center">
+        {{ session('message') }}
     </div>
 @endif
 
@@ -74,66 +74,80 @@
    
     <h1 class="text-start " style="font-size:px; width:100%;">I'm interested, Sign me up!</h1>
     <span class="mb-3">Login here to your account as</span>
-    <form >
+    <form method="POST" action="{{ route('user.signup.form') }}">
         @csrf
-
+    
+        <!-- Full Name -->
         <div class="mt-3 mb-3" style="background-color: white; padding: 0 6px; border-radius: 7px; display: flex; align-items: center; border: 1px solid #cfcaca;">
             <i class="fa-solid fa-user" style="margin-right: 5px;"></i>
-            <input type="text" style="margin: 0; border: none; flex: 1; outline: none;" placeholder="Full Name" name="username">
+            <input type="text" style="margin: 0; border: none; flex: 1; outline: none;" placeholder="Full Name" name="name" value="{{ old('name') }}">
         </div>
+        @error('name')
+            <div class="text-danger">{{ $message }}</div>
+        @enderror
+    
+        <!-- Mobile -->
         <div class="mb-3" style="background-color: white; padding: 0 6px; border-radius: 7px; display: flex; align-items: center; border: 1px solid #cfcaca;">
             <i class="fa-solid fa-phone" style="margin-right: 5px;"></i>
-           
-            <input type="tel" style="margin: 0; border: none; flex: 1; outline: none;" placeholder="Mobile" name="mobile">
+            <input type="tel" style="margin: 0; border: none; flex: 1; outline: none;" placeholder="Mobile" name="mobile" value="{{ old('mobile') }}">
         </div>
+        @error('mobile')
+            <div class="text-danger">{{ $message }}</div>
+        @enderror
+    
+        <!-- Email -->
         <div class="mb-3" style="background-color: white; padding: 0 6px; border-radius: 7px; display: flex; align-items: center; border: 1px solid #cfcaca;">
             <i class="fa-solid fa-envelope" style="margin-right: 5px;"></i>
-           
-            <input type="email" style="margin: 0; border: none; flex: 1; outline: none;" placeholder="Email Address" name="email">
+            <input type="email" style="margin: 0; border: none; flex: 1; outline: none;" placeholder="Email Address" name="email" value="{{ old('email') }}">
         </div>
+        @error('email')
+            <div class="text-danger">{{ $message }}</div>
+        @enderror
+    
+        <!-- City/State -->
         <div class="mb-3" style="background-color: white; padding: 0 6px; border-radius: 7px; display: flex; align-items: center; border: 1px solid #cfcaca;">
             <i class="fa-solid fa-building-user" style="margin-right: 5px;"></i>
-           
-            <input type="text" style="margin: 0; border: none; flex: 1; outline: none;" placeholder="City/State" name="city">
+            <input type="text" style="margin: 0; border: none; flex: 1; outline: none;" placeholder="City/State" name="city" value="{{ old('city') }}">
         </div>
-        
-        
-        {{-- <div style="background-color: white; padding: 0 6px; border-radius: 7px; display: flex; align-items: center; position: relative; border: 1px solid #cfcaca;">
-            <i class="fa-solid fa-key" style="margin-right: 5px;"></i>
-            <input type="password" id="password" style="margin: 0; border: none; flex: 1; outline: none;" placeholder="Password" name="password">
-            {{-- <i style="text-color: rgba(0,0,0,0.4)" class="fa-solid fa-eye" id="togglePassword" style="cursor: pointer; margin-left: 5px;"></i> --}}
-            {{-- <i class="fa-solid fa-eye" id="togglePassword" style="cursor: pointer; margin-left: 5px; margin-right:10px; color: #4e4c4c;"></i>  --}}
-
-        {{-- </div> --}} 
-           <!-- <label for="company_name">Company Name:</label> -->
-       
-
-   {{-- <a href="for" class="text-end " onmouseover="this.style.color='black';">Forgot Password?</a> --}}
-
-
-
-   
-  
-
-        <button >SUBMIT  <i class="fa-solid fa-arrow-right"></i></button>
-        
-            <div class="mt-4">
-                <span>Our support executives will help you activate your account and guide you along the way </span>
-            </div>
-
-        {{-- <div class="mt-3">
-            Don't have an account? <span style="cursor: pointer;"><a onmouseover="this.style.color='blue'" href="{{route('agent.regiform')}}">Register with us</a></span>
-          
-        </div> --}}
-
-        
-
-
-        {{-- <div style="color: white; cursor: pointer; " class="text-center ">
-          <span onclick="partnRegister()" style="font-size: larger;">  <a href="{{route('agent.regiform')}}" onmouseover="this.style.color='black';"><i class="fa-solid fa-user-tie"></i>&nbsp; Register New Partner</a>   </span>  
-        </div> --}}
+        @error('city')
+            <div class="text-danger">{{ $message }}</div>
+        @enderror
+    
+        <!-- Submit Button -->
+        <button type="submit">SUBMIT <i class="fa-solid fa-arrow-right"></i></button>
+    
+        <div class="mt-4">
+            <span>Our support executives will help you activate your account and guide you along the way.</span>
+        </div>
     </form>
+    
     </div>
+
+    <style>
+        #success-alert {
+            display: none;
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+        }
+    
+        #success-alert.show {
+            display: block;
+            opacity: 1;
+        }
+    </style>
+
+    <script>
+        // Check if there's a session message
+        @if (session('message'))
+            // Show the alert with fade-in effect
+            document.getElementById('success-alert').classList.add('show');
+    
+            // Hide the alert after 5 seconds with fade-out effect
+            setTimeout(function() {
+                document.getElementById('success-alert').classList.remove('show');
+            }, 5000); // 5000 milliseconds = 5 seconds
+        @endif
+    </script>
 
     <script>
         const togglePassword = document.getElementById('togglePassword');

@@ -31,7 +31,7 @@
                         <div>
                             <span style="padding: 10px 15px; border: 2px solid #FD8C00; border-radius: 30px ; font-size: larger;"><i class="fa-solid fa-building-user"></i></span>
                         </div>
-                        <p class="text-center">Agency Support <br> <a href="+917861078617" >+91 78610 78617</a></p>
+                        <p class="text-center">Agency Support <br> <a href="tel:+917861078617" >+91 78610 78617</a></p>
                         <p></p>
                        </div>
                         
@@ -88,97 +88,85 @@
 
                                 </div>
                                 <div class="witr_apartment_form">
-                                    @if (session('success'))
-                                    <div class="alert alert-success">
-                                        {{ session('success') }}
+                                    @if (session('message'))
+                                    <div class="alert alert-success text-center">
+                                        {{ session('message') }}
                                     </div>
                                 @endif
                                 
 
-                                    <div class="wpcf7 no-js" id="wpcf7-f22637-p11552-o1" lang="en-US" dir="ltr">
+                                    <div class=" no-js" id="-f22637-p11552-o1" lang="en-US" dir="ltr">
                                         <div class="screen-reader-response">
                                             <p role="status" aria-live="polite" aria-atomic="true"></p>
                                             <ul></ul>
                                         </div>
-                                        <form action="/sk/tramo/contact/#wpcf7-f22637-p11552-o1" method="post" class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
-                                            <div style="display: none;">
-                                                <input type="hidden" name="_wpcf7" value="22637" />
-                                                <input type="hidden" name="_wpcf7_version" value="5.9.8" />
-                                                <input type="hidden" name="_wpcf7_locale" value="en_US" />
-                                                <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f22637-p11552-o1" />
-                                                <input type="hidden" name="_wpcf7_container_post" value="11552" />
-                                                <input type="hidden" name="_wpcf7_posted_data_hash" value="" />
-                                            </div>
+                                        <form action="{{route('user.contactus.formsubmit')}}" method="post" class=" init" aria-label="Contact form" novalidate="" data-status="init">
+                                            @csrf
+                                           
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6">
                                                     <div class="twr_form_box">
-                                                        <p><span class="wpcf7-form-control-wrap" data-name="text-30"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false" placeholder="Owner Name" value="" type="text" name="text-30" /></span>
-                                                        </p>
+                                                        <input type="text" name="owner_name" placeholder="Owner Name" class="form-control" value="{{ old('owner_name') }}">
+                                                        @error('owner_name')<span class="text-danger">{{ $message }}</span>@enderror
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-6 col-md-6">
                                                     <div class="twr_form_box">
-                                                        <p><span class="wpcf7-form-control-wrap" data-name="text-30"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false" placeholder="Company Name" value="" type="text" name="text-30" /></span>
-                                                        </p>
+                                                        <input type="text" name="company_name" placeholder="Company Name" class="form-control" value="{{ old('company_name') }}">
+                                                        @error('company_name')<span class="text-danger">{{ $message }}</span>@enderror
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-6 col-md-6">
                                                     <div class="twr_form_box">
-                                                        <p><span class="wpcf7-form-control-wrap" data-name="email-380"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email form-control" aria-required="true" aria-invalid="false" placeholder="Email" value="" type="email" name="email-380" /></span>
-                                                        </p>
+                                                        <input type="email" name="email" placeholder="Email" class="form-control" value="{{ old('email') }}">
+                                                        @error('email')<span class="text-danger">{{ $message }}</span>@enderror
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-6 col-md-6">
                                                     <div class="twr_form_box">
-                                                        <p><span class="wpcf7-form-control-wrap" data-name="number-19"><input class="wpcf7-form-control wpcf7-number wpcf7-validates-as-required wpcf7-validates-as-number form-control" aria-required="true" aria-invalid="false" placeholder="Phone" value="" type="number" name="number-19" /></span>
-                                                        </p>
+                                                        <input type="number" name="phone" placeholder="Phone" class="form-control" value="{{ old('phone') }}">
+                                                        @error('phone')<span class="text-danger">{{ $message }}</span>@enderror
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-6 col-md-6">
                                                     <div class="twr_form_box">
-                                                        <p><span class="wpcf7-form-control-wrap" data-name="text-31"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false" placeholder="City" value="" type="text" name="text-31" /></span>
-                                                        </p>
+                                                        <input type="text" name="city" placeholder="City" class="form-control" value="{{ old('city') }}">
+                                                        @error('city')<span class="text-danger">{{ $message }}</span>@enderror
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-6 col-md-6">
                                                     <div class="twr_form_box">
-                                                        <p><span class="wpcf7-form-control-wrap" data-name="text-31"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false" placeholder="State" value="" type="text" name="text-31" /></span>
-                                                        </p>
+                                                        <input type="text" name="state" placeholder="State" class="form-control" value="{{ old('state') }}">
+                                                        @error('state')<span class="text-danger">{{ $message }}</span>@enderror
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-6 col-md-6">
                                                     <div class="twr_form_box">
-                                                        <p><span class="wpcf7-form-control-wrap" data-name="text-31"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false" placeholder="Country" value="" type="text" name="text-31" /></span>
-                                                        </p>
+                                                        <input type="text" name="country" placeholder="Country" class="form-control" value="{{ old('country') }}">
+                                                        @error('country')<span class="text-danger">{{ $message }}</span>@enderror
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-6 col-md-6">
                                                     <div class="twr_form_box">
-                                                        <p><span class="wpcf7-form-control-wrap" data-name="text-31">
-                                                            {{-- <input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false" placeholder="State" value="" type="text" name="text-31" /> --}}
-                                                                 <!-- <label for="partnership_type">Partnership Type:</label> -->
-                                                        <select id="partnership_type" name="partnership_type" required>
-                                                             <option value="">-- Select Partnership Type --</option>
-                                                             <option value="freelancer">Freelancer</option>
-                                                                <option value="agency">Agency</option>
-                                                                <option value="franchisee">Franchisee</option>
-                                                            </select>
-                                                        </span>
-                                                        </p>
+                                                        <select name="partnership_type" class="form-control">
+                                                            <option value="">-- Select Partnership Type --</option>
+                                                            <option value="freelancer" {{ old('partnership_type') == 'freelancer' ? 'selected' : '' }}>Freelancer</option>
+                                                            <option value="agency" {{ old('partnership_type') == 'agency' ? 'selected' : '' }}>Agency</option>
+                                                            <option value="franchisee" {{ old('partnership_type') == 'franchisee' ? 'selected' : '' }}>Franchisee</option>
+                                                        </select>
+                                                        @error('partnership_type')<span class="text-danger">{{ $message }}</span>@enderror
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-12 col-md-12">
-                                                    <div class="twr_form_box ">
-                                                        <p><span class="wpcf7-form-control-wrap" data-name="textarea"><textarea cols="40" rows="6" maxlength="2000" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false" placeholder="Message" name="textarea"></textarea></span>
-                                                        </p>
+                                                    <div class="twr_form_box">
+                                                        <textarea name="message" placeholder="Message" class="form-control">{{ old('message') }}</textarea>
+                                                        @error('message')<span class="text-danger">{{ $message }}</span>@enderror
                                                     </div>
-                                                    <div class=" text-center">
-                                                        <p><button type="submit" class="btn btn-primary">SEND NOW</button>
-                                                        </p>
+                                                    <div class="text-center">
+                                                        <button type="submit" class="btn btn-primary">SEND NOW</button>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="wpcf7-response-output" aria-hidden="true"></div>
                                         </form>
                                     </div>
 
@@ -341,9 +329,9 @@
                                             <!-- title top -->
 
                                             <!-- title middle -->
-                                            <h2 class="txbdstitle sttwo hlight">Together, let's make great things happen!
-                                                Explore open positions <span>Work with Rahat Group.
-                                                </span> please fill the form</h2>
+                                            <h2 class="txbdstitle sttwo hlight" style="font-weight: 500; font-size: 22px;">Together, let's make great things happen!
+                                                Explore open positions ,<span><br>   Work with Rahat Group.
+                                                </span></h2>
                                             <!-- title bottom -->
                                             <!-- image -->
                                             <!-- icon -->
@@ -360,7 +348,7 @@
                                     <div class="col-lg-4 col-md-4 col-sm-12">
                                         <!-- button -->
                                         <div class="text-right ttitlebtn">
-                                            <a class="btnallt btnall btnallactive" href="{{route('agent.regiform')}}">JOIN OUR TEAM </a>
+                                            <a class="btnallt btnall btnallactive" href="{{route('career.form')}}">JOIN OUR TEAM </a>
                                         </div>
 
                                     </div>

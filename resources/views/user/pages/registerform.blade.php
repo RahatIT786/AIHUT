@@ -96,7 +96,7 @@
                                             <p role="status" aria-live="polite" aria-atomic="true"></p>
                                             <ul></ul>
                                         </div>
-                                        <form action="" class="-form init" aria-label="Contact form" novalidate="novalida" data-status="init" enctype="multipart/form-data">
+                                        <form method="POST" action="{{route('agent.submit.registerform')}}"  class="-form init" aria-label="Contact form" novalidate="novalida" data-status="init" enctype="multipart/form-data">
                                             @csrf
                                            
                                             <div class="row">
@@ -335,9 +335,9 @@
                                             <!-- title top -->
 
                                             <!-- title middle -->
-                                            <h2 class="txbdstitle sttwo hlight">Together, let's make great things happen!
-                                                Explore open positions<span> Work with Rahat Group.
-                                                </span> please fill the form</h2>
+                                            <h2 class="txbdstitle sttwo hlight" style="font-weight: 500; font-size: 22px;">Together, let's make great things happen!
+                                                Explore open positions,<span><br> Work with Rahat Group.
+                                                </span></h2>
                                             <!-- title bottom -->
                                             <!-- image -->
                                             <!-- icon -->
@@ -354,7 +354,7 @@
                                     <div class="col-lg-4 col-md-4 col-sm-12">
                                         <!-- button -->
                                         <div class="text-right ttitlebtn">
-                                            <a class="btnallt btnall btnallactive" href="#partner-form">JOIN OUR TEAM </a>
+                                            <a class="btnallt btnall btnallactive" href="{{route('career.form')}}">JOIN OUR TEAM </a>
                                         </div>
 
                                     </div>

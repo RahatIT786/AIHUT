@@ -7,7 +7,7 @@
                     <div class="mobilemenu_con">
                         <div class="mobile_menu_logo text-left">
                             <a href="#" title="Tramo">
-<img src="{{asset('images/rahat_logo.png')}}" style="height:6rem;" alt="aihut" />
+<img src="{{asset('images/rahatGrouplogoBlackborder.png')}}" style="height:6rem;" alt="aihut" />
 </a>
                         </div>
                         <div class="mobile_menu_option">
@@ -19,7 +19,7 @@
                                 <div class="mobile_menu_content">
                                     <div class="mobile_menu_logo text-left">
                                         <a href="#" title="Tramo">
-<img src="{{asset('images/rahat_logo.png')}}" alt="aihut" style="height:6rem;"/>
+<img src="{{asset('images/rahatGrouplogoBlackborder.png')}}" alt="aihut" style="height:6rem;"/>
 </a>
                                     </div>
                                     <div class="menu_area mobile-menu ">
@@ -67,7 +67,7 @@
 
                                     <div class="logo">
                                         <a href="#" title="Tramo">
-<img src="{{asset('images/rahat_logo.png')}}" alt="aihut" style="height:6rem;" />
+<img src="{{asset('images/rahatGrouplogoBlackborder.png')}}" alt="aihut" style="height:6rem;" />
 </a>
                                     </div>
                                 </div>
@@ -82,7 +82,7 @@
                                             <li class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-11600"><a href="{{route('freelancer')}}">Freelancer ID</a></li>
                                             <li class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-11599"><a href="{{route('testimonials')}}">testimonials</a></li>
                                             <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-11552 current_page_item menu-item-11604"><a href="{{route('contact')}}" aria-current="page">contact us</a></li>
-                                            <li><a href="{{route('agent.regiform')}}">Register</a></li>
+                                            <li><a href="{{route('agent.regiform')}}" style="color: #FD8C00;">Register</a></li>
                                         </ul>
                                         <div class="tx_right_otherx d-flex align-items-center">
                                             <div class="p_menu_social"><a class="social-icon" href="https://www.facebook.com/rahattravelsofindia/"><i class="ti-facebook"></i></a><a class="social-icon" href="https://x.com/RahatTravelsInd"><i class="ti-x fa-brands fa-x-twitters"></i></a><a class="social-icon" href="https://www.instagram.com/rahattravelsofindia/"><i class="ti-instagram"></i></a>

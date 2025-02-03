@@ -23,7 +23,7 @@
                             <div class="center-item">
                                 <div class="center-heading">All page</div>
                                 <ul class="menu-list">
-                                    <li class="menu-item has-children">
+                                    {{-- <li class="menu-item has-children">
                                         <a href="javascript:void(0);" class="menu-item-button">
                                             <div class="icon"><i class="icon-user"></i></div>
                                             <div class="text">Enquiries</div>
@@ -44,6 +44,34 @@
                                                     <div class="text">Freelancer Enquiries</div>
                                                 </a>
                                             </li>
+                                        </ul>
+                                    </li> --}}
+                                    <li class="menu-item has-children">
+                                        <a href="javascript:void(0);" class="menu-item-button">
+                                            <div class="icon"><i class="icon-user"></i></div>
+                                            <div class="text">Enquiries</div>
+                                        </a>
+                                        <ul class="sub-menu">
+                                            <li class="sub-menu-item">
+                                                <a href="{{route('admin.enquries')}}" class="">
+                                                    <div class="text">Request Queries</div>
+                                                </a>
+                                            </li>
+                                            {{-- <li class="sub-menu-item">
+                                                <a href="{{route('admin.agency')}}" class="">
+                                                    <div class="text">ContactUs Form</div>
+                                                </a>
+                                            </li>
+                                            <li class="sub-menu-item">
+                                                <a href="{{route('admin.freelancer')}}" class="">
+                                                    <div class="text">Register Form</div>
+                                                </a>
+                                            </li>
+                                            <li class="sub-menu-item">
+                                                <a href="{{route('admin.freelancer')}}" class="">
+                                                    <div class="text">Career Form</div>
+                                                </a>
+                                            </li> --}}
                                         </ul>
                                     </li>
                                 </ul>
