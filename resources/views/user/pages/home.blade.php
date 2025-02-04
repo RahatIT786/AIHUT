@@ -73,7 +73,7 @@
 @endif
    
     <h1 class="text-start " style="font-size:px; width:100%;">I'm interested, Sign me up!</h1>
-    <span class="mb-3">Login here to your account as</span>
+    {{-- <span class="mb-3">Login here to your account as</span> --}}
     <form method="POST" action="{{ route('user.signup.form') }}">
         @csrf
     
