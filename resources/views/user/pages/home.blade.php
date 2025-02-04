@@ -27,11 +27,11 @@
                                                     <!-- title 2 -->
                                                     <!-- <h1 class="txbdstitle swsmall swtone hlight">Earn High Commissions</h1> -->
                                                     <!-- title 3 -->
-                                                    <h2 class="txbdstitle swttwo hlight">START Your <span><br> Hajj & Umrah Business</span></h2>
+                                                    <h2 id="animate-title" class="txbdstitle swttwo hlight">START Your <span><br> Hajj & Umrah Business</span></h2>
 
                                                     <!-- title -->
                                                     <!-- content -->
-                                                    <p>"Rahat Group" is a dynamic organization that Guides & Assists new Travel agencies who wish to enter the field of Religious Tourism Especially Hajj & Umrah</p>
+                                                    <p class="" id="animate-content">"Rahat Group" is a dynamic organization that Guides & Assists new Travel agencies who wish to enter the field of Religious Tourism Especially Hajj & Umrah</p>
 
 
                                                     <!--- List Option --->
@@ -124,6 +124,42 @@
     </div>
 
     <style>
+           #animate-title {
+        opacity: 0;
+        transform: translateY(-30px); /* Move up from 30px */
+        animation: slideIn 1.5s ease-out forwards;
+    }
+
+    /* Animation for Paragraph */
+    #animate-content {
+        opacity: 0;
+        transform: translateY(30px); /* Move down from 30px */
+        animation: fadeInUp 2s ease-out forwards;
+        animation-delay: 0.5s; /* Starts after the title animation */
+    }
+
+    /* Slide In Animation for Title */
+    @keyframes slideIn {
+        to {
+            opacity: 1;
+            transform: translateY(0); /* Back to original position */
+        }
+    }
+
+    /* Fade In and Move Up Animation for Content */
+    @keyframes fadeInUp {
+        to {
+            opacity: 1;
+            transform: translateY(0); /* Back to original position */
+        }
+    }
+
+
+/*---------------------------------------------*/
+        #animate-title{
+
+        }
+    
         #success-alert {
             display: none;
             opacity: 0;
