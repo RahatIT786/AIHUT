@@ -6,7 +6,7 @@
                 <div class="col-12">
                     <div class="mobilemenu_con">
                         <div class="mobile_menu_logo text-left">
-                            <a href="#" title="Tramo">
+                            <a href="{{route('home')}}" title="rahat_group">
 <img src="{{asset('images/rahatGrouplogoBlackborder.png')}}" style="height:6rem;" alt="aihut" />
 </a>
                         </div>
@@ -18,7 +18,7 @@
                             <div class="mobile_menu_inner mobile_p">
                                 <div class="mobile_menu_content">
                                     <div class="mobile_menu_logo text-left">
-                                        <a href="#" title="Tramo">
+                                        <a href="{{route('home')}}" title="rahat_group">
 <img src="{{asset('images/rahatGrouplogoBlackborder.png')}}" alt="aihut" style="height:6rem;"/>
 </a>
                                     </div>
@@ -66,7 +66,7 @@
                                 <div class="col-xl-2 col-lg-3 col-md-2 col-sm-12">
 
                                     <div class="logo">
-                                        <a href="#" title="Tramo">
+                                        <a href="{{route('home')}}" title="rahat_group">
 <img src="{{asset('images/rahatGrouplogoBlackborder.png')}}" alt="aihut" style="height:6rem;" />
 </a>
                                     </div>

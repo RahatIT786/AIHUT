@@ -27,6 +27,12 @@ Route::get('/user/privacy_policy',function(){return view('user.pages.privacypoli
 Route::get('/user/conditions',function(){return view('user.pages.termsandservice');})->name('condition');
 
 Route::get('/user/directorspeak',function(){return view('user.pages.directorspeak');})->name('directorspeak');
+Route::get('/user/aboutus',function(){return view('user.pages.aboutus');})->name('aboutus');
+Route::get('/user/benifits',function(){return view('user.pages.benifits');})->name('benifits');
+Route::get('/user/whatyouget',function(){return view('user.pages.whatyouget');})->name('whatyouget');
+Route::get('/user/whatdoweearn',function(){return view('user.pages.whatdoweearn');})->name('whatdoweearn');
+Route::get('/user/documentrequired',function(){return view('user.pages.documentrequired');})->name('documentrequired');
+Route::get('/user/termsandconditions',function(){return view('user.pages.termsandcondition');})->name('termsandconditions');
 
 Route::get('/optimize' ,[AuthController::class,'clearCache']);
 Route::get('/migrate' ,[AuthController::class,'migrate']);

@@ -79,13 +79,13 @@
 
     <div id="whatsapp">
         {{-- <a href="https://wa.me/+971567866713"> --}}
-            <a href="https://api.whatsapp.com/send/?phone=%2B971567866713&text={{urlencode('Hello, I want some details about package')}}&type=phone_number&app_absent=0">
+            <a target="_blank" href="https://api.whatsapp.com/send/?phone=%2B917863878630&text={{urlencode('Hello, I want some details about package')}}&type=phone_number&app_absent=0">
         <img src="{{asset('images/whatsapp.png')}}" alt="whats_app" style="height: 100%;">
     </a>
     </div>
 
     <div id="call">
-        <a href="tel:+971566115491">
+        <a target="_blank" href="tel:+917863878632">
         <img src="{{asset('images/call_logo.png')}}" alt="call_logo" style="height: 100%;">
     </a>
     </div>
