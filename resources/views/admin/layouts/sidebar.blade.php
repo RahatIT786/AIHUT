@@ -57,7 +57,7 @@
                                                     <div class="text">Request Queries</div>
                                                 </a>
                                             </li>
-                                            {{-- <li class="sub-menu-item">
+                                            <li class="sub-menu-item">
                                                 <a href="{{route('admin.agency')}}" class="">
                                                     <div class="text">ContactUs Form</div>
                                                 </a>
@@ -71,7 +71,7 @@
                                                 <a href="{{route('admin.freelancer')}}" class="">
                                                     <div class="text">Career Form</div>
                                                 </a>
-                                            </li> --}}
+                                            </li>
                                         </ul>
                                     </li>
                                 </ul>

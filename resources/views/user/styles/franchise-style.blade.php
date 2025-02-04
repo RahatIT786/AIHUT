@@ -49,7 +49,11 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 <link rel='stylesheet' id='bootstrap-css' href='https://demo.themexbd.com/sk/tramo/wp-content/themes/tramo/assets/css/bootstrap.min.css?ver=6.7.1' type='text/css' media='all' />
 <link rel='stylesheet' id='venobox-css' href='https://demo.themexbd.com/sk/tramo/wp-content/themes/tramo/venobox/venobox.min.css?ver=6.7.1' type='text/css' media='all' />
 <link rel='stylesheet' id='tramo_style-css' href='https://demo.themexbd.com/sk/tramo/wp-content/themes/tramo/style.css?ver=6.7.1' type='text/css' media='all' />
-<link rel='stylesheet' id='main-stylesheet -css' href='https://demo.themexbd.com/sk/tramo/wp-content/themes/tramo/assets/css/style.css?ver=6.7.1' type='text/css' media='all' />
+
+<link rel='stylesheet' id='main-stylesheet -css' href="{{asset('style.css')}}" type='text/css' media='all' />
+{{-- <link rel='stylesheet' id='main-stylesheet -css' href='https://demo.themexbd.com/sk/tramo/wp-content/themes/tramo/assets/css/style.css?ver=6.7.1' type='text/css' media='all' /> --}}
+
+
 <link rel='stylesheet' id='elementor-icons-css' href='https://demo.themexbd.com/sk/tramo/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.31.0' type='text/css' media='all' />
 <link rel='stylesheet' id='elementor-frontend-css' href='https://demo.themexbd.com/sk/tramo/wp-content/uploads/elementor/css/custom-frontend.min.css?ver=1732256278' type='text/css' media='all' />
 <link rel='stylesheet' id='swiper-css' href='https://demo.themexbd.com/sk/tramo/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5' type='text/css' media='all' />

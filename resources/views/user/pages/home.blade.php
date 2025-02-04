@@ -31,7 +31,7 @@
 
                                                     <!-- title -->
                                                     <!-- content -->
-                                                    <p>Rahat Group is renowned for its large-scale operations and the highest standard of services, offering exclusive access to a wide range of Umrah content, premium products, and tailored packages.</p>
+                                                    <p>"Rahat Group" is a dynamic organization that Guides & Assists new Travel agencies who wish to enter the field of Religious Tourism Especially Hajj & Umrah</p>
 
 
                                                     <!--- List Option --->
@@ -448,7 +448,7 @@ Your form has been submitted successfully!
 
 
                                             <!-- content -->
-                                            <p>Rahat is one of India's foremost B2B travel portals, constantly evolving and adding value in business by giving it's distributors and agents the best technology, deals and a user-friendly platform to transact and achieve their own financial freedom..</p>
+                                            <p>Rahat is one of India's foremost B2B umrah company, constantly evolving and adding value in business by giving it's distributors and agents the best technology, deals and a user-friendly platform to transact and achieve their own financial freedom..</p>
 
                                         </div>
                                         <!-- inner title -->
@@ -882,10 +882,10 @@ Your form has been submitted successfully!
                                                                     <div class="d-flex justify-content-between gap-5 m-4">
                                                                         <div class="benifit-item" style="width: 40vw">
                                                                             <div class="d-flex align-items-center gap-3">
-                                                                            <span style="border: 2px solid #FE8D00; padding: 10px 20px; border-radius: 35px; font-size: xx-large;"><i class="fa-solid fa-jug-detergent"></i></span>
+                                                                            <span style="border: 2px solid #FE8D00; padding: 10px 20px; border-radius: 35px; font-size: xx-large;"><i class="fa-solid fa-ticket"></i></span>
                                                                             <div>
-                                                                                <h3>Laundry </h3>
-                                                                                <span>Rahat Group provides premium laundry services for Hajj & Umrah groups and families in Makkah and Madinah, ensuring hassle-free cleaning.</span>
+                                                                                <h3>Tickets </h3>
+                                                                                <span>Rahat Group offers seamless ticket booking services for Hajj & Umrah travelers, ensuring convenient, timely, and stress-free travel arrangements to Makkah and Madinah.</span>
                                                                             </div>
                                                                             </div>
                                                                             <span></span>
@@ -896,7 +896,7 @@ Your form has been submitted successfully!
                                                                             <span style="border: 2px solid #FE8D00; padding: 10px 20px; border-radius: 35px; font-size: xx-large;"><i class="fa-solid fa-coins"></i></span>
                                                                             <div>
                                                                                 <h3> Forex</h3>
-                                                                                <span>Rahat Forex India Private Limited – Premium Forex Services in India, Makkah, and Madinah.</span>
+                                                                                <span>Rahat Group offers secure and competitive foreign exchange services, providing pilgrims with easy access to currency exchange during Hajj & Umrah.</span>
                                                                             </div>
                                                                             </div>
                                                                             <span></span>
@@ -911,10 +911,10 @@ Your form has been submitted successfully!
                                                                     <div class="d-flex justify-content-between gap-5 m-4">
                                                                         <div class="benifit-item" style="width: 40vw">
                                                                             <div class="d-flex align-items-center gap-3">
-                                                                            <span style="border: 2px solid #FE8D00; padding: 10px 20px; border-radius: 35px; font-size: xx-large;"><i class="fa-solid fa-cart-shopping"></i></span>
+                                                                            <span style="border: 2px solid #FE8D00; padding: 10px 20px; border-radius: 35px; font-size: xx-large;"><i class="fa-solid fa-hotel"></i></span>
                                                                             <div>
-                                                                                <h3>Shoping</h3>
-                                                                                <span>Rahat Group offers convenient shopping services, making your Hajj & Umrah experience hassle-free with a range of essentials.</span>
+                                                                                <h3>Hotels</h3>
+                                                                                <span>Rahat Group provides premium hotel accommodations in Makkah and Madinah, offering comfort, convenience, and proximity to holy sites for Hajj & Umrah pilgrims.</span>
                                                                             </div>
                                                                             </div>
                                                                             <span></span>
@@ -922,11 +922,11 @@ Your form has been submitted successfully!
                                                                         <!---->
                                                                         <div class="benifit-item" style="width: 40vw">
                                                                             <div class="d-flex align-items-center gap-3">
-                                                                            <span style="border: 2px solid #FE8D00; padding: 10px 20px; border-radius: 35px; font-size: xx-large;"><i class="fa-solid fa-user"></i></i></span>
+                                                                            <span style="border: 2px solid #FE8D00; padding: 10px 20px; border-radius: 35px; font-size: xx-large;"><i class="fa-solid fa-plane-departure"></i></i></span>
                                                                             <div>
-                                                                                <h3>Personal Assistance</h3>
+                                                                                <h3>Visas</h3>
                                                                                 
-                                                                                <span>Whether you need personal assistance (Gents or Ladies) for performing Umrah or require wheelchair assistance, Rahat Group is here to help.</span>
+                                                                                <span>Rahat Group offers hassle-free visa processing services for Hajj & Umrah, ensuring quick approvals and smooth documentation for a worry-free journey.</span>
                                                                             </div>
                                                                             </div>
                                                                             <span></span>
@@ -938,11 +938,11 @@ Your form has been submitted successfully!
                                                                       <!---->
                                                                       <div class="benifit-item" style="width: 40vw">
                                                                             <div class="d-flex align-items-center gap-3">
-                                                                            <span style="border: 2px solid #FE8D00; padding: 10px 20px; border-radius: 35px; font-size: xx-large;"><i class="fa-solid fa-book-quran"></i></i></span>
+                                                                            <span style="border: 2px solid #FE8D00; padding: 10px 20px; border-radius: 35px; font-size: xx-large;"><i class="fa-solid fa-bus"></i></i></span>
                                                                             <div>
-                                                                                <h3>Publication</h3>
+                                                                                <h3>Transport</h3>
                                                                                 
-                                                                                <span>Rahat Group provides calendars and other publications, offering valuable resources for your Hajj & Umrah journey.</span>
+                                                                                <span>Rahat Group delivers reliable and comfortable transportation services in Makkah and Madinah, ensuring timely travel for groups and families during Hajj & Umrah.</span>
                                                                             </div>
                                                                             </div>
                                                                             <span></span>
@@ -952,18 +952,51 @@ Your form has been submitted successfully!
                                                                                                                                                 <!---->
                                                                                                                                                 <div class="benifit-item" style="width: 40vw">
                                                                             <div class="d-flex align-items-center gap-3">
-                                                                            <span style="border: 2px solid #FE8D00; padding: 10px 20px; border-radius: 35px; font-size: xx-large;"><i class="fa-solid fa-bag-shopping"></i></i></span>
+                                                                            <span style="border: 2px solid #FE8D00; padding: 10px 20px; border-radius: 35px; font-size: xx-large;"><i class="fa-solid fa-hand-holding-hand"></i></i></span>
                                                                             <div>
-                                                                                <h3> Bags & Kit</h3>
+                                                                                <h3> Services</h3>
                                                                                 
-                                                                                <span>Rahat Group offers bags and Umrah kits for kids, ensuring a comfortable and convenient experience for young travelers.</span>
+                                                                                <span>Rahat Group provides comprehensive Hajj & Umrah services, from travel arrangements to on-ground support, ensuring a seamless pilgrimage experience</span>
                                                                             </div>
                                                                             </div>
                                                                             <span></span>
                                                                         </div>
                                                                         <!---->
+                                                                        
                                                                                                                                                 
                                                                     </div>
+
+                                                                    <div class="d-flex justify-content-between gap-5 m-4">
+                                                                        <!---->
+                                                                        <div class="benifit-item" style="width: 40vw">
+                                                                              <div class="d-flex align-items-center gap-3">
+                                                                              <span style="border: 2px solid #FE8D00; padding: 10px 20px; border-radius: 35px; font-size: xx-large;"><i class="fa-solid fa-utensils"></i></i></span>
+                                                                              <div>
+                                                                                  <h3>Catering</h3>
+                                                                                  
+                                                                                  <span>Rahat Group delivers elite catering services with delicious, hygienic meals tailored for Hajj & Umrah pilgrims, ensuring nourishment throughout the journey.</span>
+                                                                              </div>
+                                                                              </div>
+                                                                              <span></span>
+                                                                          </div>
+                                                                          <!---->
+  
+                                                                                                                                                  <!---->
+                                                                                                                                                  <div class="benifit-item" style="width: 40vw">
+                                                                              <div class="d-flex align-items-center gap-3">
+                                                                              <span style="border: 2px solid #FE8D00; padding: 10px 20px; border-radius: 35px; font-size: xx-large;"><i class="fa-solid fa-headset"></i></i></span>
+                                                                              <div>
+                                                                                  <h3> Support</h3>
+                                                                                  
+                                                                                  <span>Rahat Group provides dedicated 24/7 support for Hajj & Umrah pilgrims, ensuring assistance and guidance at every step of the spiritual journey.</span>
+                                                                              </div>
+                                                                              </div>
+                                                                              <span></span>
+                                                                          </div>
+                                                                          <!---->
+                                                                          
+                                                                                                                                                  
+                                                                      </div>
                                                                     </div>
                                                                 </div>
                                         
@@ -1255,6 +1288,7 @@ Your form has been submitted successfully!
                                                     <div class="tx_portfolio allposihv">
                                                         <div class="tx_pfthumb boxtextposire txbdbfall txbdbfltrb100 txbdbfallz txbdbfallbgov">
                                                             <img loading="lazy" decoding="async" width="975" height="550" src="{{asset('images/user/awart1.jpg')}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
+                                                            <div class="hover-text">Saudi Hajj Minister Awards Qiswa to Rahat Group</div> <!-- Hover text -->
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1278,6 +1312,7 @@ Your form has been submitted successfully!
                                                     <div class="tx_portfolio allposihv">
                                                         <div class="tx_pfthumb boxtextposire txbdbfall txbdbfltrb100 txbdbfallz txbdbfallbgov">
                                                             <img loading="lazy" decoding="async" width="975" height="550" src="{{asset('images/user/awart2.jpg')}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
+                                                            <div class="hover-text">Team Saudi Airlines Rewards Rahat Group</div> <!-- Hover text -->
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1301,6 +1336,7 @@ Your form has been submitted successfully!
                                                     <div class="tx_portfolio allposihv">
                                                         <div class="tx_pfthumb boxtextposire txbdbfall txbdbfltrb100 txbdbfallz txbdbfallbgov">
                                                             <img loading="lazy" decoding="async" width="975" height="550" src="{{asset('images/user/awart4.jpg')}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
+                                                            <div class="hover-text">Saudi Airlines - Best Performance Award 2019</div> <!-- Hover text -->
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1324,10 +1360,191 @@ Your form has been submitted successfully!
                                                     <div class="tx_portfolio allposihv">
                                                         <div class="tx_pfthumb boxtextposire txbdbfall txbdbfltrb100 txbdbfallz txbdbfallbgov">
                                                             <img loading="lazy" decoding="async" width="975" height="550" src="{{asset('images/user/awart5.jpg')}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
+                                                            <div class="hover-text">PULLMAN Zamzam Makkah 5* - Best Partner</div> <!-- Hover text -->
                                                         </div>
                                                     </div>
                                                 </div>
 
+                                                <!-- section exp -->
+                                                <div class="col-lg-6  eportfolio_item col-md-6 col-xs-12 col-sm-12 lifestyle    allprt30">
+                                                    <div class="tx_portfolio allposihv">
+                                                        <div class="tx_pfthumb boxtextposire txbdbfall txbdbfltrb100 txbdbfallz txbdbfallbgov">
+                                                            <img loading="lazy" decoding="async" width="975" height="550" src="{{asset('images/user/award6.jpg')}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
+                                                            <div class="hover-text">7th Iconic Achievers Award 2024</div> <!-- Hover text -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 eportfolio_item col-md-6 col-xs-12 col-sm-12 lifestyle allprt30">
+                                                    <div class="tx_portfolio allposihv">
+                                                        <div class="tx_pfthumb boxtextposire txbdbfall txbdbfltrb100 txbdbfallz txbdbfallbgov">
+                                                            <img loading="lazy" decoding="async" width="975" height="550" src="{{asset('images/user/award7.jpg')}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Image Description" />
+                                                            <div class="hover-text">National Award for Best Umrah Tou</div> <!-- Hover text -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                                <div class="col-lg-6  eportfolio_item col-md-6 col-xs-12 col-sm-12 lifestyle    allprt30">
+                                                    <div class="tx_portfolio allposihv">
+                                                        <div class="tx_pfthumb boxtextposire txbdbfall txbdbfltrb100 txbdbfallz txbdbfallbgov">
+                                                            <img loading="lazy" decoding="async" width="975" height="550" src="{{asset('images/user/award8.jpg')}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
+                                                            <div class="hover-text">State Award (Delhi) For Best Umrah Tour</div> <!-- Hover text -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6  eportfolio_item col-md-6 col-xs-12 col-sm-12 lifestyle    allprt30">
+                                                    <div class="tx_portfolio allposihv">
+                                                        <div class="tx_pfthumb boxtextposire txbdbfall txbdbfltrb100 txbdbfallz txbdbfallbgov">
+                                                            <img loading="lazy" decoding="async" width="975" height="550" src="{{asset('images/user/award9.jpg')}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
+                                                            <div class="hover-text">National Award for Best Hajj & Umrah Tour Of India</div> <!-- Hover text -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6  eportfolio_item col-md-6 col-xs-12 col-sm-12 lifestyle    allprt30">
+                                                    <div class="tx_portfolio allposihv">
+                                                        <div class="tx_pfthumb boxtextposire txbdbfall txbdbfltrb100 txbdbfallz txbdbfallbgov">
+                                                            <img loading="lazy" decoding="async" width="975" height="550" src="{{asset('images/user/award10.jpg')}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
+                                                            <div class="hover-text">ANJUM Hotel Makka 5* - Best Travel Partner</div> <!-- Hover text -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6  eportfolio_item col-md-6 col-xs-12 col-sm-12 lifestyle    allprt30">
+                                                    <div class="tx_portfolio allposihv">
+                                                        <div class="tx_pfthumb boxtextposire txbdbfall txbdbfltrb100 txbdbfallz txbdbfallbgov">
+                                                            <img loading="lazy" decoding="async" width="975" height="550" src="{{asset('images/user/award11.jpg')}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
+                                                            <div class="hover-text">DEAFA GROUP Makka - Best Travel Partner</div> <!-- Hover text -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                 <div class="col-lg-6  eportfolio_item col-md-6 col-xs-12 col-sm-12 lifestyle    allprt30">
+                                                    <div class="tx_portfolio allposihv">
+                                                        <div class="tx_pfthumb boxtextposire txbdbfall txbdbfltrb100 txbdbfallz txbdbfallbgov">
+                                                            <img loading="lazy" decoding="async" width="975" height="550" src="{{asset('images/user/award12.jpg')}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
+                                                            <div class="hover-text">Jawharat al Rasheed Hotel Madina - Best Partner</div> <!-- Hover text -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6  eportfolio_item col-md-6 col-xs-12 col-sm-12 lifestyle    allprt30">
+                                                    <div class="tx_portfolio allposihv">
+                                                        <div class="tx_pfthumb boxtextposire txbdbfall txbdbfltrb100 txbdbfallz txbdbfallbgov">
+                                                            <img loading="lazy" decoding="async" width="975" height="550" src="{{asset('images/user/award13.jpg')}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
+                                                            <div class="hover-text">Fastest Growing Indian Company Excellence Award </div> <!-- Hover text -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6  eportfolio_item col-md-6 col-xs-12 col-sm-12 lifestyle    allprt30">
+                                                    <div class="tx_portfolio allposihv">
+                                                        <div class="tx_pfthumb boxtextposire txbdbfall txbdbfltrb100 txbdbfallz txbdbfallbgov">
+                                                            <img loading="lazy" decoding="async" width="975" height="550" src="{{asset('images/user/award14.jpg')}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
+                                                            <div class="hover-text">Best Performance from Makarem AL Jubail for Umrah </div> <!-- Hover text -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6  eportfolio_item col-md-6 col-xs-12 col-sm-12 lifestyle    allprt30">
+                                                    <div class="tx_portfolio allposihv">
+                                                        <div class="tx_pfthumb boxtextposire txbdbfall txbdbfltrb100 txbdbfallz txbdbfallbgov">
+                                                            <img loading="lazy" decoding="async" width="975" height="550" src="{{asset('images/user/award15.jpg')}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
+                                                            <div class="hover-text">Best Performance by Mobily, Saudi Arabia </div> <!-- Hover text -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6  eportfolio_item col-md-6 col-xs-12 col-sm-12 lifestyle    allprt30">
+                                                    <div class="tx_portfolio allposihv">
+                                                        <div class="tx_pfthumb boxtextposire txbdbfall txbdbfltrb100 txbdbfallz txbdbfallbgov">
+                                                            <img loading="lazy" decoding="async" width="975" height="550" src="{{asset('images/user/award16.jpg')}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
+                                                            <div class="hover-text">Anjum Hotel Makka - Hajj 2023 </div> <!-- Hover text -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6  eportfolio_item col-md-6 col-xs-12 col-sm-12 lifestyle    allprt30">
+                                                    <div class="tx_portfolio allposihv">
+                                                        <div class="tx_pfthumb boxtextposire txbdbfall txbdbfltrb100 txbdbfallz txbdbfallbgov">
+                                                            <img loading="lazy" decoding="async" width="975" height="550" src="{{asset('images/user/award17.jpg')}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
+                                                            <div class="hover-text">Excellence Award from Deafa Group Makka </div> <!-- Hover text -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6  eportfolio_item col-md-6 col-xs-12 col-sm-12 lifestyle    allprt30">
+                                                    <div class="tx_portfolio allposihv">
+                                                        <div class="tx_pfthumb boxtextposire txbdbfall txbdbfltrb100 txbdbfallz txbdbfallbgov">
+                                                            <img loading="lazy" decoding="async" width="975" height="550" src="{{asset('images/user/award18.jpg')}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
+                                                            <div class="hover-text">Best Social Services Award from Gul Bootey </div> <!-- Hover text -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6  eportfolio_item col-md-6 col-xs-12 col-sm-12 lifestyle    allprt30">
+                                                    <div class="tx_portfolio allposihv">
+                                                        <div class="tx_pfthumb boxtextposire txbdbfall txbdbfltrb100 txbdbfallz txbdbfallbgov">
+                                                            <img loading="lazy" decoding="async" width="975" height="550" src="{{asset('images/user/award19.jpg')}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
+                                                            <div class="hover-text">Best Performance for Hajj from Moullim No 65. </div> <!-- Hover text -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6  eportfolio_item col-md-6 col-xs-12 col-sm-12 lifestyle    allprt30">
+                                                    <div class="tx_portfolio allposihv">
+                                                        <div class="tx_pfthumb boxtextposire txbdbfall txbdbfltrb100 txbdbfallz txbdbfallbgov">
+                                                            <img loading="lazy" decoding="async" width="975" height="550" src="{{asset('images/user/award20.jpg')}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
+                                                            <div class="hover-text">Saudi Airlines - Best Performance Award 2015 </div> <!-- Hover text -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6  eportfolio_item col-md-6 col-xs-12 col-sm-12 lifestyle    allprt30">
+                                                    <div class="tx_portfolio allposihv">
+                                                        <div class="tx_pfthumb boxtextposire txbdbfall txbdbfltrb100 txbdbfallz txbdbfallbgov">
+                                                            <img loading="lazy" decoding="async" width="975" height="550" src="{{asset('images/user/award21.png')}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
+                                                            <div class="hover-text">INDIGO Best seller Award given to RAHAT TRAVELS OF INDIA </div> <!-- Hover text -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6  eportfolio_item col-md-6 col-xs-12 col-sm-12 lifestyle    allprt30">
+                                                    <div class="tx_portfolio allposihv">
+                                                        <div class="tx_pfthumb boxtextposire txbdbfall txbdbfltrb100 txbdbfallz txbdbfallbgov">
+                                                            <img loading="lazy" decoding="async" width="975" height="550" src="{{asset('images/user/award22.jpg')}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
+                                                            <div class="hover-text">Saudi Tourism Authority Signs MOU with Rahat Group </div> <!-- Hover text -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6  eportfolio_item col-md-6 col-xs-12 col-sm-12 lifestyle    allprt30">
+                                                    <div class="tx_portfolio allposihv">
+                                                        <div class="tx_pfthumb boxtextposire txbdbfall txbdbfltrb100 txbdbfallz txbdbfallbgov">
+                                                            <img loading="lazy" decoding="async" width="975" height="550" src="{{asset('images/user/award23.jpg')}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
+                                                            <div class="hover-text">NUSUK and STA Rewards Top 10 Umrah Co. </div> <!-- Hover text -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6  eportfolio_item col-md-6 col-xs-12 col-sm-12 lifestyle    allprt30">
+                                                    <div class="tx_portfolio allposihv">
+                                                        <div class="tx_pfthumb boxtextposire txbdbfall txbdbfltrb100 txbdbfallz txbdbfallbgov">
+                                                            <img loading="lazy" decoding="async" width="975" height="550" src="{{asset('images/user/award24.jpg')}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
+                                                            <div class="hover-text">His Highness Minister of Hajj and Umrah Mr. Tawfiq </div> <!-- Hover text -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6  eportfolio_item col-md-6 col-xs-12 col-sm-12 lifestyle    allprt30">
+                                                    <div class="tx_portfolio allposihv">
+                                                        <div class="tx_pfthumb boxtextposire txbdbfall txbdbfltrb100 txbdbfallz txbdbfallbgov">
+                                                            <img loading="lazy" decoding="async" width="975" height="550" src="{{asset('images/user/award25.jpg')}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
+                                                            <div class="hover-text">Most Umra Visa in a Calendar Year </div> <!-- Hover text -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6  eportfolio_item col-md-6 col-xs-12 col-sm-12 lifestyle    allprt30">
+                                                    <div class="tx_portfolio allposihv">
+                                                        <div class="tx_pfthumb boxtextposire txbdbfall txbdbfltrb100 txbdbfallz txbdbfallbgov">
+                                                            <img loading="lazy" decoding="async" width="975" height="550" src="{{asset('images/user/award26.jpg')}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
+                                                            <div class="hover-text">Celebrating Excellence: Rahat Travel of India Wins </div> <!-- Hover text -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6  eportfolio_item col-md-6 col-xs-12 col-sm-12 lifestyle    allprt30">
+                                                    <div class="tx_portfolio allposihv">
+                                                        <div class="tx_pfthumb boxtextposire txbdbfall txbdbfltrb100 txbdbfallz txbdbfallbgov">
+                                                            <img loading="lazy" decoding="async" width="975" height="550" src="{{asset('images/user/award27.jpg')}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
+                                                            <div class="hover-text">CEO Hajj Committee of India appreciation award </div> <!-- Hover text -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                                <!-- section exp -->
                                                 <!-- section 5 -->
                                                 <div class="col-lg-6  eportfolio_item col-md-6 col-xs-12 col-sm-12 entertaintment     allprt30">
                                                     <div class="tx_portfolio allposihv">
@@ -1347,6 +1564,7 @@ Your form has been submitted successfully!
                                                     <div class="tx_portfolio allposihv">
                                                         <div class="tx_pfthumb boxtextposire txbdbfall txbdbfltrb100 txbdbfallz txbdbfallbgov">
                                                             <img loading="lazy" decoding="async" width="975" height="550" src="{{asset('images/user/awart6.jpg')}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
+                                                            <div class="hover-text">Most Innovative Technology Award.</div> <!-- Hover text -->
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1381,7 +1599,67 @@ Your form has been submitted successfully!
         </div>
     </div>
 
+<style>
+  .tx_pfthumb {
+    position: relative;
+    overflow: hidden;
+}
 
+.tx_pfthumb img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* Dim the image on hover */
+.tx_pfthumb:hover img {
+    transform: scale(1.05);
+    opacity: 0.7;
+}
+
+/* Overlay to make text stand out */
+.hover-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); /* Dark overlay */
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.tx_pfthumb:hover .hover-overlay {
+    opacity: 1;
+}
+
+/* Clearly visible text */
+.hover-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.8); /* Solid dark background */
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    text-align: center;
+}
+
+.tx_pfthumb:hover .hover-text {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1.05);
+}
+
+
+</style>
 
   </div>
 
