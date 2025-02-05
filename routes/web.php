@@ -55,6 +55,7 @@ Route::middleware(['auth:admins'])->group(function(){
         Route::get('/',function(){ return view('admin2.pages.dashboard');})->name('dashboard');
         // Route::get('/enquiries',function(){ return view('admin2.pages.enquiries');})->name('enquiries');
         Route::get('/enquiries/{type}',[AdminController::class,'listEnquiries'])->name('enquiry.list');
+        Route::get('/enquiries/search/{type}',[AdminController::class,'liveSearch'])->name('enquiry.list.search');
 
     });
   

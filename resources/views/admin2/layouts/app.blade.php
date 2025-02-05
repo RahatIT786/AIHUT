@@ -7,6 +7,7 @@
     <title>AIHUT-ADMIN</title>
 
     <meta name="author" content="themesflat.com">
+    <link rel="shortcut icon" href="{{asset('images/rahatArabicLogo.jpg')}}" type="image/x-icon">
 
     <!-- Mobile Specific Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -52,7 +53,8 @@
 
 
      <!--   Core JS Files   -->
-  
+     
+
   <script src="{{asset('admin2/assets/js/core/popper.min.js')}}"></script>
 
   <script src="{{asset('admin2/assets/js/core/bootstrap.min.js')}}"></script>
@@ -309,9 +311,55 @@
   <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
   
   <script src="{{asset('admin2/assets/js/material-dashboard.min.js')}}"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
    <!-- Bootstrap 5 CDN -->
 {{-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script> --}}
+
+
+
+
+
+
+
+
+
+<!------------------------------------------>
+ {{-- <script>
+      
+      console.log($('#quriSearchlive').length);  // Should log '1' if the element exists
+
+    $(document).ready(function() {
+        let debounceTimeout;
+        $('#quriSearchlive').on('input', function() {
+            let query = $(this).val();
+            let type = "{{ $type }}";
+
+            console.log('Searching for:', query); 
+            // Debouncing to delay AJAX request until user stops typing
+            clearTimeout(debounceTimeout);
+            debounceTimeout = setTimeout(function() {
+                $.ajax({
+                    url: "/v2/admin/enquiries/search/" +type,
+                    method: 'GET',
+                    data: { query: query
+                    
+                     },
+                    success: function(response) {
+                        console.log('Response:', response); // Ch
+                        // Update the table and pagination
+                        $('#enquiryList').html(response);
+                        // $('#pagination').html(response.pagination);
+                    },
+                    error: function(xhr, status, error) {
+                         console.error('Error:', error); // Log if there's an error
+                    }
+                });
+            }, 500); // Adjust delay time (500ms) to your preference
+        });
+    });
+</script> --}}
+<!------------------------------------------>
 
 </body>
 </html>

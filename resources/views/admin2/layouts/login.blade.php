@@ -161,7 +161,7 @@
                   <a href="{{route('dashboard')}}" class="nav-link text-white" target="_blank">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a href="{{route('aboutus'))}}"  class="nav-link text-white" target="_blank">About Us</a>
+                  <a href="{{route('aboutus')}}"  class="nav-link text-white" target="_blank">About Us</a>
                 </li>
                 <li class="nav-item">
                   <a  class="nav-link text-white" target="_blank">Blog</a>

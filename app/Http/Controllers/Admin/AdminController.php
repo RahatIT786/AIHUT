@@ -48,4 +48,33 @@ class AdminController extends Controller
     }
 
 
+    public function liveSearch(Request $request, $type)
+    {
+        // dd("Live search triggered", $request->all());
+        $query = $request->get('query');
+        $modelClass = $this->getModel($type);
+
+        // If model exists, perform search
+        if ($modelClass) {
+            // Dynamically query the model based on search query
+            $enquiries = $modelClass::where('name', 'like', '%' . $query . '%') // Adjust 'name' to the column you want to search by
+                                 ->orWhere('email', 'like', '%' . $query . '%') // Add more columns to search if necessary
+                                //  ->orWhere('owner_name', 'like', '%' . $query . '%') // Add more columns to search if necessary
+                                //  ->orWhere('full_name', 'like', '%' . $query . '%') // Add more columns to search if necessary
+                                 ->orWhere('city', 'like', '%' . $query . '%') // Add more columns to search if necessary
+                                 ->orWhere('phone', 'like', '%' . $query . '%') // Add more columns to search if necessary
+                                
+                                 ->get();
+        } else {
+            $enquiries = [];
+        }
+
+        // Return the partial view with the search results
+        // return response()->json(view('admin2.pages.enquiries', compact('enquiries'))->render());
+        return view('admin2.pages.enquiries', compact('enquiries'));
+    }
+
+
+
+
 }
