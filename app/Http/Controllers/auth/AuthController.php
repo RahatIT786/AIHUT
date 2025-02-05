@@ -10,7 +10,8 @@ use Illuminate\Support\Facades\Hash;
 
 class AuthController extends Controller{
     public function adminLoginForm(){
-        return view("admin.auth.admin-login");
+        // return view("admin.auth.admin-login");
+        return view('admin2.layouts.login');
     }
     public function login(Request $request)
 {
@@ -28,7 +29,8 @@ class AuthController extends Controller{
 
     if (Auth::guard('admins')->attempt($credentials, $remember)) {
         $request->session()->regenerate();
-        return redirect()->route('admin.dashboard');
+        // return redirect()->route('admin.dashboard');
+        return redirect()->route('admin2.dashboard');
     }
 
     return back()->withErrors([

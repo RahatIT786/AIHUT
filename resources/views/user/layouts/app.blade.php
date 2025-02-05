@@ -115,5 +115,58 @@
 
 @include('user.styles.home-script')
 {{-- @include('user.styles.franchise-script') --}}
+<style>
+/* .goog-te-combo option:hover {
+    background-color: black !important;
+    color: white !important;
+} */
+     .VIpgJd-ZVi9od-ORHb-OEVmcd{
+        visibility:hidden !important; 
+    }
+.goog-te-combo{
+    padding: 8px !important;
+    border-radius: 5px !important;
+    width: 5rem !important;
+    border: red !important;
+}
+.goog-te-combo:focus{
+    border: red !important;
+    outline: red !important;
+}
+
+    /* Hide Google Translate toolbar */
+.goog-te-banner-frame.skiptranslate {
+    display: none !important;
+} 
+
+/* Remove the space reserved for the toolbar */
+body {
+    top: 0px !important; 
+}
+
+/* Hide the Google Translate badge */
+.goog-logo-link {
+    display: none !important;
+} 
+
+/* Hide the text label "Powered by Google Translate" */
+.goog-te-gadget {
+    color: transparent !important;
+} 
+
+/* If there's a dropdown box you want to keep, you can style it here */
+#google_translate_element select {
+    color: black;  /* Keep the dropdown visible but text styled */
+}
+
+</style>
+
+<script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+    }
+    </script>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </body>
 </html>

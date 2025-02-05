@@ -91,7 +91,7 @@
             </div>
         @endif
 
-        <a href="{{ url('/') }}">Back to Home</a>
+        <a href="{{ url('/v2/admin/') }}">Back to Home</a>
     </div>
 </body>
 </html>
