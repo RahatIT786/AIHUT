@@ -58,34 +58,47 @@
 															
 								<!-- bar -->
 															<!-- circle bar -->
-                                                            <p>We need three Office Documents and three Personal Documents to authorize any Agency.</p>
-
-                                                            <h5>Office Documents Required (Any Three)</h5>
+                                                           
+                                                            <h5>To authorize an agency, we require:</h5>
                                                             <ol>
-                                                                <li>Leave and License Agreement or Ownership Proof of Office.</li>
-                                                                <li>Address Proof (Electric Bills / Telephone Bills)</li>
-                                                                <li>Bank Statement of your company (Last 3 Months)</li>
-                                                                <li>Company Pan Card / Udyog Adhaar / Gumashta / Shop &Establishment</li>
+                                                                <li>Three Office Documents
+                                                                </li>
+                                                                <li> Three Personal Documents
+                                                                </li>
+                                                                <li> Additional Documents & Formalities
+                                                                </li>
+                                                               
                                                             </ol>
 
-                                                            <h5>Personal Documents of Proprietor, Partners or Directors. (Any Three)</h5>
-                                                            <ol>
-                                                                <li>Passport Copy.</li>
-                                                                <li>Adhaar Card</li>
-                                                                <li>Pan Card</li>
-                                                                <li>Saving Bank Passbook / Statement</li>
-                                                            </ol>
+                                                            <h2>Office Documents (Any Three)</h2>
+<p>• Office Ownership Proof – Leave and License Agreement or Ownership Documents</p>
+<p>• Office Address Proof – Electricity Bill / Telephone Bill</p>
+<p>• Company Bank Statement – Last 3 Months</p>
+<p>• Company Registration Documents – PAN Card / Udyog Aadhaar / Gumashta / Shop & Establishment Certificate</p>
 
-                                                            <h5>Apart from the above documents we need the following</h5>
-                                                            <ol>
-                                                                <li>Office <strong>Visiting Card & Latest Photo</strong> of Proprietor / Partners</li>
-                                                                <li><strong>Office Photos</strong> should show your Sign boards, Staff sitting Area, Cabins in office and all other facilities you want us to notice.
-                                                                    </li>
-                                                                <li>Application form fully filled in block letters with signatures and company seal.</li>
-                                                            </ol>
+<h2>Personal Documents (Proprietor/Partners/Directors) (Any Three)</h2>
+<p>• Passport Copy</p>
+<p>• Aadhaar Card</p>
+<p>• PAN Card</p>
+<p>• Savings Bank Passbook / Bank Statement</p>
 
-                                                            <h4>One Time Non Refundable Deposit of 49,999 INR to be paid in favor of ‘All India Hajj and Umrah Tours Pvt. Ltd.</h4>
-                                                            <h4><strong style="color: #FD8C00;">Very Important Note :: </strong>All Payments should be taken in Official Company Account of “All India Hajj & Umrah Tours Pvt. Ltd.” From the Guests or any account Given from the Company depending upon the city of departures. Agents cannot collect CASH from the Clients.</h4>
+<h2>Additional Requirements</h2>
+<p>• Office Visiting Card & Latest Photo of Proprietor/Partners</p>
+<p>• Office Photos showcasing:</p>
+<ul>
+    <li>Signboards</li>
+    <li>Staff Sitting Area</li>
+    <li>Cabins</li>
+    <li>Other office facilities</li>
+</ul>
+<p>• Duly Filled Application Form – In block letters with signatures and company seal</p>
+<p>• One-Time Non-Refundable Deposit of ₹49,999 in favor of All India Hajj & Umrah Tours Pvt. Ltd.</p>
+
+<h2>Important Payment Guidelines</h2>
+<p>🚨 <strong>All payments must be made directly to the official company account of All India Hajj & Umrah Tours Pvt. Ltd.</strong></p>
+<p>🚨 <strong>Agents CANNOT collect cash from clients under any circumstances.</strong> Payments must be processed through the official company account, depending on the city of departure.</p>
+
+                                                          
 
 
 

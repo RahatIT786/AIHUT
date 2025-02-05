@@ -11,6 +11,17 @@ use Illuminate\Http\Request;
 
 class AdminController extends Controller
 {
+
+    private function getModel($type){
+        $models=[
+            'signup'=>SignupForm::class,
+            'register'=>Partner::class,
+            'contactus'=>ContactUs::class,
+            'career'=>Career::class,
+        ];
+
+        return $models[$type]?? null;
+    }
     
     public function userEnquries(){
         $enquiries=SignupForm::where('delete_status',1)->get();
@@ -19,4 +30,22 @@ class AdminController extends Controller
         $careerEnq=Career::where('delete_status',1)->get();
         return view('admin.pages.enquiries',compact('enquiries','regiEq','contactEnq','careerEnq'));
     }
+
+
+
+
+    public function listEnquiries($type)
+    {
+        // Dynamically fetch data based on enquiry type
+        $model = $this->getModel($type);
+        if (!$model) {
+            abort(404); // If the enquiry type is invalid, show 404 error
+        }
+
+        
+        $enquiries = $model::all();
+        return view('admin2.pages.enquiries', compact('enquiries', 'type'));
+    }
+
+
 }

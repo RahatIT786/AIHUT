@@ -43,13 +43,21 @@ Route::get('/login',[AuthController::class,'adminLoginForm'])->name('login');
 Route::post('/login', [AuthController::class, 'login'])->name('admin.login.submit');
 
 Route::middleware(['auth:admins'])->group(function(){
-    Route::get('/dashboard', function () {return view('admin.pages.dashboard');})->name('admin.dashboard');
-    Route::get('/admin/user_enquiry',function(){return view('admin.pages.user_enquiry');});
-    Route::get('/admin/franchise',function(){return view('admin.pages.franchise');})->name('admin.franchise');
-    Route::get('/admin/freelancer',function(){return view('admin.pages.freelancer');})->name('admin.freelancer');
-    Route::get('/admin/agent',function(){return view('admin.pages.agency');})->name('admin.agency');
-    Route::get('/admin/listquiry',[AdminController::class,'userEnquries'])->name('admin.enquries');
+    // Route::get('/dashboard', function () {return view('admin.pages.dashboard');})->name('admin.dashboard');
+    // Route::get('/admin/user_enquiry',function(){return view('admin.pages.user_enquiry');});
+    // Route::get('/admin/franchise',function(){return view('admin.pages.franchise');})->name('admin.franchise');
+    // Route::get('/admin/freelancer',function(){return view('admin.pages.freelancer');})->name('admin.freelancer');
+    // Route::get('/admin/agent',function(){return view('admin.pages.agency');})->name('admin.agency');
+    // Route::get('/admin/listquiry',[AdminController::class,'userEnquries'])->name('admin.enquries');
 
+    // version 2 admin pages updates below
+    Route::prefix('/v2/admin')->name('admin2.')->group(function(){
+        Route::get('/',function(){ return view('admin2.pages.dashboard');})->name('dashboard');
+        // Route::get('/enquiries',function(){ return view('admin2.pages.enquiries');})->name('enquiries');
+        Route::get('/enquiries/{type}',[AdminController::class,'listEnquiries'])->name('enquiry.list');
+
+    });
+  
 
 
 
