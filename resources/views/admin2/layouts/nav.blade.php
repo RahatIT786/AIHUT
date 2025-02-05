@@ -35,7 +35,7 @@
               {{-- <i class="material-symbols-rounded fixed-plugin-button-nav">settings</i> --}}
             </a>
           </li>
-          <li class="nav-item dropdown pe-3 d-flex align-items-center">
+          {{-- <li class="nav-item dropdown pe-3 d-flex align-items-center">
             <a href="javascript:;" class="nav-link text-body p-0" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
               <i class="material-symbols-rounded">notifications</i>
             </a>
@@ -107,7 +107,7 @@
                 </a>
               </li>
             </ul>
-          </li>
+          </li> --}}
           <li class="nav-item d-flex align-items-center">
             <a href="../pages/sign-in.html" class="nav-link text-body font-weight-bold px-0">
               <i class="material-symbols-rounded">account_circle</i>
@@ -116,5 +116,15 @@
         </ul>
       </div>
     </div>
+
+
+
+
+
+
+
+
+
+   
   </nav>
     

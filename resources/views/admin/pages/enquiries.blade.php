@@ -33,7 +33,7 @@
                                 </th>
                             </tr>
                         </thead>
-                        <tbody>
+                        <tbody id="enquiryList">
                             @foreach($enquiries as $enquiry)
                             <tr class="hover:bg-gray-50">
                                 <td class="px-5 py-4 border-b border-gray-200 text-sm text-gray-700">

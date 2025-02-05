@@ -179,13 +179,13 @@
                                                     <select name="area_of_interest" class="form-control" required>
                                                         <option value="" selected disabled>Choose Area Of Interest</option>
                                                         <option value="Branch Manager">Branch Manager</option>
-                                                        <option value="Tour Leaders">Tour Leaders</option>
+                                                        <option value="Tour Leaders">Tour Leader</option>
                                                         <option value="Sales Executive">Sales Executive</option>
-                                                        <option value="Web Developers">Web Developers</option>
+                                                        <option value="Web Developers">Web Developer</option>
                                                         <option value="Ticketing and Visa Staff">Ticketing and Visa Staff</option>
                                                         <option value="Accountant">Accountant</option>
                                                         <option value="Office Boy">Office Boy</option>
-                                                        <option value="Drivers">Drivers</option>
+                                                        <option value="Drivers">Driver</option>
                                                         {{-- <option value="Other">Other</option> --}}
                                                     </select>
                                                     @error('area_of_interest')
