@@ -10,10 +10,8 @@
   
       <div class="row">
         <div class="ms-3">
-          <h3 class="mb-0 h4 font-weight-bolder">Dashboard</h3>
-          <p class="mb-4">
-            Check the sales, value and bounce rate by country.
-          </p>
+          <h3 class="mb-2 h4 font-weight-bolder">Dashboard</h3>
+          {{-- <p class="mb-4"> Check the sales, value and bounce rate by country.</p> --}}
          
         </div>
         <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4">
@@ -80,7 +78,7 @@
                 <div>
                   <p class="text-sm mb-0 text-capitalize">Career</p>
                  
-                  <h4 class="mb-0">{{$data['contactUsDetails']}}</h4>
+                  <h4 class="mb-0">{{$data['careerDetails']}}</h4>
                 </div>
                 <div class="icon icon-md icon-shape bg-gradient-dark shadow-dark shadow text-center border-radius-lg">
                   <i class="material-symbols-rounded opacity-10">weekend</i>
