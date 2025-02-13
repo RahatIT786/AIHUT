@@ -268,8 +268,29 @@
               </tr> --}}
              
             </tbody>
+          
+
           </table>
+        
         </div>
+        {{-- {{ $enquiries->links() }} --}}
+        <div class="d-flex justify-content-between align-items-center mb-3">
+          <form method="GET" action="" class="d-flex align-items-center gap-2">
+            <label for="per_page" class="fw-semibold text-muted">Show:</label>
+            <select name="per_page" id="per_page" class="form-select form-select-sm w-auto shadow-sm border-primary" onchange="this.form.submit()">
+                <option value="25" {{ request('per_page') == 25 ? 'selected' : '' }}>25</option>
+                <option value="50" {{ request('per_page') == 50 ? 'selected' : '' }}>50</option>
+                <option value="75" {{ request('per_page') == 75 ? 'selected' : '' }}>75</option>
+                <option value="100" {{ request('per_page') == 100 ? 'selected' : '' }}>100</option>
+            </select>
+        </form>
+      
+          <!-- Laravel Pagination Links -->
+          {{ $enquiries->appends(['per_page' => request('per_page')])->links() }}
+      </div>
+      
+
+
       </div>
     </div>
   </div>

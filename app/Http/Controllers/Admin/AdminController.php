@@ -47,7 +47,7 @@ class AdminController extends Controller
 
 
 
-    public function listEnquiries($type)
+    public function listEnquiries(Request $request,$type)
     {
         // Dynamically fetch data based on enquiry type
         $model = $this->getModel($type);
@@ -55,10 +55,10 @@ class AdminController extends Controller
             abort(404); // If the enquiry type is invalid, show 404 error
         }
 
-        
-        $enquiries = $model::orderBy('created_at', 'desc')->get();
+        $perPage=$request->input('per_page',10);        
+        $enquiries = $model::orderBy('created_at', 'desc')->paginate($perPage);
         // $enquiries = $model::all();
-        return view('admin2.pages.enquiries', compact('enquiries', 'type'));
+        return view('admin2.pages.enquiries', compact('enquiries', 'type','perPage'));
     }
 
 
