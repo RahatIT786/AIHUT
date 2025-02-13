@@ -24,10 +24,11 @@
       <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
         <div class="bg-gradient-dark shadow-dark border-radius-lg pt-4 pb-3 px-4 d-flex justify-content-between">
           <h6 class="text-white text-capitalize ps-3">{{ucfirst($type)}} Enquiries</h6>
-          <div class="py-1 px-3" style="background-color: white; border-radius: 10px;">
+          {{-- this is search bar --}}
+          {{-- <div class="py-1 px-3" style="background-color: white; border-radius: 10px;">
             <i style="  border-radius: 10px;" class="fa-solid fa-magnifying-glass pe-2"></i>
             <input id="quriSearchlive" type="text" placeholder="Search.." style="border:none; ">
-          </div>
+          </div> --}} 
         </div>
         
       </div>
@@ -74,6 +75,7 @@
                 <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Skill Level</th>
                
                 @endif
+                <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">TimeStamp</th>
                 {{-- <th class="text-secondary opacity-7"></th> --}}
               </tr>
             </thead>
@@ -134,6 +136,9 @@
                             <p  class="text-xs font-weight-bold mb-0">{{$enquiry->country ?? 'Null'}}</p>
                             
                           </td>
+                          <td class="">
+                            <p  class="text-xs font-weight-bold mb-0">{{$enquiry->created_at->format('j M Y / H:i')  ?? 'Null'}}</p> 
+                          </td>
                             @break
                         
                         @case($contactus)
@@ -153,6 +158,9 @@
                             <p  class="text-xs font-weight-bold mb-0">{{$enquiry->country ?? 'Null'}}</p>
                             
                           </td>
+                          <td class="">
+                            <p  class="text-xs font-weight-bold mb-0">{{$enquiry->created_at->format('j M Y / H:i')  ?? 'Null'}}</p> 
+                          </td>
                         @break
                           
                         @case($signup)
@@ -166,6 +174,9 @@
                             <p class="text-xs text-secondary mb-0">{{$enquiry->pincode}}</p>
                            
                             
+                          </td>
+                          <td class="">
+                            <p  class="text-xs font-weight-bold mb-0">{{$enquiry->created_at->format('j M Y / H:i')  ?? 'Null'}}</p> 
                           </td>
                         @break
 
@@ -187,6 +198,9 @@
                           <td>
                             <p  class="text-xs font-weight-bold mb-0">{{$enquiry->skill_level ?? $enquiry->others}}</p>
                             {{-- <p class="text-xs text-secondary mb-0">{{$enquiry->others ?? ''}}</p> --}}
+                          </td>
+                          <td class="">
+                            <p  class="text-xs font-weight-bold mb-0">{{$enquiry->created_at->format('j M Y / H:i')  ?? 'Null'}}</p> 
                           </td>
                             
                         @break

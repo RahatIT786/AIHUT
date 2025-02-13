@@ -7,10 +7,21 @@ use App\Models\Career;
 use App\Models\ContactUs;
 use App\Models\Partner;
 use App\Models\SignupForm;
+use App\Services\AdminDashboardClass;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Schema;
 
 class AdminController extends Controller
 {
+
+    protected $adminDashboardClass;
+
+    public function __construct(AdminDashboardClass $adminDashboard)
+    {
+        $this->adminDashboardClass = $adminDashboard;
+    }
+
+
 
     private function getModel($type){
         $models=[
@@ -24,10 +35,12 @@ class AdminController extends Controller
     }
     
     public function userEnquries(){
-        $enquiries=SignupForm::where('delete_status',1)->get();
-        $regiEq=Partner::where('user_status',1)->get();
-        $contactEnq=ContactUs::where('delete_status',1)->get();
-        $careerEnq=Career::where('delete_status',1)->get();
+        $enquiries=SignupForm::where('delete_status',1)->orderBy('created_at', 'desc')->get();
+        $regiEq=Partner::where('user_status',1)->orderBy('created_at', 'desc')->get();
+        $contactEnq=ContactUs::where('delete_status',1)->orderBy('created_at', 'desc')->get();
+        $careerEnq=Career::where('delete_status',1)->orderBy('created_at', 'desc')->get();
+
+
         return view('admin.pages.enquiries',compact('enquiries','regiEq','contactEnq','careerEnq'));
     }
 
@@ -43,7 +56,8 @@ class AdminController extends Controller
         }
 
         
-        $enquiries = $model::all();
+        $enquiries = $model::orderBy('created_at', 'desc')->get();
+        // $enquiries = $model::all();
         return view('admin2.pages.enquiries', compact('enquiries', 'type'));
     }
 
@@ -57,23 +71,68 @@ class AdminController extends Controller
         // If model exists, perform search
         if ($modelClass) {
             // Dynamically query the model based on search query
-            $enquiries = $modelClass::where('name', 'like', '%' . $query . '%') // Adjust 'name' to the column you want to search by
-                                 ->orWhere('email', 'like', '%' . $query . '%') // Add more columns to search if necessary
-                                //  ->orWhere('owner_name', 'like', '%' . $query . '%') // Add more columns to search if necessary
-                                //  ->orWhere('full_name', 'like', '%' . $query . '%') // Add more columns to search if necessary
-                                 ->orWhere('city', 'like', '%' . $query . '%') // Add more columns to search if necessary
-                                 ->orWhere('phone', 'like', '%' . $query . '%') // Add more columns to search if necessary
+
+            $table=(new $modelClass)->getTable();
+
+            $columns=Schema::getColumnListing($table);
+
+            $enquiries=$modelClass::query();
+
+            foreach($columns as $column){
+                $enquiries->orWhere($column,'like','%'.$query.'%');
+            }
+
+            $enquiries=$enquiries->get();
+
+            // $enquiries = $modelClass::where('name', 'like', '%' . $query . '%') // Adjust 'name' to the column you want to search by
+            //                      ->orWhere('email', 'like', '%' . $query . '%') // Add more columns to search if necessary
+            //                     //  ->orWhere('owner_name', 'like', '%' . $query . '%') // Add more columns to search if necessary
+            //                     //  ->orWhere('full_name', 'like', '%' . $query . '%') // Add more columns to search if necessary
+            //                      ->orWhere('city', 'like', '%' . $query . '%') // Add more columns to search if necessary
+            //                      ->orWhere('phone', 'like', '%' . $query . '%')->get(); // Add more columns to search if necessary
                                 
-                                 ->get();
+
+                                //  if(Schema::hasColumn((new $modelClass)->getTable(),p))
+                                
         } else {
             $enquiries = [];
         }
 
         // Return the partial view with the search results
         // return response()->json(view('admin2.pages.enquiries', compact('enquiries'))->render());
-        return view('admin2.pages.enquiries', compact('enquiries'));
+        // return view('admin2.pages.enquiries', compact('enquiries','type'));
+        // return response()->json([
+        //     'success' => true,
+        //      'enquiries' => $enquiries,
+        //      'type' => $type,
+        //     ]);
     }
 
+
+    public function showDashboard(){
+       
+        $data=[
+
+            'agentSignUpDetails'=>SignupForm::where('delete_status',1)->count(),
+            'agentRegisterDetails'=>Partner::where('user_status',1)->count(),
+            'contactUsDetails'=>ContactUs::where('delete_status',1)->count(),
+            'careerDetails'=>Career::where('delete_status',1)->count(),
+
+            'signUpMonthWiseCount' => $this->adminDashboardClass->getSignupCountMonthWise(),
+            // 'signUpDayWiseCount' => $this->adminDashboardClass->getSignupCountDayWise(),
+            'allChartData'=>$this->adminDashboardClass->allModelChartData(),
+        ];
+
+        
+        // $data=collect($models)->mapWithKeys(fn($model,$key)=>[
+        //     $key=>$model::where('delete_status',1)->count()
+        // ])->toArray();
+
+
+        $data2 =  $this->adminDashboardClass->getSignupCountMonthWise();
+        // dd($data2);
+        return view('admin2.pages.dashboard',compact('data'));
+    }
 
 
 

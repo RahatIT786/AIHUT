@@ -1,24 +1,28 @@
 @extends('admin2.layouts.app')
 
 @section('content')
+
   <!-- Navbar -->
    
     <!-- End Navbar -->
     <div class="container-fluid py-2">
+     
+  
       <div class="row">
         <div class="ms-3">
           <h3 class="mb-0 h4 font-weight-bolder">Dashboard</h3>
           <p class="mb-4">
             Check the sales, value and bounce rate by country.
           </p>
+         
         </div>
         <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4">
           <div class="card">
             <div class="card-header p-2 ps-3">
               <div class="d-flex justify-content-between">
                 <div>
-                  <p class="text-sm mb-0 text-capitalize">Today's Money</p>
-                  <h4 class="mb-0">$53k</h4>
+                  <p class="text-sm mb-0 text-capitalize">Agent SignUp</p>
+                  <h4 class="mb-0">{{$data['agentSignUpDetails']}}</h4>
                 </div>
                 <div class="icon icon-md icon-shape bg-gradient-dark shadow-dark shadow text-center border-radius-lg">
                   <i class="material-symbols-rounded opacity-10">weekend</i>
@@ -27,7 +31,7 @@
             </div>
             <hr class="dark horizontal my-0">
             <div class="card-footer p-2 ps-3">
-              <p class="mb-0 text-sm"><span class="text-success font-weight-bolder">+55% </span>than last week</p>
+              {{-- <p class="mb-0 text-sm"><span class="text-success font-weight-bolder">+55% </span>than last week</p> --}}
             </div>
           </div>
         </div>
@@ -36,8 +40,8 @@
             <div class="card-header p-2 ps-3">
               <div class="d-flex justify-content-between">
                 <div>
-                  <p class="text-sm mb-0 text-capitalize">Today's Users</p>
-                  <h4 class="mb-0">2300</h4>
+                  <p class="text-sm mb-0 text-capitalize">Agent Register</p>
+                  <h4 class="mb-0">{{$data['agentRegisterDetails']}}</h4>
                 </div>
                 <div class="icon icon-md icon-shape bg-gradient-dark shadow-dark shadow text-center border-radius-lg">
                   <i class="material-symbols-rounded opacity-10">person</i>
@@ -46,7 +50,7 @@
             </div>
             <hr class="dark horizontal my-0">
             <div class="card-footer p-2 ps-3">
-              <p class="mb-0 text-sm"><span class="text-success font-weight-bolder">+3% </span>than last month</p>
+              {{-- <p class="mb-0 text-sm"><span class="text-success font-weight-bolder">+3% </span>than last month</p> --}}
             </div>
           </div>
         </div>
@@ -55,8 +59,8 @@
             <div class="card-header p-2 ps-3">
               <div class="d-flex justify-content-between">
                 <div>
-                  <p class="text-sm mb-0 text-capitalize">Ads Views</p>
-                  <h4 class="mb-0">3,462</h4>
+                  <p class="text-sm mb-0 text-capitalize">Contact Us</p>
+                  <h4 class="mb-0">{{$data['contactUsDetails']}}</h4>
                 </div>
                 <div class="icon icon-md icon-shape bg-gradient-dark shadow-dark shadow text-center border-radius-lg">
                   <i class="material-symbols-rounded opacity-10">leaderboard</i>
@@ -65,7 +69,7 @@
             </div>
             <hr class="dark horizontal my-0">
             <div class="card-footer p-2 ps-3">
-              <p class="mb-0 text-sm"><span class="text-danger font-weight-bolder">-2% </span>than yesterday</p>
+              {{-- <p class="mb-0 text-sm"><span class="text-danger font-weight-bolder">-2% </span>than yesterday</p> --}}
             </div>
           </div>
         </div>
@@ -74,8 +78,9 @@
             <div class="card-header p-2 ps-3">
               <div class="d-flex justify-content-between">
                 <div>
-                  <p class="text-sm mb-0 text-capitalize">Sales</p>
-                  <h4 class="mb-0">$103,430</h4>
+                  <p class="text-sm mb-0 text-capitalize">Career</p>
+                 
+                  <h4 class="mb-0">{{$data['contactUsDetails']}}</h4>
                 </div>
                 <div class="icon icon-md icon-shape bg-gradient-dark shadow-dark shadow text-center border-radius-lg">
                   <i class="material-symbols-rounded opacity-10">weekend</i>
@@ -84,14 +89,14 @@
             </div>
             <hr class="dark horizontal my-0">
             <div class="card-footer p-2 ps-3">
-              <p class="mb-0 text-sm"><span class="text-success font-weight-bolder">+5% </span>than yesterday</p>
+              {{-- <p class="mb-0 text-sm"><span class="text-success font-weight-bolder">+5% </span>than yesterday</p> --}}
             </div>
           </div>
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-4 col-md-6 mt-4 mb-4">
-          <div class="card">
+        {{-- <div class="col-lg-4 col-md-6 mt-4 mb-4">
+          <div class="card" style="display: none;">
             <div class="card-body">
               <h6 class="mb-0 ">Website Views</h6>
               <p class="text-sm ">Last Campaign Performance</p>
@@ -99,6 +104,7 @@
                 <div class="chart">
                   <canvas id="chart-bars" class="chart-canvas" height="170"></canvas>
                 </div>
+               
               </div>
               <hr class="dark horizontal">
               <div class="d-flex ">
@@ -107,11 +113,11 @@
               </div>
             </div>
           </div>
-        </div>
-        <div class="col-lg-4 col-md-6 mt-4 mb-4">
+        </div> --}}
+        <div class="col-lg-4 col-md-6 mt-4 mb-4" style="display: none;">
           <div class="card ">
             <div class="card-body">
-              <h6 class="mb-0 "> Daily Sales </h6>
+              <h6 class="mb-0 "> Agent SignUp</h6>
               <p class="text-sm "> (<span class="font-weight-bolder">+15%</span>) increase in today sales. </p>
               <div class="pe-2">
                 <div class="chart">
@@ -126,8 +132,84 @@
             </div>
           </div>
         </div>
+        <div class="col-lg-4 col-md-6 mt-4 mb-4">
+          <div class="card ">
+            <div class="card-body">
+              <h6 class="mb-0 "> Agent SignUp</h6>
+              {{-- <p class="text-sm "> (<span class="font-weight-bolder">+15%</span>) increase in today sales. </p> --}}
+              <div class="pe-2">
+                <div class="chart">
+                  <canvas id="chart-line-1" class="chart-canvas" height="170"></canvas>
+                </div>
+              </div>
+              <hr class="dark horizontal">
+              <div class="d-flex ">
+                {{-- <i class="material-symbols-rounded text-sm my-auto me-1">schedule</i> --}}
+                {{-- <p class="mb-0 text-sm"> updated 4 min ago </p> --}}
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mt-4 mb-4">
+          <div class="card ">
+            <div class="card-body">
+              <h6 class="mb-0 "> Agent Register</h6>
+              {{-- <p class="text-sm "> (<span class="font-weight-bolder">+15%</span>) increase in today sales. </p> --}}
+              <div class="pe-2">
+                <div class="chart">
+                  <canvas id="chart-line-2" class="chart-canvas" height="170"></canvas>
+                </div>
+              </div>
+              <hr class="dark horizontal">
+              <div class="d-flex ">
+                {{-- <i class="material-symbols-rounded text-sm my-auto me-1">schedule</i> --}}
+                {{-- <p class="mb-0 text-sm"> updated 4 min ago </p> --}}
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mt-4 mb-4">
+          <div class="card ">
+            <div class="card-body">
+              <h6 class="mb-0 "> Contact Us</h6>
+              {{-- <p class="text-sm "> (<span class="font-weight-bolder">+15%</span>) increase in today sales. </p> --}}
+              <div class="pe-2">
+                <div class="chart">
+                  <canvas id="chart-line-3" class="chart-canvas" height="170"></canvas>
+                </div>
+              </div>
+              <hr class="dark horizontal">
+              <div class="d-flex ">
+                {{-- <i class="material-symbols-rounded text-sm my-auto me-1">schedule</i> --}}
+                {{-- <p class="mb-0 text-sm"> updated 4 min ago </p> --}}
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mt-4 mb-4">
+          <div class="card ">
+            <div class="card-body">
+              <h6 class="mb-0 "> Career</h6>
+              {{-- <p class="text-sm "> (<span class="font-weight-bolder">+15%</span>) increase in today sales. </p> --}}
+              <div class="pe-2">
+                <div class="chart">
+                  <canvas id="chart-line-4" class="chart-canvas" height="170"></canvas>
+                </div>
+              </div>
+              <hr class="dark horizontal">
+              <div class="d-flex ">
+                {{-- <i class="material-symbols-rounded text-sm my-auto me-1">schedule</i> --}}
+                {{-- <p class="mb-0 text-sm"> updated 4 min ago </p> --}}
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        {{-- - --}}
         <div class="col-lg-4 mt-4 mb-3">
-          <div class="card">
+          <div class="card" style="display: none">
             <div class="card-body">
               <h6 class="mb-0 ">Completed Tasks</h6>
               <p class="text-sm ">Last Campaign Performance</p>
@@ -145,9 +227,12 @@
           </div>
         </div>
       </div>
+
+     
+
       <div class="row mb-4">
         <div class="col-lg-8 col-md-6 mb-md-0 mb-4">
-          <div class="card">
+          {{-- <div class="card">
             <div class="card-header pb-0">
               <div class="row">
                 <div class="col-lg-6 col-7">
@@ -418,10 +503,10 @@
                 </table>
               </div>
             </div>
-          </div>
+          </div> --}}
         </div>
         <div class="col-lg-4 col-md-6">
-          <div class="card h-100">
+          {{-- <div class="card h-100">
             <div class="card-header pb-0">
               <h6>Orders overview</h6>
               <p class="text-sm">
@@ -487,10 +572,13 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> --}}
         </div>
       </div>
-      <footer class="footer py-4  ">
+      {{-- <pre>{{ print_r($data['signUpMonthWiseCount'] ?? 'No Data', true) }}</pre> --}}
+
+
+      <footer class="footer" style="margin-top: 16rem;" >
         <div class="container-fluid">
           <div class="row align-items-center justify-content-lg-between">
             <div class="col-lg-6 mb-lg-0 mb-4">
@@ -522,6 +610,435 @@
           </div>
         </div>
       </footer>
+
+
     </div>
 
+@endsection
+
+@section('scripts')
+  {{--  --}}
+<script>
+  // var ctx = document.getElementById("chart-bars").getContext("2d");
+
+  // new Chart(ctx, {
+  //   type: "bar",
+  //   data: {
+  //     labels: ["M", "T", "W", "T", "F", "S", "S"],
+  //     datasets: [{
+  //       label: "Views",
+  //       tension: 0.4,
+  //       borderWidth: 0,
+  //       borderRadius: 4,
+  //       borderSkipped: false,
+  //       backgroundColor: "#43A047",
+  //       data: [10, 45, 22, 28, 50, 60, 76],
+  //       barThickness: 'flex'
+  //     }, ],
+  //   },
+  //   options: {
+  //     responsive: true,
+  //     maintainAspectRatio: false,
+  //     plugins: {
+  //       legend: {
+  //         display: false,
+  //       }
+  //     },
+  //     interaction: {
+  //       intersect: false,
+  //       mode: 'index',
+  //     },
+  //     scales: {
+  //       y: {
+  //         grid: {
+  //           drawBorder: false,
+  //           display: true,
+  //           drawOnChartArea: true,
+  //           drawTicks: false,
+  //           borderDash: [5, 5],
+  //           color: '#e5e5e5'
+  //         },
+  //         ticks: {
+  //           suggestedMin: 0,
+  //           suggestedMax: 500,
+  //           beginAtZero: true,
+  //           padding: 10,
+  //           font: {
+  //             size: 14,
+  //             lineHeight: 2
+  //           },
+  //           color: "#737373"
+  //         },
+  //       },
+  //       x: {
+  //         grid: {
+  //           drawBorder: false,
+  //           display: false,
+  //           drawOnChartArea: false,
+  //           drawTicks: false,
+  //           borderDash: [5, 5]
+  //         },
+  //         ticks: {
+  //           display: true,
+  //           color: '#737373',
+  //           padding: 10,
+  //           font: {
+  //             size: 14,
+  //             lineHeight: 2
+  //           },
+  //         }
+  //       },
+  //     },
+  //   },
+  // });
+
+
+  var ctx2 = document.getElementById("chart-line").getContext("2d");
+  var signUpMonthWiseCount  = @json($data['signUpMonthWiseCount']);
+//   var labels = signUpMonthWiseCount.months || []; // Extract days
+// var values = signUpMonthWiseCount.signupCounts || []; // Extract signup counts
+var labels = Object.values(signUpMonthWiseCount.months); // Ensure values only
+var values = Object.values(signUpMonthWiseCount.signupCounts); 
+
+console.log("Labels:", labels);
+console.log("Values:", values);
+  new Chart(ctx2, {
+    
+    type: "line",
+    data: {
+      // labels: ["J", "F", "M", "A", "M", "J", "J", "A", "S", "O", "N", "D"],
+      labels:labels,
+      datasets: [{
+        label: "Sales",
+        tension: 0,
+        borderWidth: 2,
+        pointRadius: 3,
+        pointBackgroundColor: "#43A047",
+        pointBorderColor: "transparent",
+        borderColor: "#43A047",
+        backgroundColor: "transparent",
+        fill: true,
+        // data: [120, 230, 130, 440, 250, 360, 270, 180, 90, 300, 310, 220],
+        data:values,
+        maxBarThickness: 6
+
+      }],
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: {
+          display: false,
+        },
+        tooltip: {
+          callbacks: {
+            title: function(context) {
+              const fullMonths = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+              return fullMonths[context[0].dataIndex];
+            }
+          }
+        }
+      },
+      interaction: {
+        intersect: false,
+        mode: 'index',
+      },
+      scales: {
+        y: {
+          grid: {
+            drawBorder: false,
+            display: true,
+            drawOnChartArea: true,
+            drawTicks: false,
+            borderDash: [4, 4],
+            color: '#e5e5e5'
+          },
+          ticks: {
+            display: true,
+            color: '#737373',
+            padding: 10,
+            font: {
+              size: 12,
+              lineHeight: 2
+            },
+          }
+        },
+        x: {
+          grid: {
+            drawBorder: false,
+            display: false,
+            drawOnChartArea: false,
+            drawTicks: false,
+            borderDash: [5, 5]
+          },
+          ticks: {
+            display: true,
+            color: '#737373',
+            padding: 10,
+            font: {
+              size: 12,
+              lineHeight: 2
+            },
+          }
+        },
+      },
+    },
+  });
+
+///---------agent-register-graph-data-------------------------
+ 
+//   var signUpMonthWiseCount  = @json($data['signUpMonthWiseCount']);
+
+// var labels = Object.values(signUpMonthWiseCount.months); // Ensure values only
+// var values = Object.values(signUpMonthWiseCount.signupCounts); 
+// var ctx8 = document.getElementById("chart-line-register").getContext("2d");
+// console.log("Labels:", labels);
+//  new Chart(ctx8, {
+//     type: "line",
+//     data: {
+//       // labels: ["Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+//       labels: labels;
+//       datasets: [{
+//         label: "Tasks",
+//         tension: 0,
+//         borderWidth: 2,
+//         pointRadius: 3,
+//         pointBackgroundColor: "#43A047",
+//         pointBorderColor: "transparent",
+//         borderColor: "#43A047",
+//         backgroundColor: "transparent",
+//         fill: true,
+//         // data: [50, 40, 300, 220, 500, 250, 400, 230, 500],
+//         data:values,
+//         maxBarThickness: 6
+
+//       }],
+//     },
+//     options: {
+//       responsive: true,
+//       maintainAspectRatio: false,
+//       plugins: {
+//         legend: {
+//           display: false,
+//         }
+//       },
+//       interaction: {
+//         intersect: false,
+//         mode: 'index',
+//       },
+//       scales: {
+//         y: {
+//           grid: {
+//             drawBorder: false,
+//             display: true,
+//             drawOnChartArea: true,
+//             drawTicks: false,
+//             borderDash: [4, 4],
+//             color: '#e5e5e5'
+//           },
+//           ticks: {
+//             display: true,
+//             padding: 10,
+//             color: '#737373',
+//             font: {
+//               size: 14,
+//               lineHeight: 2
+//             },
+//           }
+//         },
+//         x: {
+//           grid: {
+//             drawBorder: false,
+//             display: false,
+//             drawOnChartArea: false,
+//             drawTicks: false,
+//             borderDash: [4, 4]
+//           },
+//           ticks: {
+//             display: true,
+//             color: '#737373',
+//             padding: 10,
+//             font: {
+//               size: 14,
+//               lineHeight: 2
+//             },
+//           }
+//         },
+//       },
+//     },
+//   });
+
+  // ----------not-working--------------------------------------------------------------
+
+//   document.addEventListener("DOMContentLoaded", function () {
+//     const lineCharts = [
+//         {
+//            id: "chart-line-1", 
+//            label: "Sales", 
+//            data: [120, 230, 130, 440, 250, 360, 270, 180, 90, 300, 310, 220] 
+//           },
+//         { id: "chart-line-2", label: "Users", data: [80, 150, 100, 200, 220, 300, 270, 190, 120, 280, 290, 200] },
+//         { id: "chart-line-3", label: "Revenue", data: [90, 180, 160, 250, 300, 400, 350, 290, 230, 320, 330, 280] }
+//     ];
+
+//     lineCharts.forEach(chart => {
+//         let ctx = document.getElementById(chart.id);
+//         if (ctx) {
+//             new Chart(ctx.getContext("2d"), {
+//                 type: "line",
+//                 data: {
+//                     labels: ["J", "F", "M", "A", "M", "J", "J", "A", "S", "O", "N", "D"],
+//                     datasets: [{
+//                         label: chart.label,
+//                         borderColor: "#43A047",
+//                         backgroundColor: "transparent",
+//                         data: chart.data
+//                     }]
+//                 },
+//                 options: { responsive: true, maintainAspectRatio: false }
+//             });
+//         }
+//     });
+// });
+
+document.addEventListener("DOMContentLoaded", function () {
+        var chartData = @json($data['allChartData']);
+
+        console.log("Chart Data Debug:", chartData); // Check if data is coming correctly
+
+        var labels = chartData.months; // Get month labels
+
+        var datasets = [
+            {
+                id: "chart-line-1",
+                label: "Signups",
+                borderColor: "#43A047",
+                backgroundColor: "transparent",
+                data: chartData.signupCounts
+            },
+            {
+                id: "chart-line-2",
+                label: "Agent Registrations",
+                borderColor: "#1E88E5",
+                backgroundColor: "transparent",
+                data: chartData.agentRegisterCounts
+            },
+            {
+                id: "chart-line-3",
+                label: "Contact Us",
+                borderColor: "#E53935",
+                backgroundColor: "transparent",
+                data: chartData.contactUsCounts
+            },
+            {
+                id: "chart-line-4",
+                label: "Career",
+                borderColor: "#8E24AA",
+                backgroundColor: "transparent",
+                data: chartData.careerCounts
+            }
+        ];
+
+        datasets.forEach(chart => {
+            let ctx = document.getElementById(chart.id);
+            if (ctx) {
+                new Chart(ctx.getContext("2d"), {
+                    type: "line",
+                    data: {
+                        labels: labels, // Dynamic labels from Laravel
+                        datasets: [{
+                            label: chart.label,
+                            borderColor: chart.borderColor,
+                            backgroundColor: chart.backgroundColor,
+                            data: chart.data
+                        }]
+                    },
+                    options: { responsive: true, maintainAspectRatio: false }
+                });
+            }
+        });
+    });
+  //--------------------------------
+  var ctx3 = document.getElementById("chart-line-tasks").getContext("2d");
+
+
+
+  new Chart(ctx3, {
+    type: "line",
+    data: {
+      labels: ["Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+      // labels: labels;
+      datasets: [{
+        label: "Tasks",
+        tension: 0,
+        borderWidth: 2,
+        pointRadius: 3,
+        pointBackgroundColor: "#43A047",
+        pointBorderColor: "transparent",
+        borderColor: "#43A047",
+        backgroundColor: "transparent",
+        fill: true,
+        data: [50, 40, 300, 220, 500, 250, 400, 230, 500],
+        // data:values,
+        maxBarThickness: 6
+
+      }],
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: {
+          display: false,
+        }
+      },
+      interaction: {
+        intersect: false,
+        mode: 'index',
+      },
+      scales: {
+        y: {
+          grid: {
+            drawBorder: false,
+            display: true,
+            drawOnChartArea: true,
+            drawTicks: false,
+            borderDash: [4, 4],
+            color: '#e5e5e5'
+          },
+          ticks: {
+            display: true,
+            padding: 10,
+            color: '#737373',
+            font: {
+              size: 14,
+              lineHeight: 2
+            },
+          }
+        },
+        x: {
+          grid: {
+            drawBorder: false,
+            display: false,
+            drawOnChartArea: false,
+            drawTicks: false,
+            borderDash: [4, 4]
+          },
+          ticks: {
+            display: true,
+            color: '#737373',
+            padding: 10,
+            font: {
+              size: 14,
+              lineHeight: 2
+            },
+          }
+        },
+      },
+    },
+  });
+</script>
+{{--  --}}
+      
 @endsection
