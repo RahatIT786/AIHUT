@@ -94,7 +94,7 @@
                    <div class="text-center">
                     <img src="{{asset('images/rahat_logo.png')}}" style="height: 5rem;" alt="AIHUT_LOGO">
                    </div>
-                  <h4 class="text-white font-weight-bolder text-center mt-2 mb-0">AIHUT-SIGN IN</h4>
+                  {{-- <h4 class="text-white font-weight-bolder text-center mt-2 mb-0">AIHUT-SIGN IN</h4> --}}
                   <div class="row mt-3">
                     <div class="col-2 text-center ms-auto">
                       <a class="btn btn-link px-3" href="javascript:;">
@@ -164,10 +164,10 @@
                   <a href="{{route('aboutus')}}"  class="nav-link text-white" target="_blank">About Us</a>
                 </li>
                 <li class="nav-item">
-                  <a  class="nav-link text-white" target="_blank">Blog</a>
+                  <a href="{{route('contact')}}"  class="nav-link text-white" target="_blank">Contact Us</a>
                 </li>
                 <li class="nav-item">
-                  <a  class="nav-link pe-0 text-white" target="_blank">License</a>
+                  <a  href="{{route('termsandconditions')}}"  class="nav-link pe-0 text-white" target="_blank">Terms and Conditons</a>
                 </li>
               </ul>
             </div>

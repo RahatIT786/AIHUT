@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
     <!-- Basic Page Needs -->
     <meta charset="utf-8">
     <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
     <title>AIHUT-ADMIN</title>
+  
 
     <meta name="author" content="themesflat.com">
     <link rel="shortcut icon" href="{{asset('images/rahatArabicLogo.jpg')}}" type="image/x-icon">
@@ -17,9 +18,7 @@
     <!-----BELOW-THE-STYLE-FOR-ADMIN2-DASHBOAR-START--------->
     <!--     Fonts and icons     -->
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700,900" />
-  <!-- Nucleo Icons -->
- 
-  <link rel="stylesheet" href="{{asset('admin2/assets/css/nucleo-icons.css')}}">
+  
  
   <link rel="stylesheet" href="{{asset('admin2/assets/css/nucleo-svg.css')}}">
   <!-- Font Awesome Icons -->
@@ -27,27 +26,46 @@
   <!-- Material Icons -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
   <!-- CSS Files -->
-  
+
+  <!-- Nucleo Icons -->
+ 
+  <link rel="stylesheet" href="{{asset('admin2/assets/css/nucleo-icons.css')}}">
   <link rel="stylesheet" href="{{asset('admin2/assets/css/material-dashboard.css')}}">
 
-  <!-----BELOW-THE-STYLE-FOR-ADMIN2-DASHBOAR-END--------->
+
+  
+
 </head>
 <body class="body">
 
    
                
                 @include('admin2.layouts.sidebar')
+                {{-- <div id="app">
+                  <side-nav></side-nav>
+                </div> --}}
              
                 <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
+
                 @include('admin2.layouts.nav')
+                <div id="app">
+                  <example-component></example-component>
+              </div>
+
+               
                 <!-- section-content-right -->
                 @yield('content')
                 <!-- /section-content-right -->
                 </main>
+
+
+               
+              
+             
+              
             
 
-
-
+              
 
 
 
@@ -64,7 +82,7 @@
   <script src="{{asset('admin2/assets/js/plugins/smooth-scrollbar.min.js')}}"></script>
   
   <script src="{{asset('admin2/assets/js/plugins/chartjs.min.js')}}"></script>
-  <script>
+  {{-- <script>
     var ctx = document.getElementById("chart-bars").getContext("2d");
 
     new Chart(ctx, {
@@ -296,7 +314,7 @@
         },
       },
     });
-  </script>
+  </script> --}}
   <script>
     var win = navigator.platform.indexOf('Win') > -1;
     if (win && document.querySelector('#sidenav-scrollbar')) {
@@ -348,8 +366,9 @@
                     success: function(response) {
                         console.log('Response:', response); // Ch
                         // Update the table and pagination
-                        $('#enquiryList').html(response);
-                        // $('#pagination').html(response.pagination);
+                        // $('#enquiryList').html(response);
+                        
+                       
                     },
                     error: function(xhr, status, error) {
                          console.error('Error:', error); // Log if there's an error
@@ -361,5 +380,6 @@
 </script> --}}
 <!------------------------------------------>
 
+@yield('scripts')
 </body>
 </html>
