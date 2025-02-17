@@ -259,7 +259,7 @@
 
 
                                         <!-- content -->
-                                        <p><a href="mailto:akhtar@rahat.in">akhtar@rahat.in</a><br> <a href="mailto:info@rahat.in">info@rahat.in</a> </p>
+                                        <p><a href="mailto:akhtar@rahat.in">akhtar@rahat.in</a><br> <a href="mailto:hina@rahat.in">hina@rahat.in</a> </p>
 
                                     </div>
                                     <!-- inner title -->
