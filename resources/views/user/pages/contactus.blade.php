@@ -24,14 +24,14 @@
                         <div>
                             <span style="padding: 10px 15px; border: 2px solid #FD8C00; border-radius: 30px ; font-size: larger;"><i class="fa-brands fa-sellsy"></i></span>
                         </div>
-                        <p class="text-center">Sales Support <br> <a href="tel:+917861078618" >+91 78610 78618</a></p>
+                        <p class="text-center">Sales Support <br> <a href="tel:+918097734658" >+91 809 77 346 58</a></p>
                         <p></p>
                        </div>
                        <div class="d-flex flex-column gap-3 justify-content-center align-items-center">
                         <div>
                             <span style="padding: 10px 15px; border: 2px solid #FD8C00; border-radius: 30px ; font-size: larger;"><i class="fa-solid fa-building-user"></i></span>
                         </div>
-                        <p class="text-center">Agency Support <br> <a href="tel:+917861078617" >+91 78610 78617</a></p>
+                        <p class="text-center">Agency Support <br> <a href="tel:+917063105786" >+91 706 31 05 786</a></p>
                         <p></p>
                        </div>
                         
@@ -259,7 +259,7 @@
 
 
                                         <!-- content -->
-                                        <p><a href="mailto:nazim@aihut.in">nazim@aihut.in</a><br> <a href="mailto:info@rahat.in">info@rahat.in</a> </p>
+                                        <p><a href="mailto:akhtar@rahat.in">akhtar@rahat.in</a><br> <a href="mailto:info@rahat.in">info@rahat.in</a> </p>
 
                                     </div>
                                     <!-- inner title -->
@@ -304,7 +304,7 @@
 
 
                                         <!-- content -->
-                                        <p><a href="tel:+917863878630">+91 78638 78630 </a><br><a href="tel:+917863878632">  +91 786 38 786 32 </a></p>
+                                        <p><a href="tel:+917063105786">+917063105786 </a><br><a href="tel:+918097734658">  +918097734658 </a></p>
 
                                     </div>
                                     <!-- inner title -->

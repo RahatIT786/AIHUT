@@ -26,8 +26,8 @@
                                         <nav>
                                             <ul id="menu-main-menu" class="main-menu mobile_menu_item clearfix">
                                                 <li id="menu-item-11595" class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-11595"><a href="{{route('home')}}">Get Started</a></li>
-                                                <li id="menu-item-11572" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11572"><a href="{{route('franchise')}}">Rahat Franchise</a></li>
-                                                <li id="menu-item-11585" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11585"><a href="{{route('agency')}}">Umrah Agency</a></li>
+                                                <li id="menu-item-11572" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11572"><a href="{{route('franchise')}}">Franchise ID</a></li>
+                                                <li id="menu-item-11585" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11585"><a href="{{route('agency')}}">Agency ID</a></li>
                                                 <li id="menu-item-11600" class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-11600"><a href="{{route('freelancer')}}">Freelance ID</a></li>
                                                 <li id="menu-item-11599" class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-11599"><a href="{{route('testimonials')}}">testimonials</a></li>
                                                 <li id="menu-item-11604" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-11552 current_page_item menu-item-11604"><a href="{{route('contact')}}" aria-current="page">contact us</a></li>
@@ -67,7 +67,7 @@
 
                                     <div class="logo">
                                         <a href="{{route('home')}}" title="rahat_group">
-<img src="{{asset('images/rahatGrouplogoBlackborder.png')}}" alt="aihut" style="height:6rem;" />
+<img src="{{asset('images/AIHUT_LOGO.png')}}" alt="aihut" style="height:9rem;" />
 </a>
                                     </div>
                                 </div>
@@ -76,9 +76,9 @@
                                     <nav class="tramo_menu">
                                         <ul id="menu-main-menu-1" class="sub-menu d-flex align-items-center">
                                             <li class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-11595"><a href="{{route('home')}}">Get started</a></li>
-                                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11572"><a href="{{route('franchise')}}">Rahat Franchise</a></li>
+                                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11572"><a href="{{route('franchise')}}">Franchise ID</a></li>
                                             
-                                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11585"><a href="{{route('agency')}}"> Umrah Agency </a></li>
+                                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11585"><a href="{{route('agency')}}"> Agency ID </a></li>
                                             <li class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-11600"><a href="{{route('freelancer')}}">Freelancer ID</a></li>
                                             <li class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-11599"><a href="{{route('testimonials')}}">testimonials</a></li>
                                             <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-11552 current_page_item menu-item-11604"><a href="{{route('contact')}}" aria-current="page">contact us</a></li>

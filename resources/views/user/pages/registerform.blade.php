@@ -336,7 +336,7 @@
 
                                             <!-- title middle -->
                                             <h2 class="txbdstitle sttwo hlight" style="font-weight: 500; font-size: 22px;">Together, let's make great things happen!
-                                                Explore open positions,<span><br> Work with Rahat Group.
+                                                Explore open positions,<span><br> Work with All India Hajj and Umrah tours PVT.LTD.
                                                 </span></h2>
                                             <!-- title bottom -->
                                             <!-- image -->

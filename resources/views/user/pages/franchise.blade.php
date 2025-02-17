@@ -41,7 +41,7 @@
 									
 								
 								<!-- content -->
-																<p>This is the perfect time to become a franchise partner with Rahat Group. In an industry that continues to grow rapidly, pilgrimages like Hajj, Umrah, and Ziyarat are seeing unprecedented demand. By partnering with India's National Umrah Brand, you’ll have access to the most competitive packages, cutting-edge technology, and the support of over 1500 experienced travel professionals.</p>		
+																<p>This is the perfect time to become a franchise partner with All India Hajj and Umrah tours PVT.LTD. In an industry that continues to grow rapidly, pilgrimages like Hajj, Umrah, and Ziyarat are seeing unprecedented demand. By partnering with India's National Umrah Brand, you’ll have access to the most competitive packages, cutting-edge technology, and the support of over 1500 experienced travel professionals.</p>		
 									
 							</div>
 								<!-- inner title -->
@@ -128,7 +128,7 @@
                                                              <span style="border: 2px solid #FE8D00; padding: 10px 20px; border-radius: 35px; font-size: xx-large;"><i class="fa-solid fa-bag-shopping"></i></span>
                                                              <div>
                                                                  <h3>No Travel experience Required</h3>
-                                                                 <span> Join Rahat Group today—no prior travel experience is needed! We provide all the training and support you need to succeed!</span>
+                                                                 <span> Join All India Hajj and Umrah tours PVT.LTD today—no prior travel experience is needed! We provide all the training and support you need to succeed!</span>
                                                              </div>
                                                             </div>
                                                              <span></span>
@@ -139,7 +139,7 @@
                                                               <span style="border: 2px solid #FE8D00; padding: 10px 20px; border-radius: 35px; font-size: xx-large;"><i class="fa-solid fa-bullhorn"></i></span>
                                                               <div>
                                                                   <h3>Free Marketing Support</h3>
-                                                                  <span>Rahat Group offers free marketing support with ready-made campaigns and materials to boost your business reach.</span>
+                                                                  <span>All India Hajj and Umrah tours PVT.LTD offers free marketing support with ready-made campaigns and materials to boost your business reach.</span>
                                                               </div>
                                                              </div>
                                                               <span></span>
@@ -157,7 +157,7 @@
                                                              <span style="border: 2px solid #FE8D00; padding: 10px 20px; border-radius: 35px; font-size: xx-large;"><i class="fa-solid fa-id-card"></i></span>
                                                              <div>
                                                                  <h3>Exclusive Territory</h3>
-                                                                 <span>Rahat Group provides exclusive territory rights, ensuring you have a dedicated market to grow.</span>
+                                                                 <span>All India Hajj and Umrah tours PVT.LTD provides exclusive territory rights, ensuring you have a dedicated market to grow.</span>
                                                              </div>
                                                             </div>
                                                              <span></span>
@@ -169,7 +169,7 @@
                                                               <div>
                                                                   <h3>Ultimate Inventory Supply</h3>
 																 
-                                                                  <span>  Rahat Group offers a comprehensive supply of inventory to meet all your business requirements.</span>
+                                                                  <span>  All India Hajj and Umrah tours PVT.LTD offers a comprehensive supply of inventory to meet all your business requirements.</span>
                                                               </div>
                                                              </div>
                                                               <span></span>
@@ -260,7 +260,7 @@
 								<!-- end icon position -->
 
 								<!-- title middle -->
-																<h2 class="txbdstitle sttwo hlight"><span>Rahat Group:</span> Empowering Agents with Seamless Umrah Pilgrimage Services</h2>
+																<h2 class="txbdstitle sttwo hlight"><span>All India Hajj and Umrah tours PVT.LTD:</span> Empowering Agents with Seamless Umrah Pilgrimage Services</h2>
 															<!-- title bottom -->
 								
 															
@@ -273,7 +273,7 @@
 									
 								
 								<!-- content -->
-																<p>Rahat Group is a Channel Partner with NUSUK & Saudi Tourism With a focus on ensuring a seamless and spiritually enriching experience, Rahat Umrah caters to every need of pilgrims, from transportation to accommodation, making the sacred journey as comfortable and fulfilling as possible. Our services are designed to meet the highest standards, ensuring personalized care and support throughout your pilgrimage.</p>		
+																<p>All India Hajj and Umrah tours PVT.LTD is a Channel Partner with NUSUK & Saudi Tourism With a focus on ensuring a seamless and spiritually enriching experience, Rahat Umrah caters to every need of pilgrims, from transportation to accommodation, making the sacred journey as comfortable and fulfilling as possible. Our services are designed to meet the highest standards, ensuring personalized care and support throughout your pilgrimage.</p>		
 									
 							</div>
 								<!-- inner title -->
@@ -318,7 +318,7 @@
 								<!-- end icon position -->
 
 								<!-- title middle -->
-																<h2 class="txbdstitle sttwo hlight"><span>Franchise</span> with Rahat Group: Unlock Opportunities</h2>
+																<h2 class="txbdstitle sttwo hlight"><span>Franchise</span> with All India Hajj and Umrah tours PVT.LTD: Unlock Opportunities</h2>
 															<!-- title bottom -->
 								
 															
@@ -331,7 +331,7 @@
 									
 								
 								<!-- content -->
-																<p>Join Rahat Group as a Franchisee Partner and become a part of one of the most trusted names in the travel industry! Unlock exclusive opportunities in the Umrah and Hajj services sector, and benefit from our unmatched expertise, strong support, and expansive network. For more details, Call us now on+91 786 10 786 17 and take the first step toward a successful partnership with Rahat Group!</p>		
+																<p>Join All India Hajj and Umrah tours PVT.LTD as a Franchisee Partner and become a part of one of the most trusted names in the travel industry! Unlock exclusive opportunities in the Umrah and Hajj services sector, and benefit from our unmatched expertise, strong support, and expansive network. For more details, Call us now on+91 786 10 786 17 and take the first step toward a successful partnership with All India Hajj and Umrah tours PVT.LTD!</p>		
 									
 							</div>
 								<!-- inner title -->
@@ -411,7 +411,7 @@
 								<!-- end icon position -->
 
 								<!-- title middle -->
-																<h2 class="txbdstitle sttwo hlight">Exclusive Partnership Opportunities with <span>Rahat Group</span></h2>
+																<h2 class="txbdstitle sttwo hlight">Exclusive Partnership Opportunities with <span>All India Hajj and Umrah tours PVT.LTD</span></h2>
 															<!-- title bottom -->
 								
 															
@@ -424,7 +424,7 @@
 									
 								
 								<!-- content -->
-																<p>"Partner with Rahat Group for Region Exclusivity and Boost your market presence through our extensive outreach, including advertisements in print, media, and more. Enjoy full Training and Operations Support along with Rahat Travels Branding for your premises. Benefit from No Minimum Group Size, Access to a Variety of Packages, and Great Commission Rates.</p>		
+																<p>"Partner with All India Hajj and Umrah tours PVT.LTD for Region Exclusivity and Boost your market presence through our extensive outreach, including advertisements in print, media, and more. Enjoy full Training and Operations Support along with Rahat Travels Branding for your premises. Benefit from No Minimum Group Size, Access to a Variety of Packages, and Great Commission Rates.</p>		
 									
 							</div>
 								<!-- inner title -->
@@ -469,7 +469,7 @@
                             <!-- end icon position -->
 
                             <!-- title middle -->
-							<h2 style="font-size: 30px !important;" class="mb-3 txbdstitle sttwo hlight">Our <span>Franchisees</span> get access to a wide range of Rahat Group’s offerings, including:</h2>
+							<h2 style="font-size: 30px !important;" class="mb-3 txbdstitle sttwo hlight">Our <span>Franchisees</span> get access to a wide range of All India Hajj and Umrah tours PVT.LTD’s offerings, including:</h2>
                             <!-- title bottom -->
 
 
@@ -555,7 +555,7 @@
 								<!-- end icon position -->
 
 								<!-- title middle -->
-																<h2 class="mb-4  txbdstitle sttwo hlight">The Rahat Group <span>Franchisee</span>  Model</h2>
+																<h2 class="mb-4  txbdstitle sttwo hlight">The All India Hajj and Umrah tours PVT.LTD <span>Franchisee</span>  Model</h2>
 															<!-- title bottom -->
 								
 															
@@ -700,11 +700,11 @@
 								<!-- end icon position -->
 
 								<!-- title middle -->
-								<h1 class="mb-3 txbdstitle sttwo hlight">Other Requirements for Rahat Group <span>Franchisees:</span> </h1>
+								<h1 class="mb-3 txbdstitle sttwo hlight">Other Requirements for All India Hajj and Umrah tours PVT.LTD <span>Franchisees:</span> </h1>
 									<ul>
 										<li><strong>Prime Location:</strong> The store should ideally be located on a high street, facing the main road for maximum visibility.</li>
 										<li><strong>Exterior Signage:</strong> The premises should include space for a highly visible glow sign board that can be easily seen from the main road, ensuring brand presence.</li>
-										<li><strong>Interior Design:</strong> The interior setup must align with Rahat Group’s brand guidelines, and the cost of interior development will be borne by the franchisee.</li>
+										<li><strong>Interior Design:</strong> The interior setup must align with All India Hajj and Umrah tours PVT.LTD’s brand guidelines, and the cost of interior development will be borne by the franchisee.</li>
 										<li><strong>Power Backup:</strong> The building or the franchisee must ensure uninterrupted power backup to maintain smooth operations.</li>
 									</ul>													
 							</div>
@@ -807,7 +807,7 @@
 										<li><strong>The ability to adapt to the evolving travel industry</strong></li>
 									</ul>
 
-									<p>Preference will be given to owners of licensed travel agencies, due to their relevant industry experience. However, non-travel professionals who show a keen interest in partnering with Rahat Group, and are willing to either acquire a travel license or invest in an existing registered travel agency, are also encouraged to apply.</p>
+									<p>Preference will be given to owners of licensed travel agencies, due to their relevant industry experience. However, non-travel professionals who show a keen interest in partnering with All India Hajj and Umrah tours PVT.LTD, and are willing to either acquire a travel license or invest in an existing registered travel agency, are also encouraged to apply.</p>
 
 									<p>Applicants must also demonstrate sound financial resources to drive business growth without disruption.</p>
 									<p>We are particularly looking to expand in cities like <strong>Jaipur</strong> ,<strong>Lucknow</strong>, <strong>Bangalore</strong> ,<strong>Kolkata</strong> and <strong> Chennai.</strong></p>

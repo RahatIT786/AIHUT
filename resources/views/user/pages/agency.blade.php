@@ -41,7 +41,7 @@
 								
 							
 							<!-- content -->
-															<p>This is the perfect time to become a franchise partner with Rahat Group. In an industry that continues to grow rapidly, pilgrimages like Hajj, Umrah, and Ziyarat are seeing unprecedented demand. By partnering with India's National Umrah Brand, you’ll have access to the most competitive packages, cutting-edge technology, and the support of over 1500 experienced travel professionals.</p>		
+															<p>This is the perfect time to become a franchise partner with All India Hajj and Umrah tours PVT.LTD. In an industry that continues to grow rapidly, pilgrimages like Hajj, Umrah, and Ziyarat are seeing unprecedented demand. By partnering with India's National Umrah Brand, you’ll have access to the most competitive packages, cutting-edge technology, and the support of over 1500 experienced travel professionals.</p>		
 								
 						</div>
 							<!-- inner title -->
@@ -103,7 +103,7 @@
 
                     <!-- title middle -->
 
-                                                    <h2 class="txbdstitle sttwo hlight"> Why Choose  for &nbsp;<span>Rahat Group</span>  Your Umrah Agency? </h2>
+                                                    <h2 class="txbdstitle sttwo hlight"> Why Choose  for &nbsp;<span>All India Hajj and Umrah tours PVT.LTD</span>  Your Umrah Agency? </h2>
 
                                                 <!-- title bottom -->
                     
@@ -1046,7 +1046,7 @@
 									<div class="tsrevstar">
 										<i class="ti-star txbdbcolor"></i><i class="ti-star txbdbcolor"></i><i class="ti-star txbdbcolor"></i><i class="ti-star txbdbcolor"></i><i class="ti-star txbdbcolor"></i>									</div>
 																	</div>							
-																	<p>"Our experience with Rahat Groups has been very positive. The team is incredibly responsive and provides excellent support throughout the process. The communication is clear, and they offer valuable guidance whenever we have questions. The tools and resources they provide make it easy to succeed. We appreciate the professionalism and dedication they show to their partners." </p>		
+																	<p>"Our experience with All India Hajj and Umrah tours PVT.LTDs has been very positive. The team is incredibly responsive and provides excellent support throughout the process. The communication is clear, and they offer valuable guidance whenever we have questions. The tools and resources they provide make it easy to succeed. We appreciate the professionalism and dedication they show to their partners." </p>		
 																
 							</div>						
 							<div class="tsimg tsst4">
@@ -1062,7 +1062,7 @@
 									<div class="tsrevstar">
 										<i class="ti-star txbdbcolor"></i><i class="ti-star txbdbcolor"></i><i class="ti-star txbdbcolor"></i><i class="ti-star txbdbcolor"></i><i class="ti-star txbdbcolor"></i>									</div>
 																	</div>							
-																	<p>Working with Rahat Groups has opened up significant opportunities for growth. Their marketing and operational support are commendable, making it easier to build relationships with customers. However, there are occasional delays in response times, which can affect the speed of operations. Despite this, we see a lot of promise and are excited to continue our partnership. Rahat Groups has a strong foundation for success</p>		
+																	<p>Working with All India Hajj and Umrah tours PVT.LTDs has opened up significant opportunities for growth. Their marketing and operational support are commendable, making it easier to build relationships with customers. However, there are occasional delays in response times, which can affect the speed of operations. Despite this, we see a lot of promise and are excited to continue our partnership. All India Hajj and Umrah tours PVT.LTDs has a strong foundation for success</p>		
 																
 							</div>						
 							<div class="tsimg tsst4">
