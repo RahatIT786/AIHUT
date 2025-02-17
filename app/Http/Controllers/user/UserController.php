@@ -3,10 +3,13 @@
 namespace App\Http\Controllers\user;
 
 use App\Http\Controllers\Controller;
+use App\Jobs\SendContactFormEmail;
+use App\Mail\ContactFormMail;
 use App\Models\Career;
 use App\Models\ContactUs;
 use App\Models\SignupForm;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 class UserController extends Controller
 {
@@ -52,6 +55,17 @@ class UserController extends Controller
 
         // Store the validated data in the database
         ContactUs::create($validatedData);
+        $contactDetails = [
+            'name' => $validatedData['owner_name'],  // Use the validated data
+            'email' => $validatedData['email'],      // Use the validated data
+            'phone' => $validatedData['phone'],      // Use the validated data
+            'message' => $validatedData['message'],  // Use the validated data
+            'partnership_type' => $validatedData['partnership_type'],
+        ];
+    
+
+        // SendContactFormEmail::dispatch($contactDetails);
+        Mail::to(['akhtar@rahat.in','hina@rahat.in'])->send(new ContactFormMail($contactDetails));
 
         // Redirect back with a success message
         return redirect()->back()->with('message', 'Thank you for Contact Us Our Executive will contact you!');

@@ -31,7 +31,7 @@
 
                                                     <!-- title -->
                                                     <!-- content -->
-                                                    <p class="" id="animate-content">"Rahat Group" is a dynamic organization that Guides & Assists new Travel agencies who wish to enter the field of Religious Tourism Especially Hajj & Umrah</p>
+                                                    <p class="" id="animate-content">"All India Hajj and Umrah tours PVT.LTD" is a dynamic organization that Guides & Assists new Travel agencies who wish to enter the field of Religious Tourism Especially Hajj & Umrah</p>
 
 
                                                     <!--- List Option --->
@@ -921,7 +921,7 @@ Your form has been submitted successfully!
                                                                             <span style="border: 2px solid #FE8D00; padding: 10px 20px; border-radius: 35px; font-size: xx-large;"><i class="fa-solid fa-ticket"></i></span>
                                                                             <div>
                                                                                 <h3>Tickets </h3>
-                                                                                <span>Rahat Group offers seamless ticket booking services for Hajj & Umrah travelers, ensuring convenient, timely, and stress-free travel arrangements to Makkah and Madinah.</span>
+                                                                                <span>All India Hajj and Umrah tours PVT.LTD offers seamless ticket booking services for Hajj & Umrah travelers, ensuring convenient, timely, and stress-free travel arrangements to Makkah and Madinah.</span>
                                                                             </div>
                                                                             </div>
                                                                             <span></span>
@@ -932,7 +932,7 @@ Your form has been submitted successfully!
                                                                             <span style="border: 2px solid #FE8D00; padding: 10px 20px; border-radius: 35px; font-size: xx-large;"><i class="fa-solid fa-coins"></i></span>
                                                                             <div>
                                                                                 <h3> Forex</h3>
-                                                                                <span>Rahat Group offers secure and competitive foreign exchange services, providing pilgrims with easy access to currency exchange during Hajj & Umrah.</span>
+                                                                                <span>All India Hajj and Umrah tours PVT.LTD offers secure and competitive foreign exchange services, providing pilgrims with easy access to currency exchange during Hajj & Umrah.</span>
                                                                             </div>
                                                                             </div>
                                                                             <span></span>
@@ -950,7 +950,7 @@ Your form has been submitted successfully!
                                                                             <span style="border: 2px solid #FE8D00; padding: 10px 20px; border-radius: 35px; font-size: xx-large;"><i class="fa-solid fa-hotel"></i></span>
                                                                             <div>
                                                                                 <h3>Hotels</h3>
-                                                                                <span>Rahat Group provides premium hotel accommodations in Makkah and Madinah, offering comfort, convenience, and proximity to holy sites for Hajj & Umrah pilgrims.</span>
+                                                                                <span>All India Hajj and Umrah tours PVT.LTD provides premium hotel accommodations in Makkah and Madinah, offering comfort, convenience, and proximity to holy sites for Hajj & Umrah pilgrims.</span>
                                                                             </div>
                                                                             </div>
                                                                             <span></span>
@@ -962,7 +962,7 @@ Your form has been submitted successfully!
                                                                             <div>
                                                                                 <h3>Visas</h3>
                                                                                 
-                                                                                <span>Rahat Group offers hassle-free visa processing services for Hajj & Umrah, ensuring quick approvals and smooth documentation for a worry-free journey.</span>
+                                                                                <span>All India Hajj and Umrah tours PVT.LTD offers hassle-free visa processing services for Hajj & Umrah, ensuring quick approvals and smooth documentation for a worry-free journey.</span>
                                                                             </div>
                                                                             </div>
                                                                             <span></span>
@@ -978,7 +978,7 @@ Your form has been submitted successfully!
                                                                             <div>
                                                                                 <h3>Transport</h3>
                                                                                 
-                                                                                <span>Rahat Group delivers reliable and comfortable transportation services in Makkah and Madinah, ensuring timely travel for groups and families during Hajj & Umrah.</span>
+                                                                                <span>All India Hajj and Umrah tours PVT.LTD delivers reliable and comfortable transportation services in Makkah and Madinah, ensuring timely travel for groups and families during Hajj & Umrah.</span>
                                                                             </div>
                                                                             </div>
                                                                             <span></span>
@@ -992,7 +992,7 @@ Your form has been submitted successfully!
                                                                             <div>
                                                                                 <h3> Services</h3>
                                                                                 
-                                                                                <span>Rahat Group provides comprehensive Hajj & Umrah services, from travel arrangements to on-ground support, ensuring a seamless pilgrimage experience</span>
+                                                                                <span>All India Hajj and Umrah tours PVT.LTD provides comprehensive Hajj & Umrah services, from travel arrangements to on-ground support, ensuring a seamless pilgrimage experience</span>
                                                                             </div>
                                                                             </div>
                                                                             <span></span>
@@ -1010,7 +1010,7 @@ Your form has been submitted successfully!
                                                                               <div>
                                                                                   <h3>Catering</h3>
                                                                                   
-                                                                                  <span>Rahat Group delivers elite catering services with delicious, hygienic meals tailored for Hajj & Umrah pilgrims, ensuring nourishment throughout the journey.</span>
+                                                                                  <span>All India Hajj and Umrah tours PVT.LTD delivers elite catering services with delicious, hygienic meals tailored for Hajj & Umrah pilgrims, ensuring nourishment throughout the journey.</span>
                                                                               </div>
                                                                               </div>
                                                                               <span></span>
@@ -1024,7 +1024,7 @@ Your form has been submitted successfully!
                                                                               <div>
                                                                                   <h3> Support</h3>
                                                                                   
-                                                                                  <span>Rahat Group provides dedicated 24/7 support for Hajj & Umrah pilgrims, ensuring assistance and guidance at every step of the spiritual journey.</span>
+                                                                                  <span>All India Hajj and Umrah tours PVT.LTD provides dedicated 24/7 support for Hajj & Umrah pilgrims, ensuring assistance and guidance at every step of the spiritual journey.</span>
                                                                               </div>
                                                                               </div>
                                                                               <span></span>
@@ -1324,7 +1324,7 @@ Your form has been submitted successfully!
                                                     <div class="tx_portfolio allposihv">
                                                         <div class="tx_pfthumb boxtextposire txbdbfall txbdbfltrb100 txbdbfallz txbdbfallbgov">
                                                             <img loading="lazy" decoding="async" width="975" height="550" src="{{asset('images/user/awart1.jpg')}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
-                                                            <div class="hover-text">Saudi Hajj Minister Awards Qiswa to Rahat Group</div> <!-- Hover text -->
+                                                            <div class="hover-text">Saudi Hajj Minister Awards Qiswa to All India Hajj and Umrah tours PVT.LTD</div> <!-- Hover text -->
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1348,7 +1348,7 @@ Your form has been submitted successfully!
                                                     <div class="tx_portfolio allposihv">
                                                         <div class="tx_pfthumb boxtextposire txbdbfall txbdbfltrb100 txbdbfallz txbdbfallbgov">
                                                             <img loading="lazy" decoding="async" width="975" height="550" src="{{asset('images/user/awart2.jpg')}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
-                                                            <div class="hover-text">Team Saudi Airlines Rewards Rahat Group</div> <!-- Hover text -->
+                                                            <div class="hover-text">Team Saudi Airlines Rewards All India Hajj and Umrah tours PVT.LTD</div> <!-- Hover text -->
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1535,7 +1535,7 @@ Your form has been submitted successfully!
                                                     <div class="tx_portfolio allposihv">
                                                         <div class="tx_pfthumb boxtextposire txbdbfall txbdbfltrb100 txbdbfallz txbdbfallbgov">
                                                             <img loading="lazy" decoding="async" width="975" height="550" src="{{asset('images/user/award22.jpg')}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
-                                                            <div class="hover-text">Saudi Tourism Authority Signs MOU with Rahat Group </div> <!-- Hover text -->
+                                                            <div class="hover-text">Saudi Tourism Authority Signs MOU with All India Hajj and Umrah tours PVT.LTD </div> <!-- Hover text -->
                                                         </div>
                                                     </div>
                                                 </div>
