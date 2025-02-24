@@ -61,19 +61,28 @@
                 <div class="tramo-main-menu transprent-menu heading_style_4 witr_h_h5">
                     <div class="trp_nav_area">
                         <div class="container-fluid">
+                            <div>
+                                <img src="{{asset('/images/logo/aihut_logo.png')}}" style="height: 8rem; position: fixed;" alt="">
+                            </div>
+                           <div class="d-flex justify-content-center">
+                           
+                            <img src="{{asset('/images/logo/logo_letter_banner.png')}}" style="height:10rem; position: fixed; top:-3rem;" >
+                           </div>
+                        </div>
+                        <div class="container-fluid">
                             <div class="row logo-left">
                                 <!-- LOGO -->
                                 <div class="col-xl-2 col-lg-3 col-md-2 col-sm-12">
 
                                     <div class="logo">
-                                        <a href="{{route('home')}}" title="rahat_group">
+                                        {{-- <a href="{{route('home')}}" title="rahat_group">
 <img src="{{asset('images/AIHUT_LOGO.png')}}" alt="aihut" style="height:9rem;" />
-</a>
+</a> --}}
                                     </div>
                                 </div>
                                 <!-- MAIN MENU -->
                                 <div class="col-xl-10 col-lg-9 col-md-10 col-sm-12">
-                                    <nav class="tramo_menu">
+                                    <nav class="tramo_menu" style="margin-top: 2rem;">
                                         <ul id="menu-main-menu-1" class="sub-menu d-flex align-items-center">
                                             <li class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-11595"><a href="{{route('home')}}">Get started</a></li>
                                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11572"><a href="{{route('franchise')}}">Franchise ID</a></li>

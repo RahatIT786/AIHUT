@@ -31,6 +31,7 @@ class ParterAuthController extends Controller
             'document_type'=>'required|string|max:20',
             'address'=>'required|string|max:300',
             'document'=>'required',
+            'g-recaptcha-response' => 'required',
 
             
             

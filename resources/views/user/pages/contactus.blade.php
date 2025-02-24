@@ -162,6 +162,9 @@
                                                         <textarea name="message" placeholder="Message" class="form-control">{{ old('message') }}</textarea>
                                                         @error('message')<span class="text-danger">{{ $message }}</span>@enderror
                                                     </div>
+                                                     <!-- reCAPTCHA Widget -->
+                                                <div class="g-recaptcha mt-1 mb-2" data-sitekey="{{ config('services.recaptcha.site_key') }}"></div>
+                                                @error('g-recaptcha-response')<span class="text-danger">{{ $message }}</span>@enderror
                                                     <div class="text-center">
                                                         <button type="submit" class="btn btn-primary">SEND NOW</button>
                                                     </div>

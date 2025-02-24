@@ -50,9 +50,9 @@
 						<!-- FOOTER COPYRIGHT MENU -->				
 						 <ul id="menu-footer-menu" class="d-flex">
                             <li id="menu-item-19298" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19298"><a href="{{route('home')}}">Get Started </a></li>
-                            <li id="menu-item-14450" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14450"><a href="{{route('freelancer')}}">Freelancer Id </a></li>
-                            <li id="menu-item-14449" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14449"><a href="{{route('agency')}}">Umrah Agency </a></li>
-                            <li id="menu-item-14448" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14448"><a href="{{route('franchise')}}"> Rahat Franchise </a></li>
+                            <li id="menu-item-14450" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14450"><a href="{{route('freelancer')}}">Freelancer ID </a></li>
+                            <li id="menu-item-14449" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14449"><a href="{{route('agency')}}">Agency ID </a></li>
+                            <li id="menu-item-14448" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14448"><a href="{{route('franchise')}}"> Franchise ID </a></li>
 
                             <li id="menu-item-14448" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14448"><a href="{{route('benifits')}}">Benefits  </a></li>
                             <li id="menu-item-14448" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14448"><a href="{{route('whatyouget')}}">What you Get  </a></li>

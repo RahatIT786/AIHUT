@@ -126,7 +126,8 @@
                           </td>
 
                           <td>
-                            <a href="tel:{{$enquiry->mobile }}" target="_blank" class="text-xs font-weight-bold mb-0">{{$enquiry->mobile ?? 'Null'}}</a>
+                            <a target="_blank" href="https://api.whatsapp.com/send/?phone=%2B{{$enquiry->mobile }}&text={{urlencode('Hello, I want some details about package')}}&type=phone_number&app_absent=0"><i class="fa-brands fa-whatsapp" style="color: green; font-size: 20px;"></i></a>
+                            <a href="tel:{{$enquiry->mobile }}" target="_blank" class="text-xs font-weight-bold mb-0">{{$enquiry->mobile ?? 'Null'}}  </a>
                             <p class="text-xs text-secondary mb-0">Organization</p>
                           </td>
 
@@ -148,6 +149,7 @@
                           
                          
                           <td>
+                            <a target="_blank" href="https://api.whatsapp.com/send/?phone=%2B{{$enquiry->phone }}&text={{urlencode('Hello, I want some details about package')}}&type=phone_number&app_absent=0"><i class="fa-brands fa-whatsapp" style="color: green; font-size: 20px;"></i></a>
                             <a href="tel:{{$enquiry->phone }}" target="_blank" class="text-xs font-weight-bold mb-0">{{$enquiry->phone ?? 'Null'}}</a>
                             {{-- <p class="text-xs text-secondary mb-0">Organization</p> --}}
                           </td>
@@ -165,6 +167,7 @@
                           
                         @case($signup)
                         <td>
+                          <a target="_blank" href="https://api.whatsapp.com/send/?phone=%2B{{$enquiry->mobile }}&text={{urlencode('Hello, I want some details about package')}}&type=phone_number&app_absent=0"><i class="fa-brands fa-whatsapp" style="color: green; font-size: 20px;"></i></a>
                             <a href="tel:{{$enquiry->mobile }}" target="_blank" class="text-xs font-weight-bold mb-0">{{$enquiry->mobile ?? 'Null'}}</a>
                             <p class="text-xs text-secondary mb-0">Organization</p>
                           </td>
@@ -182,6 +185,7 @@
 
                         @case($career)
                         <td>
+                          <a target="_blank" href="https://api.whatsapp.com/send/?phone=%2B{{$enquiry->phone }}&text={{urlencode('Hello, I want some details about package')}}&type=phone_number&app_absent=0"><i class="fa-brands fa-whatsapp" style="color: green; font-size: 20px;"></i></a>
                             <a href="tel:{{$enquiry->phone }}" target="_blank" class="text-xs font-weight-bold mb-0">{{$enquiry->phone ?? 'Null'}}</a>
                             {{-- <p class="text-xs text-secondary mb-0">Organization</p> --}}
                           </td>
@@ -209,33 +213,17 @@
                             
                     @endswitch
                    
-                   
-                  
-                     
                     {{-- <td>
-                      <p  class="text-xs font-weight-bold mb-0">{{$enquiry->city ?? 'Null'}}</p>
-                      <p  class="text-xs font-weight-bold mb-0">{{$enquiry->state ?? 'Null'}}</p>
-                      <p  class="text-xs font-weight-bold mb-0">{{$enquiry->country ?? 'Null'}}</p>
-                      
-                    </td> --}}
+                      <!-- Form for DELETE request -->
+                      <form action="{{ route('enquiries.destroy', $enquiry->id) }}" method="POST" class="d-inline">
+                          @csrf
+                          <!-- This tells Laravel the form should be treated as a DELETE request -->
+                          <button type="submit" class="btn btn-danger">Delete</button>
+                      </form>
+                  </td> --}}
+                  
+                  
                     
-                    {{-- @if ($type===$register)
-                    <td class="align-middle text-center text-sm" >
-                        <p   class="text-xs font-weight-bold mb-0">{{$enquiry->city}}</p>
-                        <p class="text-xs text-secondary mb-0">{{$enquiry->state}}</p>
-                        <p class="text-xs text-secondary mb-0">{{$enquiry->country}}</p>
-                        <p class="text-xs text-secondary mb-0">{{$enquiry->pincode}}</p>
-                      </td>
-                    @endif --}}
-                   
-                    {{-- <td class="align-middle text-center">
-                      <span class="text-secondary text-xs font-weight-bold">23/04/18</span>
-                    </td> --}}
-                    {{-- <td class="align-middle">
-                      <a href="javascript:;" class="text-secondary font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Edit user">
-                        Edit
-                      </a>
-                    </td> --}}
                   </tr>
                 @endforeach
               {{-- <tr>
@@ -360,3 +348,4 @@ $jq(document).ready(function() {
 
 
 @endsection
+

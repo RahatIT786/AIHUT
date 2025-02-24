@@ -9,18 +9,23 @@ use App\Models\Career;
 use App\Models\ContactUs;
 use App\Models\SignupForm;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Mail;
 
 class UserController extends Controller
 {
     public function submitSignUpForm(Request $request)
 {
+
+    // Log all form inputs including reCAPTCHA response
+
     // Validate the form data
     $validated = $request->validate([
-        'name' => 'required|string|max:255',
+        'name' => 'required|string|max:25',
         'mobile' => 'required|string|max:15',
-        'email' => 'required|email|max:255|unique:signup_forms,email',
-        'city' => 'required|string|max:255',
+        'email' => 'required|email|max:25|unique:signup_forms,email',
+        'city' => 'required|string|max:15',
+        'g-recaptcha-response' => 'required',
         // Include any validation rules for file fields if necessary
     ]);
 
@@ -42,15 +47,16 @@ class UserController extends Controller
     public function sumbitUserContactForm(Request $request){
          // Validate the form data
          $validatedData = $request->validate([
-            'owner_name' => 'required|max:255',
-            'company_name' => 'required|max:255',
-            'email' => 'required|email|max:255',
+            'owner_name' => 'required|max:25',
+            'company_name' => 'required|max:25',
+            'email' => 'required|email|max:25',
             'phone' => 'required|numeric',
-            'city' => 'required|max:255',
-            'state' => 'required|max:255',
-            'country' => 'required|max:255',
+            'city' => 'required|max:15',
+            'state' => 'required|max:15',
+            'country' => 'required|max:15',
             'partnership_type' => 'required|in:freelancer,agency,franchisee',
-            'message' => 'required|max:2000',
+            'message' => 'required|max:60',
+            'g-recaptcha-response' => 'required',
         ]);
 
         // Store the validated data in the database
@@ -84,18 +90,18 @@ class UserController extends Controller
     public function userCareerForm(Request $request){
         // Validate the input fields
         $validated = $request->validate([
-            'full_name' => 'required|string|max:255',
-            'address' => 'required|string|max:1000',
+            'full_name' => 'required|string|max:25',
+            'address' => 'required|string|max:40',
             'dob' => 'required|date',
-            'city' => 'required|string|max:255',
-            'state' => 'required|string|max:255',
+            'city' => 'required|string|max:25',
+            'state' => 'required|string|max:25',
             'phone' => 'required',
-            'email' => 'required|email|max:255',
-            'area_of_interest' => 'required|string|max:255',
+            'email' => 'required|email|max:25',
+            'area_of_interest' => 'required|string|max:15',
             'skill_level' => 'required|string',
             'others' => 'nullable|string|max:255|required_if:skill_level,Uneducated',
-            'cover_letter' => 'required|string|max:2000',
-            'why_we_hire' => 'required|string|max:2000',
+            'cover_letter' => 'required|string|max:80',
+            'why_we_hire' => 'required|string|max:80',
         ]);
 
         Career::create($validated);
