@@ -303,6 +303,11 @@
                                                     
                                                    
                                                 </div>
+
+                                                <div class="g-recaptcha mt-1 mb-2" data-sitekey="{{ config('services.recaptcha.site_key') }}"></div>
+                                                @error('g-recaptcha-response')<span class="text-danger">{{ $message }}</span>@enderror
+
+                                                
                                                
                                                
                                                 <div class=" text-start">
@@ -336,7 +341,7 @@
 
                                             <!-- title middle -->
                                             <h2 class="txbdstitle sttwo hlight" style="font-weight: 500; font-size: 22px;">Together, let's make great things happen!
-                                                Explore open positions,<span><br> Work with All India Hajj and Umrah tours PVT.LTD.
+                                                Explore open positions,<span><br> Work with All India Hajj and Umrah Tours Pvt. Ltd..
                                                 </span></h2>
                                             <!-- title bottom -->
                                             <!-- image -->

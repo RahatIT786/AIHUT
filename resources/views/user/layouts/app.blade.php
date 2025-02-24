@@ -9,6 +9,7 @@
     <title>Umrah Franchisee & Agency Model - Complete Guide - How to Start Your Hajj and Umrah Business</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <link rel="stylesheet" href="{{ asset('captcha/captcha.css') }}">
 
     @include('user.styles.home-style')
     @include('user.styles.franchise-style')
@@ -111,11 +112,21 @@
      
     </footer>
 
+    @yield('scripts')
+
+
+    <!-- reCAPTCHA JS -->
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+
 
 
 @include('user.styles.home-script')
 {{-- @include('user.styles.franchise-script') --}}
 <style>
+    /* Hide duplicate google_translate_element if it appears twice */
+
+
 /* .goog-te-combo option:hover {
     background-color: black !important;
     color: white !important;
@@ -276,7 +287,7 @@ body {
     };
 </script>
 
-    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    
 <!----------------------->
 
 </body>

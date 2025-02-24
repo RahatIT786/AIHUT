@@ -41,7 +41,7 @@
 									
 								
 								<!-- content -->
-																<p>Kickstart your journey with All India Hajj and Umrah tours PVT.LTD and become a part of the growing Umrah industry without the need for a traditional travel agency or office setup. With just your Aadhaar and PAN Card, get your Freelancer ID for only ₹4,999/-. This is a great opportunity for influencers, school teachers, students, Moullims, and Imams looking to create a flexible and rewarding career while helping others experience the sacred pilgrimage. Join us today and begin your journey as a freelancer in the travel sector!</p>		
+																<p>Kickstart your journey with All India Hajj and Umrah Tours Pvt. Ltd. and become a part of the growing Umrah industry without the need for a traditional travel agency or office setup. With just your Aadhaar and PAN Card, get your Freelancer ID for only ₹4,999/-. This is a great opportunity for influencers, school teachers, students, Moullims, and Imams looking to create a flexible and rewarding career while helping others experience the sacred pilgrimage. Join us today and begin your journey as a freelancer in the travel sector!</p>		
 									
 							</div>
 								<!-- inner title -->
@@ -123,7 +123,7 @@
 								<!-- end icon position -->
 
 								<!-- title middle -->
-																<h1 style="font-size: 30px !important;" class="sttwo hlight mb-4">Start Your Journey with All India Hajj and Umrah tours PVT.LTD – No Travel Agency or Office Setup Required!</h1>
+																<h1 style="font-size: 30px !important;" class="sttwo hlight mb-4">Start Your Journey with All India Hajj and Umrah Tours Pvt. Ltd. – No Travel Agency or Office Setup Required!</h1>
 															<!-- title bottom -->
 								
 															<h3 style="font-size: 20px !important;" class=" mb-3"><strong>Join us today with just your Aadhaar Card and PAN Card, and get your Freelancer ID for only ₹4,999/-.</strong></h3>
@@ -171,7 +171,7 @@
 
                                             <!-- title middle -->
 
-                                            <h2 class="txbdstitle sttwo hlight">People Love <span> RAHAT .. </span> Watch some of Our Agents Speak... </h2>
+                                            <h2 class="txbdstitle sttwo hlight">People Love <span> AIHUT .. </span> Watch some of Our Agents Speak... </h2>
                                             <!-- title bottom -->
 
 

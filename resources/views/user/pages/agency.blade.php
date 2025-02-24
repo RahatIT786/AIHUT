@@ -41,7 +41,7 @@
 								
 							
 							<!-- content -->
-															<p>This is the perfect time to become a franchise partner with All India Hajj and Umrah tours PVT.LTD. In an industry that continues to grow rapidly, pilgrimages like Hajj, Umrah, and Ziyarat are seeing unprecedented demand. By partnering with India's National Umrah Brand, you’ll have access to the most competitive packages, cutting-edge technology, and the support of over 1500 experienced travel professionals.</p>		
+															<p>This is the perfect time to become a franchise partner with All India Hajj and Umrah Tours Pvt. Ltd.. In an industry that continues to grow rapidly, pilgrimages like Hajj, Umrah, and Ziyarat are seeing unprecedented demand. By partnering with India's National Umrah Brand, you’ll have access to the most competitive packages, cutting-edge technology, and the support of over 1500 experienced travel professionals.</p>		
 								
 						</div>
 							<!-- inner title -->
@@ -103,7 +103,7 @@
 
                     <!-- title middle -->
 
-                                                    <h2 class="txbdstitle sttwo hlight"> Why Choose  for &nbsp;<span>All India Hajj and Umrah tours PVT.LTD</span>  Your Umrah Agency? </h2>
+                                                    <h2 class="txbdstitle sttwo hlight"> Why Choose  for &nbsp;<span>All India Hajj and Umrah Tours Pvt. Ltd.</span>  Your Umrah Agency? </h2>
 
                                                 <!-- title bottom -->
                     
@@ -117,7 +117,7 @@
                         
                     
                     <!-- content -->
-                                                    <p>Rahat Travels of India Pvt. ltd. provides unparalleled support for new travel agencies entering the Hajj and Umrah industry. With our guidance, agencies can easily prepare their documens and secure a Hajj quota, ensuring a smooth start in this specialized market.</p>		
+                                                    <p>AIHUT  provides unparalleled support for new travel agencies entering the Hajj and Umrah industry. With our guidance, agencies can easily prepare their documens and secure a Hajj quota, ensuring a smooth start in this specialized market.</p>		
                                                     <br>
                                                   <div class="agency-benifit">
                                                     <h1 class="text-center" style="border-bottom: 1px solid #FE8D00;">Benefits for Authorized Agents</h1>
@@ -238,7 +238,7 @@
 
 
                                                       </div>
-                                                      <span>With Rahat Travels of India, transform your agency into a leading brand in the Hajj and Umrah industry.</span>
+                                                      <span>With AIHUT , transform your agency into a leading brand in the Hajj and Umrah industry.</span>
                                                          
 
 
@@ -584,7 +584,7 @@
 
                             <!-- title middle -->
 
-                            <h2 class="txbdstitle sttwo hlight">People Love <span> RAHAT .. </span> Watch some of Our Agents Speak... </h2>
+                            <h2 class="txbdstitle sttwo hlight">People Love <span> AIHUT .. </span> Watch some of Our Agents Speak... </h2>
                             <!-- title bottom -->
 
 
@@ -819,15 +819,15 @@
                                             <i class=""></i>What is the initial investment required to become a Hajj & Umrah franchise partner? </a>
                                     </div>
                                     <div id="collapse_c56dfa11" class="collapse ac_s_padding  " data-bs-parent="#accordion">
-                                        <strong>Join Rahat Travels of India as an Umrah Agency: Two Flexible Options to Suit Your Needs</strong>
+                                        <strong>Join AIHUT : Two Flexible Options to Suit Your Needs</strong>
                                         <p>
 
-                                            At Rahat Travels of India, we offer two convenient options for travel agencies looking to enter the Hajj and Umrah market</p>
+                                            At AIHUT , we offer two convenient options for travel agencies looking to enter the Hajj and Umrah market</p>
                                             <ul>
                                                 <ol><strong>Unpaid Agency Option: </strong> This option allows you to register as an authorized Umrah agency without any upfront fees. You simply need to provide the required documents for registration, and you’ll receive access to our support and resources to help you succeed in the industry.</ol>
                                                 <ol><strong>Paid Agency Option</strong> For a one-time fee of <strong>49,999 INR,</strong> this option includes additional benefits and exclusive resources to enhance your agency's capabilities. You’ll need to provide the necessary documents for registration along with the fee to unlock a range of premium services and support.</ol>
                                             </ul>
-                                            <p>No matter which option you choose, Rahat Travels of India is committed to helping you establish and grow your presence in the Hajj and Umrah industry with comprehensive training, marketing support, and operational guidance.</p>
+                                            <p>No matter which option you choose, AIHUT  is committed to helping you establish and grow your presence in the Hajj and Umrah industry with comprehensive training, marketing support, and operational guidance.</p>
                                             <p><strong>Get Started Today: </strong>Choose the option that best fits your needs and begin your journey with us!</p>
                                     </div>
                                 </div>
@@ -839,7 +839,7 @@
                                             <i class=""></i> What kind of training and support is provided to new franchisees?</a>
                                     </div>
                                     <div id="collapse_733e6061" class="collapse ac_s_padding  active show" data-bs-parent="#accordion">
-                                        <p>Rahat Travels of India is dedicated to empowering new travel agencies entering the Hajj and Umrah industry. We offer <strong>comprehensive training programs</strong> that cover every aspect of Hajj and Umrah travel, including operations, marketing, and customer service. Our expert guidance ensures you are well-prepared for IATA registration and securing a Hajj quota, setting you up for success from day one.</p>
+                                        <p>AIHUT  is dedicated to empowering new travel agencies entering the Hajj and Umrah industry. We offer <strong>comprehensive training programs</strong> that cover every aspect of Hajj and Umrah travel, including operations, marketing, and customer service. Our expert guidance ensures you are well-prepared for IATA registration and securing a Hajj quota, setting you up for success from day one.</p>
                                     </div>
                                 </div>
                                 <!-- card -->
@@ -861,7 +861,7 @@
                                             <i class=""></i> Do you provide marketing and sales support? </a>
                                     </div>
                                     <div id="collapse_f3d04b61" class="collapse ac_s_padding  " data-bs-parent="#accordion">
-                                        <p>Yes, we offer comprehensive marketing and sales support to all our franchisees. This includes digital marketing, branding, and lead generation strategies designed to help you effectively reach your target audience and grow your business. With Rahat Travels of India, you'll have all the tools you need to succeed in the Hajj and Umrah industry.</p>
+                                        <p>Yes, we offer comprehensive marketing and sales support to all our franchisees. This includes digital marketing, branding, and lead generation strategies designed to help you effectively reach your target audience and grow your business. With AIHUT , you'll have all the tools you need to succeed in the Hajj and Umrah industry.</p>
                                     </div>
                                 </div>
                                 <!-- card -->
@@ -885,7 +885,7 @@
                                             <i class=""></i> How do you handle customer inquiries and complaints?</a>
                                     </div>
                                     <div id="collapse_26a09fc2" class="collapse ac_s_padding  " data-bs-parent="#accordion">
-                                        <p>We have a dedicated customer service team committed to addressing all inquiries and complaints promptly and effectively. Our team ensures that every client receives timely and professional assistance, enhancing their overall experience with Rahat Travels of India. We Provide 24*7 Customer Support.</p>
+                                        <p>We have a dedicated customer service team committed to addressing all inquiries and complaints promptly and effectively. Our team ensures that every client receives timely and professional assistance, enhancing their overall experience with AIHUT . We Provide 24*7 Customer Support.</p>
                                     </div>
                                 </div>
                                 <!-- card -->
@@ -1046,7 +1046,7 @@
 									<div class="tsrevstar">
 										<i class="ti-star txbdbcolor"></i><i class="ti-star txbdbcolor"></i><i class="ti-star txbdbcolor"></i><i class="ti-star txbdbcolor"></i><i class="ti-star txbdbcolor"></i>									</div>
 																	</div>							
-																	<p>"Our experience with All India Hajj and Umrah tours PVT.LTDs has been very positive. The team is incredibly responsive and provides excellent support throughout the process. The communication is clear, and they offer valuable guidance whenever we have questions. The tools and resources they provide make it easy to succeed. We appreciate the professionalism and dedication they show to their partners." </p>		
+																	<p>"Our experience with All India Hajj and Umrah Tours Pvt. Ltd.s has been very positive. The team is incredibly responsive and provides excellent support throughout the process. The communication is clear, and they offer valuable guidance whenever we have questions. The tools and resources they provide make it easy to succeed. We appreciate the professionalism and dedication they show to their partners." </p>		
 																
 							</div>						
 							<div class="tsimg tsst4">
@@ -1062,7 +1062,7 @@
 									<div class="tsrevstar">
 										<i class="ti-star txbdbcolor"></i><i class="ti-star txbdbcolor"></i><i class="ti-star txbdbcolor"></i><i class="ti-star txbdbcolor"></i><i class="ti-star txbdbcolor"></i>									</div>
 																	</div>							
-																	<p>Working with All India Hajj and Umrah tours PVT.LTDs has opened up significant opportunities for growth. Their marketing and operational support are commendable, making it easier to build relationships with customers. However, there are occasional delays in response times, which can affect the speed of operations. Despite this, we see a lot of promise and are excited to continue our partnership. All India Hajj and Umrah tours PVT.LTDs has a strong foundation for success</p>		
+																	<p>Working with All India Hajj and Umrah Tours Pvt. Ltd.s has opened up significant opportunities for growth. Their marketing and operational support are commendable, making it easier to build relationships with customers. However, there are occasional delays in response times, which can affect the speed of operations. Despite this, we see a lot of promise and are excited to continue our partnership. All India Hajj and Umrah Tours Pvt. Ltd.s has a strong foundation for success</p>		
 																
 							</div>						
 							<div class="tsimg tsst4">

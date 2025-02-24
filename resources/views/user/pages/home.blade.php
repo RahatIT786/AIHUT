@@ -31,7 +31,7 @@
 
                                                     <!-- title -->
                                                     <!-- content -->
-                                                    <p class="" id="animate-content">"All India Hajj and Umrah tours PVT.LTD" is a dynamic organization that Guides & Assists new Travel agencies who wish to enter the field of Religious Tourism Especially Hajj & Umrah</p>
+                                                    <p class="" id="animate-content">"All India Hajj and Umrah Tours Pvt. Ltd." is a dynamic organization that Guides & Assists new Travel agencies who wish to enter the field of Religious Tourism Especially Hajj & Umrah</p>
 
 
                                                     <!--- List Option --->
@@ -74,7 +74,7 @@
    
     <h1 class="text-start " style="font-size:px; width:100%;">I'm interested, Sign me up!</h1>
     {{-- <span class="mb-3">Login here to your account as</span> --}}
-    <form method="POST" action="{{ route('user.signup.form') }}">
+    <form method="POST" action="{{ route('user.signup.form') }}" id="recaptchaRequired1">
         @csrf
     
         <!-- Full Name -->
@@ -112,6 +112,16 @@
         @error('city')
             <div class="text-danger">{{ $message }}</div>
         @enderror
+
+        <!-- Google reCAPTCHA Widget -->
+    <!-- reCAPTCHA Widget -->
+<div class="g-recaptcha mt-1 mb-2" data-sitekey="{{ config('services.recaptcha.site_key') }}"></div>
+@error('g-recaptcha-response')
+<div class="text-danger">{{ $message }}</div>
+@enderror
+
+
+       
     
         <!-- Submit Button -->
         <button type="submit">SUBMIT <i class="fa-solid fa-arrow-right"></i></button>
@@ -120,6 +130,17 @@
             <span>Our support executives will help you activate your account and guide you along the way.</span>
         </div>
     </form>
+
+    <script>
+        // Validate the reCAPTCHA before form submission
+        document.getElementsById('recaptchaRequired1').addEventListener('submit', function (event) {
+            // If reCAPTCHA is not completed, prevent form submission
+            if (grecaptcha.getResponse() === "") {
+                event.preventDefault();
+                alert("Please complete the reCAPTCHA!");
+            }
+        });
+    </script>
     
     </div>
 
@@ -484,7 +505,7 @@ Your form has been submitted successfully!
 
 
                                             <!-- content -->
-                                            <p>Rahat is one of India's foremost B2B umrah company, constantly evolving and adding value in business by giving it's distributors and agents the best technology, deals and a user-friendly platform to transact and achieve their own financial freedom..</p>
+                                            <p>AIHUT is one of India's foremost B2B umrah company, constantly evolving and adding value in business by giving it's distributors and agents the best technology, deals and a user-friendly platform to transact and achieve their own financial freedom..</p>
 
                                         </div>
                                         <!-- inner title -->
@@ -682,7 +703,7 @@ Your form has been submitted successfully!
                                             <!-- end icon position -->
 
                                             <!-- title middle -->
-                                            <h2 class="txbdstitle sttwo hlight"><span>Rahat</span> Advantages</h2>
+                                            <h2 class="txbdstitle sttwo hlight"><span>AIHUT</span> Advantages</h2>
                                             <!-- title bottom -->
 
 
@@ -910,7 +931,7 @@ Your form has been submitted successfully!
                                         
                                     
                                     <!-- content -->
-                                                                    <!-- <p>Rahat Travels of India Pvt. ltd. provides unparalleled support for new travel agencies entering the Hajj and Umrah industry. With our guidance, agencies can easily prepare their documens and secure a Hajj quota, ensuring a smooth start in this specialized market.</p>		 -->
+                                                                    <!-- <p>AIHUT Travels of India Pvt. ltd. provides unparalleled support for new travel agencies entering the Hajj and Umrah industry. With our guidance, agencies can easily prepare their documens and secure a Hajj quota, ensuring a smooth start in this specialized market.</p>		 -->
                                                                     <br>
                                                                 <div class="agency-benifit">
                                                                     <h1 class="text-center" style="border-bottom: 1px solid #FE8D00;"></h1>
@@ -921,7 +942,7 @@ Your form has been submitted successfully!
                                                                             <span style="border: 2px solid #FE8D00; padding: 10px 20px; border-radius: 35px; font-size: xx-large;"><i class="fa-solid fa-ticket"></i></span>
                                                                             <div>
                                                                                 <h3>Tickets </h3>
-                                                                                <span>All India Hajj and Umrah tours PVT.LTD offers seamless ticket booking services for Hajj & Umrah travelers, ensuring convenient, timely, and stress-free travel arrangements to Makkah and Madinah.</span>
+                                                                                <span>All India Hajj and Umrah Tours Pvt. Ltd. offers seamless ticket booking services for Hajj & Umrah travelers, ensuring convenient, timely, and stress-free travel arrangements to Makkah and Madinah.</span>
                                                                             </div>
                                                                             </div>
                                                                             <span></span>
@@ -932,7 +953,7 @@ Your form has been submitted successfully!
                                                                             <span style="border: 2px solid #FE8D00; padding: 10px 20px; border-radius: 35px; font-size: xx-large;"><i class="fa-solid fa-coins"></i></span>
                                                                             <div>
                                                                                 <h3> Forex</h3>
-                                                                                <span>All India Hajj and Umrah tours PVT.LTD offers secure and competitive foreign exchange services, providing pilgrims with easy access to currency exchange during Hajj & Umrah.</span>
+                                                                                <span>All India Hajj and Umrah Tours Pvt. Ltd. offers secure and competitive foreign exchange services, providing pilgrims with easy access to currency exchange during Hajj & Umrah.</span>
                                                                             </div>
                                                                             </div>
                                                                             <span></span>
@@ -950,7 +971,7 @@ Your form has been submitted successfully!
                                                                             <span style="border: 2px solid #FE8D00; padding: 10px 20px; border-radius: 35px; font-size: xx-large;"><i class="fa-solid fa-hotel"></i></span>
                                                                             <div>
                                                                                 <h3>Hotels</h3>
-                                                                                <span>All India Hajj and Umrah tours PVT.LTD provides premium hotel accommodations in Makkah and Madinah, offering comfort, convenience, and proximity to holy sites for Hajj & Umrah pilgrims.</span>
+                                                                                <span>All India Hajj and Umrah Tours Pvt. Ltd. provides premium hotel accommodations in Makkah and Madinah, offering comfort, convenience, and proximity to holy sites for Hajj & Umrah pilgrims.</span>
                                                                             </div>
                                                                             </div>
                                                                             <span></span>
@@ -962,7 +983,7 @@ Your form has been submitted successfully!
                                                                             <div>
                                                                                 <h3>Visas</h3>
                                                                                 
-                                                                                <span>All India Hajj and Umrah tours PVT.LTD offers hassle-free visa processing services for Hajj & Umrah, ensuring quick approvals and smooth documentation for a worry-free journey.</span>
+                                                                                <span>All India Hajj and Umrah Tours Pvt. Ltd. offers hassle-free visa processing services for Hajj & Umrah, ensuring quick approvals and smooth documentation for a worry-free journey.</span>
                                                                             </div>
                                                                             </div>
                                                                             <span></span>
@@ -978,7 +999,7 @@ Your form has been submitted successfully!
                                                                             <div>
                                                                                 <h3>Transport</h3>
                                                                                 
-                                                                                <span>All India Hajj and Umrah tours PVT.LTD delivers reliable and comfortable transportation services in Makkah and Madinah, ensuring timely travel for groups and families during Hajj & Umrah.</span>
+                                                                                <span>All India Hajj and Umrah Tours Pvt. Ltd. delivers reliable and comfortable transportation services in Makkah and Madinah, ensuring timely travel for groups and families during Hajj & Umrah.</span>
                                                                             </div>
                                                                             </div>
                                                                             <span></span>
@@ -992,7 +1013,7 @@ Your form has been submitted successfully!
                                                                             <div>
                                                                                 <h3> Services</h3>
                                                                                 
-                                                                                <span>All India Hajj and Umrah tours PVT.LTD provides comprehensive Hajj & Umrah services, from travel arrangements to on-ground support, ensuring a seamless pilgrimage experience</span>
+                                                                                <span>All India Hajj and Umrah Tours Pvt. Ltd. provides comprehensive Hajj & Umrah services, from travel arrangements to on-ground support, ensuring a seamless pilgrimage experience</span>
                                                                             </div>
                                                                             </div>
                                                                             <span></span>
@@ -1010,7 +1031,7 @@ Your form has been submitted successfully!
                                                                               <div>
                                                                                   <h3>Catering</h3>
                                                                                   
-                                                                                  <span>All India Hajj and Umrah tours PVT.LTD delivers elite catering services with delicious, hygienic meals tailored for Hajj & Umrah pilgrims, ensuring nourishment throughout the journey.</span>
+                                                                                  <span>All India Hajj and Umrah Tours Pvt. Ltd. delivers elite catering services with delicious, hygienic meals tailored for Hajj & Umrah pilgrims, ensuring nourishment throughout the journey.</span>
                                                                               </div>
                                                                               </div>
                                                                               <span></span>
@@ -1024,7 +1045,7 @@ Your form has been submitted successfully!
                                                                               <div>
                                                                                   <h3> Support</h3>
                                                                                   
-                                                                                  <span>All India Hajj and Umrah tours PVT.LTD provides dedicated 24/7 support for Hajj & Umrah pilgrims, ensuring assistance and guidance at every step of the spiritual journey.</span>
+                                                                                  <span>All India Hajj and Umrah Tours Pvt. Ltd. provides dedicated 24/7 support for Hajj & Umrah pilgrims, ensuring assistance and guidance at every step of the spiritual journey.</span>
                                                                               </div>
                                                                               </div>
                                                                               <span></span>
@@ -1091,7 +1112,7 @@ Your form has been submitted successfully!
 
                                             <!-- title middle -->
 
-                                            <h2 class="txbdstitle sttwo hlight">People Love <span> RAHAT .. </span> Watch some of Our Agents Speak... </h2>
+                                            <h2 class="txbdstitle sttwo hlight">People Love <span> AIHUT .. </span> Watch some of Our Agents Speak... </h2>
                                             <!-- title bottom -->
 
 
@@ -1324,7 +1345,7 @@ Your form has been submitted successfully!
                                                     <div class="tx_portfolio allposihv">
                                                         <div class="tx_pfthumb boxtextposire txbdbfall txbdbfltrb100 txbdbfallz txbdbfallbgov">
                                                             <img loading="lazy" decoding="async" width="975" height="550" src="{{asset('images/user/awart1.jpg')}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
-                                                            <div class="hover-text">Saudi Hajj Minister Awards Qiswa to All India Hajj and Umrah tours PVT.LTD</div> <!-- Hover text -->
+                                                            <div class="hover-text">Saudi Hajj Minister Awards Qiswa to All India Hajj and Umrah Tours Pvt. Ltd.</div> <!-- Hover text -->
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1348,7 +1369,7 @@ Your form has been submitted successfully!
                                                     <div class="tx_portfolio allposihv">
                                                         <div class="tx_pfthumb boxtextposire txbdbfall txbdbfltrb100 txbdbfallz txbdbfallbgov">
                                                             <img loading="lazy" decoding="async" width="975" height="550" src="{{asset('images/user/awart2.jpg')}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
-                                                            <div class="hover-text">Team Saudi Airlines Rewards All India Hajj and Umrah tours PVT.LTD</div> <!-- Hover text -->
+                                                            <div class="hover-text">Team Saudi Airlines Rewards All India Hajj and Umrah Tours Pvt. Ltd.</div> <!-- Hover text -->
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1527,7 +1548,7 @@ Your form has been submitted successfully!
                                                     <div class="tx_portfolio allposihv">
                                                         <div class="tx_pfthumb boxtextposire txbdbfall txbdbfltrb100 txbdbfallz txbdbfallbgov">
                                                             <img loading="lazy" decoding="async" width="975" height="550" src="{{asset('images/user/award21.png')}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
-                                                            <div class="hover-text">INDIGO Best seller Award given to RAHAT TRAVELS OF INDIA </div> <!-- Hover text -->
+                                                            <div class="hover-text">INDIGO Best seller Award given to AIHUT TRAVELS OF INDIA </div> <!-- Hover text -->
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1535,7 +1556,7 @@ Your form has been submitted successfully!
                                                     <div class="tx_portfolio allposihv">
                                                         <div class="tx_pfthumb boxtextposire txbdbfall txbdbfltrb100 txbdbfallz txbdbfallbgov">
                                                             <img loading="lazy" decoding="async" width="975" height="550" src="{{asset('images/user/award22.jpg')}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
-                                                            <div class="hover-text">Saudi Tourism Authority Signs MOU with All India Hajj and Umrah tours PVT.LTD </div> <!-- Hover text -->
+                                                            <div class="hover-text">Saudi Tourism Authority Signs MOU with All India Hajj and Umrah Tours Pvt. Ltd. </div> <!-- Hover text -->
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1567,7 +1588,7 @@ Your form has been submitted successfully!
                                                     <div class="tx_portfolio allposihv">
                                                         <div class="tx_pfthumb boxtextposire txbdbfall txbdbfltrb100 txbdbfallz txbdbfallbgov">
                                                             <img loading="lazy" decoding="async" width="975" height="550" src="{{asset('images/user/award26.jpg')}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
-                                                            <div class="hover-text">Celebrating Excellence: Rahat Travel of India Wins </div> <!-- Hover text -->
+                                                            <div class="hover-text">Celebrating Excellence: AIHUT Travel of India Wins </div> <!-- Hover text -->
                                                         </div>
                                                     </div>
                                                 </div>

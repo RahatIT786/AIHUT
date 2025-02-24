@@ -34,6 +34,10 @@
 
 
   
+  <!-- Include SweetAlert CDN -->
+<link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.21/dist/sweetalert2.min.css" rel="stylesheet">
+
+
 
 </head>
 <body class="body">
@@ -315,6 +319,10 @@
       },
     });
   </script> --}}
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.21/dist/sweetalert2.min.js"></script>
+
+  
   <script>
     var win = navigator.platform.indexOf('Win') > -1;
     if (win && document.querySelector('#sidenav-scrollbar')) {
@@ -381,5 +389,6 @@
 <!------------------------------------------>
 
 @yield('scripts')
+<script src="{{ asset('/sweetAlert/popUp.js') }}"></script>
 </body>
 </html>
