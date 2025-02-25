@@ -144,7 +144,7 @@
                         
                         @case($contactus)
                         <td>
-                            <textarea style="border: none;" name="" id="" cols="15" rows="2">{{$enquiry->message}}</textarea>
+                            <textarea style="border: none; color:gray; text-transform: capitalize; font-size: 14px;" name="" id="" cols="15" rows="2" readonly>{{$enquiry->message}}</textarea>
                           </td>
                           
                          
