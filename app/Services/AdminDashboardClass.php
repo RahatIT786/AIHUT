@@ -88,7 +88,7 @@ public function allModelChartData()
         ->pluck('count', 'month')
         ->toArray();
 
-    $agentRegisterCounts = Partner::where('user_status', 1)
+    $agentRegisterCounts = Partner::where('delete_status', 1)
         ->selectRaw('MONTH(created_at) as month, COUNT(*) as count')
         ->groupBy('month')
         ->pluck('count', 'month')
