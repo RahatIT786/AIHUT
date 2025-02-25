@@ -247,6 +247,11 @@
                                                     @enderror --}}
                                                 </div>
                                         
+                                                    <!-- reCAPTCHA Widget -->
+<div class="g-recaptcha mt-1 mb-2" data-sitekey="{{ config('services.recaptcha.site_key') }}"></div>
+@error('g-recaptcha-response')
+<div class="text-danger">{{ $message }}</div>
+@enderror
                                                 <!-- Document Upload -->
                                                 {{-- <div class="col-lg-6">
                                                     <input type="file" name="document" class="form-control">

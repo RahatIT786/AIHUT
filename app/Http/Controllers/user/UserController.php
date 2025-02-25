@@ -102,6 +102,7 @@ class UserController extends Controller
             'others' => 'nullable|string|max:255|required_if:skill_level,Uneducated',
             'cover_letter' => 'required|string|max:80',
             'why_we_hire' => 'required|string|max:80',
+            'g-recaptcha-response' => 'required',
         ]);
 
         Career::create($validated);
