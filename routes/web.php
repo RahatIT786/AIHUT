@@ -56,6 +56,7 @@ Route::middleware(['auth:admins'])->group(function(){
         // Route::get('/enquiries',function(){ return view('admin2.pages.enquiries');})->name('enquiries');
         Route::get('/enquiries/{type}',[AdminController::class,'listEnquiries'])->name('enquiry.list');
         Route::get('/enquiries/search/{type}',[AdminController::class,'liveSearch'])->name('enquiry.list.search');
+        Route::post('/enquiry/delete/{type}/{id}',[AdminController::class,'deleteEnquiry'])->name('enquiry.destroy');
 
     });
   

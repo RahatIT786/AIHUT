@@ -213,14 +213,14 @@
                             
                     @endswitch
                    
-                    {{-- <td>
+                    <td>
                       <!-- Form for DELETE request -->
-                      <form action="{{ route('enquiries.destroy', $enquiry->id) }}" method="POST" class="d-inline">
+                      <form action="{{ route('admin2.enquiry.destroy',['type'=>$type,'id'=> $enquiry->id]) }}" method="POST" class="d-inline">
                           @csrf
                           <!-- This tells Laravel the form should be treated as a DELETE request -->
                           <button type="submit" class="btn btn-danger">Delete</button>
                       </form>
-                  </td> --}}
+                  </td>
                   
                   
                     

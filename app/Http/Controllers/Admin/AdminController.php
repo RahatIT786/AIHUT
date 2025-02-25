@@ -36,7 +36,7 @@ class AdminController extends Controller
     
     public function userEnquries(){
         $enquiries=SignupForm::where('delete_status',1)->orderBy('created_at', 'desc')->get();
-        $regiEq=Partner::where('user_status',1)->orderBy('created_at', 'desc')->get();
+        $regiEq=Partner::where('delete_status',1)->orderBy('created_at', 'desc')->get();
         $contactEnq=ContactUs::where('delete_status',1)->orderBy('created_at', 'desc')->get();
         $careerEnq=Career::where('delete_status',1)->orderBy('created_at', 'desc')->get();
 
@@ -56,7 +56,7 @@ class AdminController extends Controller
         }
 
         $perPage=$request->input('per_page',10);        
-        $enquiries = $model::orderBy('created_at', 'desc')->paginate($perPage);
+        $enquiries = $model::orderBy('created_at', 'desc')->where('delete_status',1)->paginate($perPage);
         // $enquiries = $model::all();
         return view('admin2.pages.enquiries', compact('enquiries', 'type','perPage'));
     }
@@ -114,7 +114,7 @@ class AdminController extends Controller
         $data=[
 
             'agentSignUpDetails'=>SignupForm::where('delete_status',1)->count(),
-            'agentRegisterDetails'=>Partner::where('user_status',1)->count(),
+            'agentRegisterDetails'=>Partner::where('delete_status',1)->count(),
             'contactUsDetails'=>ContactUs::where('delete_status',1)->count(),
             'careerDetails'=>Career::where('delete_status',1)->count(),
 
@@ -135,5 +135,15 @@ class AdminController extends Controller
     }
 
 
+
+    public function deleteEnquiry($type,$id)
+    {
+       
+       $enquiry= $this->getModel($type)::find($id);
+        $enquiry->delete_status=2;
+        $enquiry->save();
+        return redirect()->back()->with('message', 'Enquiry deleted successfully!');
+       
+    }
 
 }

@@ -62,12 +62,15 @@
                     <div class="trp_nav_area">
                         <div class="container-fluid">
                             <div>
+                                <a href="{{route('home')}}" title="rahat_group">
                                 <img src="{{asset('/images/logo/aihut_logo.png')}}" style="height: 8rem; position: fixed;" alt="">
+                                </a>
                             </div>
-                           <div class="d-flex justify-content-center">
-                           
+                           <a class="d-flex justify-content-center text-center" href="{{route('home')}}">
+                            {{-- <a href="{{route('home')}}" title="rahat_group"> --}}
                             <img src="{{asset('/images/logo/logo_letter_banner.png')}}" style="height:10rem; position: fixed; top:-3rem;" >
-                           </div>
+                            {{-- </a> --}}
+                            </a>
                         </div>
                         <div class="container-fluid">
                             <div class="row logo-left">
