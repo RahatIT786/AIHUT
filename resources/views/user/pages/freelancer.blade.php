@@ -55,7 +55,7 @@
 					<div class="elementor-widget-container">
 									<!-- title left -->
 						<div class="txbdsbtn allcostyle">
-							<a class="btnallt btnall btnallactive " href="">REGISTER AS A FREELANCER</a>
+							<a class="btnallt btnall btnallactive " href="{{route('agent.regiform')}}">REGISTER AS A FREELANCER</a>
 						</div>			
 					</div>
 					</div>

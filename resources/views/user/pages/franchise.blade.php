@@ -55,7 +55,7 @@
 					<div class="elementor-widget-container">
 									<!-- title left -->
 						<div class="txbdsbtn allcostyle">
-							<a class="btnallt btnall btnallactive " href="">REGISTER AS A FRANCHISER</a>
+							<a hreflang="{{route('agent.regiform')}}" class="btnallt btnall btnallactive " href="{{route('agent.regiform')}}">REGISTER AS A FRANCHISER</a>
 						</div>			
 					</div>
 					</div>
@@ -706,6 +706,8 @@
 										<li><strong>Exterior Signage:</strong> The premises should include space for a highly visible glow sign board that can be easily seen from the main road, ensuring brand presence.</li>
 										<li><strong>Interior Design:</strong> The interior setup must align with All India Hajj and Umrah Tours Pvt. Ltd.’s brand guidelines, and the cost of interior development will be borne by the franchisee.</li>
 										<li><strong>Power Backup:</strong> The building or the franchisee must ensure uninterrupted power backup to maintain smooth operations.</li>
+										
+										<li><strong>05 Years Condition : </strong>  Travel Partner should have worked Minimum 05 Years as a Umrah Agency with Us</li>
 									</ul>													
 							</div>
 								<!-- inner title -->
